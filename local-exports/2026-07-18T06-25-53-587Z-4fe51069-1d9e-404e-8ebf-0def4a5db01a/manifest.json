@@ -1,0 +1,19 @@
+{
+  "formatVersion": 1,
+  "exportedAt": "2026-07-18T06:25:53.726Z",
+  "searchRunId": "4fe51069-1d9e-404e-8ebf-0def4a5db01a",
+  "counts": {
+    "historyPages": 1,
+    "rawCaptures": 62,
+    "normalizedSnapshots": 10,
+    "queryVariants": 3,
+    "candidateHits": 336,
+    "productRelations": 309
+  },
+  "notes": [
+    "raw/ contains the stored source body before adapter parsing and AI cleanup.",
+    "Request and response URLs are the sanitized evidence URLs stored by the collector.",
+    "A truncated flag means the capture reached the collector's bounded payload limit.",
+    "normalized-snapshots/ contains the post-adapter source groups used by the search result UI."
+  ]
+}

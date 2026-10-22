@@ -1,0 +1,845 @@
+{
+  "sourceId": "animate",
+  "status": "success",
+  "listings": [
+    {
+      "sourceId": "animate",
+      "sourceItemId": "2801900",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.animate-onlineshop.jp/pn/_/pd/2801900/",
+      "title": "【絵本・児童書】小学館の図鑑NEO 飛行機シール",
+      "imageUrl": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=JPRO_9784097344964.jpg&width=400&height=400&square=1",
+      "shopName": "Animate Online Shop",
+      "currency": "JPY",
+      "currentPrice": 880,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "unknown",
+      "facts": {
+        "identifiers": {
+          "sourceCatalogId": "2801900"
+        },
+        "brand": "Animate",
+        "categoryPath": [
+          "書籍"
+        ],
+        "releaseDate": "2014-02-26",
+        "imageUrls": [
+          "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=JPRO_9784097344964.jpg&width=400&height=400&square=1"
+        ],
+        "sourceAvailabilityLabel": "通常2～5日以内に入荷",
+        "sourceConditionLabel": "新品",
+        "provenance": {
+          "identifiers": {
+            "method": "html",
+            "sourceLabel": "商品链接"
+          },
+          "releaseDate": {
+            "method": "html"
+          },
+          "imageUrls": {
+            "method": "html"
+          }
+        }
+      },
+      "rawMetadata": {
+        "category": "書籍",
+        "sourceAvailabilityLabel": "通常2～5日以内に入荷",
+        "sourceConditionLabel": "新品",
+        "parserVersion": "animate-html-v1"
+      }
+    },
+    {
+      "sourceId": "animate",
+      "sourceItemId": "3228553",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.animate-onlineshop.jp/pn/_/pd/3228553/",
+      "title": "【音楽】コブクロ/ALL SEASONS BEST 通常盤",
+      "imageUrl": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=11251628_69255a8d30f58.jpg&width=400&height=400&square=1",
+      "shopName": "Animate Online Shop",
+      "currency": "JPY",
+      "currentPrice": 3740,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "backorder",
+      "facts": {
+        "identifiers": {
+          "sourceCatalogId": "3228553"
+        },
+        "brand": "Animate",
+        "categoryPath": [
+          "音楽"
+        ],
+        "releaseDate": "2024-03-20",
+        "imageUrls": [
+          "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=11251628_69255a8d30f58.jpg&width=400&height=400&square=1"
+        ],
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "provenance": {
+          "identifiers": {
+            "method": "html",
+            "sourceLabel": "商品链接"
+          },
+          "releaseDate": {
+            "method": "html"
+          },
+          "imageUrls": {
+            "method": "html"
+          }
+        }
+      },
+      "rawMetadata": {
+        "category": "音楽",
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "parserVersion": "animate-html-v1"
+      }
+    },
+    {
+      "sourceId": "animate",
+      "sourceItemId": "3228552",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.animate-onlineshop.jp/pn/_/pd/3228552/",
+      "title": "【音楽】コブクロ/ALL SEASONS BEST 完全生産限定盤",
+      "imageUrl": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=11251621_69255904c0ef0.jpg&width=400&height=400&square=1",
+      "shopName": "Animate Online Shop",
+      "currency": "JPY",
+      "currentPrice": 4950,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "sold_out",
+      "facts": {
+        "identifiers": {
+          "sourceCatalogId": "3228552"
+        },
+        "brand": "Animate",
+        "categoryPath": [
+          "音楽"
+        ],
+        "releaseDate": "2024-03-20",
+        "imageUrls": [
+          "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=11251621_69255904c0ef0.jpg&width=400&height=400&square=1"
+        ],
+        "sourceAvailabilityLabel": "販売終了",
+        "sourceConditionLabel": "新品",
+        "provenance": {
+          "identifiers": {
+            "method": "html",
+            "sourceLabel": "商品链接"
+          },
+          "releaseDate": {
+            "method": "html"
+          },
+          "imageUrls": {
+            "method": "html"
+          }
+        }
+      },
+      "rawMetadata": {
+        "category": "音楽",
+        "sourceAvailabilityLabel": "販売終了",
+        "sourceConditionLabel": "新品",
+        "parserVersion": "animate-html-v1"
+      }
+    },
+    {
+      "sourceId": "animate",
+      "sourceItemId": "1417333",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.animate-onlineshop.jp/pn/_/pd/1417333/",
+      "title": "【Blu-ray】よくわかる!航空自衛隊 ～緊急発進!日本を守る戦闘機～",
+      "imageUrl": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=09071708_57cfcb0aa09ed.jpg&width=400&height=400&square=1",
+      "shopName": "Animate Online Shop",
+      "currency": "JPY",
+      "currentPrice": 3080,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "backorder",
+      "facts": {
+        "identifiers": {
+          "sourceCatalogId": "1417333"
+        },
+        "brand": "Animate",
+        "categoryPath": [
+          "映像"
+        ],
+        "releaseDate": "2016-10-01",
+        "imageUrls": [
+          "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=09071708_57cfcb0aa09ed.jpg&width=400&height=400&square=1"
+        ],
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "provenance": {
+          "identifiers": {
+            "method": "html",
+            "sourceLabel": "商品链接"
+          },
+          "releaseDate": {
+            "method": "html"
+          },
+          "imageUrls": {
+            "method": "html"
+          }
+        }
+      },
+      "rawMetadata": {
+        "category": "映像",
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "parserVersion": "animate-html-v1"
+      }
+    },
+    {
+      "sourceId": "animate",
+      "sourceItemId": "1359566",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.animate-onlineshop.jp/pn/_/pd/1359566/",
+      "title": "【Blu-ray】TV Classroom☆Crisis クラスルーム クライシス 7 完全生産限定版",
+      "imageUrl": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06020942_574f810099c32.jpg&width=400&height=400&square=1",
+      "shopName": "Animate Online Shop",
+      "currency": "JPY",
+      "currentPrice": 7700,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "backorder",
+      "facts": {
+        "identifiers": {
+          "sourceCatalogId": "1359566"
+        },
+        "brand": "Animate",
+        "categoryPath": [
+          "映像"
+        ],
+        "releaseDate": "2016-04-27",
+        "imageUrls": [
+          "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06020942_574f810099c32.jpg&width=400&height=400&square=1"
+        ],
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "provenance": {
+          "identifiers": {
+            "method": "html",
+            "sourceLabel": "商品链接"
+          },
+          "releaseDate": {
+            "method": "html"
+          },
+          "imageUrls": {
+            "method": "html"
+          }
+        }
+      },
+      "rawMetadata": {
+        "category": "映像",
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "parserVersion": "animate-html-v1"
+      }
+    },
+    {
+      "sourceId": "animate",
+      "sourceItemId": "1357403",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.animate-onlineshop.jp/pn/_/pd/1357403/",
+      "title": "【Blu-ray】TV Classroom☆Crisis クラスルーム クライシス 6 完全生産限定版",
+      "imageUrl": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=03241347_56f3715e823da.jpg&width=400&height=400&square=1",
+      "shopName": "Animate Online Shop",
+      "currency": "JPY",
+      "currentPrice": 7700,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "backorder",
+      "facts": {
+        "identifiers": {
+          "sourceCatalogId": "1357403"
+        },
+        "brand": "Animate",
+        "categoryPath": [
+          "映像"
+        ],
+        "releaseDate": "2016-03-23",
+        "imageUrls": [
+          "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=03241347_56f3715e823da.jpg&width=400&height=400&square=1"
+        ],
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "provenance": {
+          "identifiers": {
+            "method": "html",
+            "sourceLabel": "商品链接"
+          },
+          "releaseDate": {
+            "method": "html"
+          },
+          "imageUrls": {
+            "method": "html"
+          }
+        }
+      },
+      "rawMetadata": {
+        "category": "映像",
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "parserVersion": "animate-html-v1"
+      }
+    },
+    {
+      "sourceId": "animate",
+      "sourceItemId": "1356096",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.animate-onlineshop.jp/pn/_/pd/1356096/",
+      "title": "【Blu-ray】TV Classroom☆Crisis クラスルーム クライシス 5 完全生産限定版",
+      "imageUrl": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02081635_56b84544ad839.jpg&width=400&height=400&square=1",
+      "shopName": "Animate Online Shop",
+      "currency": "JPY",
+      "currentPrice": 7700,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "backorder",
+      "facts": {
+        "identifiers": {
+          "sourceCatalogId": "1356096"
+        },
+        "brand": "Animate",
+        "categoryPath": [
+          "映像"
+        ],
+        "releaseDate": "2016-02-24",
+        "imageUrls": [
+          "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02081635_56b84544ad839.jpg&width=400&height=400&square=1"
+        ],
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "provenance": {
+          "identifiers": {
+            "method": "html",
+            "sourceLabel": "商品链接"
+          },
+          "releaseDate": {
+            "method": "html"
+          },
+          "imageUrls": {
+            "method": "html"
+          }
+        }
+      },
+      "rawMetadata": {
+        "category": "映像",
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "parserVersion": "animate-html-v1"
+      }
+    },
+    {
+      "sourceId": "animate",
+      "sourceItemId": "1353583",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.animate-onlineshop.jp/pn/_/pd/1353583/",
+      "title": "【Blu-ray】TV Classroom☆Crisis クラスルーム クライシス 4 完全生産限定版",
+      "imageUrl": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02081649_56b8486f1ae9a.jpg&width=400&height=400&square=1",
+      "shopName": "Animate Online Shop",
+      "currency": "JPY",
+      "currentPrice": 7700,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "backorder",
+      "facts": {
+        "identifiers": {
+          "sourceCatalogId": "1353583"
+        },
+        "brand": "Animate",
+        "categoryPath": [
+          "映像"
+        ],
+        "releaseDate": "2016-01-27",
+        "imageUrls": [
+          "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=02081649_56b8486f1ae9a.jpg&width=400&height=400&square=1"
+        ],
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "provenance": {
+          "identifiers": {
+            "method": "html",
+            "sourceLabel": "商品链接"
+          },
+          "releaseDate": {
+            "method": "html"
+          },
+          "imageUrls": {
+            "method": "html"
+          }
+        }
+      },
+      "rawMetadata": {
+        "category": "映像",
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "parserVersion": "animate-html-v1"
+      }
+    },
+    {
+      "sourceId": "animate",
+      "sourceItemId": "1350997",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.animate-onlineshop.jp/pn/_/pd/1350997/",
+      "title": "【Blu-ray】TV Classroom☆Crisis クラスルーム クライシス 3 完全生産限定版",
+      "imageUrl": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=11261652_5656ba22b691b.jpg&width=400&height=400&square=1",
+      "shopName": "Animate Online Shop",
+      "currency": "JPY",
+      "currentPrice": 7700,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "backorder",
+      "facts": {
+        "identifiers": {
+          "sourceCatalogId": "1350997"
+        },
+        "brand": "Animate",
+        "categoryPath": [
+          "映像"
+        ],
+        "releaseDate": "2015-12-23",
+        "imageUrls": [
+          "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=11261652_5656ba22b691b.jpg&width=400&height=400&square=1"
+        ],
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "provenance": {
+          "identifiers": {
+            "method": "html",
+            "sourceLabel": "商品链接"
+          },
+          "releaseDate": {
+            "method": "html"
+          },
+          "imageUrls": {
+            "method": "html"
+          }
+        }
+      },
+      "rawMetadata": {
+        "category": "映像",
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "parserVersion": "animate-html-v1"
+      }
+    },
+    {
+      "sourceId": "animate",
+      "sourceItemId": "1348021",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.animate-onlineshop.jp/pn/_/pd/1348021/",
+      "title": "【Blu-ray】TV Classroom☆Crisis クラスルーム クライシス 2 完全生産限定版",
+      "imageUrl": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=11051820_563b1f61b5451.jpg&width=400&height=400&square=1",
+      "shopName": "Animate Online Shop",
+      "currency": "JPY",
+      "currentPrice": 7700,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "backorder",
+      "facts": {
+        "identifiers": {
+          "sourceCatalogId": "1348021"
+        },
+        "brand": "Animate",
+        "categoryPath": [
+          "映像"
+        ],
+        "releaseDate": "2015-11-25",
+        "imageUrls": [
+          "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=11051820_563b1f61b5451.jpg&width=400&height=400&square=1"
+        ],
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "provenance": {
+          "identifiers": {
+            "method": "html",
+            "sourceLabel": "商品链接"
+          },
+          "releaseDate": {
+            "method": "html"
+          },
+          "imageUrls": {
+            "method": "html"
+          }
+        }
+      },
+      "rawMetadata": {
+        "category": "映像",
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "parserVersion": "animate-html-v1"
+      }
+    },
+    {
+      "sourceId": "animate",
+      "sourceItemId": "1348020",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.animate-onlineshop.jp/pn/_/pd/1348020/",
+      "title": "【Blu-ray】TV Classroom☆Crisis クラスルーム クライシス 1 完全生産限定版",
+      "imageUrl": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=09281341_5608c4f724feb.jpg&width=400&height=400&square=1",
+      "shopName": "Animate Online Shop",
+      "currency": "JPY",
+      "currentPrice": 7700,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "backorder",
+      "facts": {
+        "identifiers": {
+          "sourceCatalogId": "1348020"
+        },
+        "brand": "Animate",
+        "categoryPath": [
+          "映像"
+        ],
+        "releaseDate": "2015-10-28",
+        "imageUrls": [
+          "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=09281341_5608c4f724feb.jpg&width=400&height=400&square=1"
+        ],
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "provenance": {
+          "identifiers": {
+            "method": "html",
+            "sourceLabel": "商品链接"
+          },
+          "releaseDate": {
+            "method": "html"
+          },
+          "imageUrls": {
+            "method": "html"
+          }
+        }
+      },
+      "rawMetadata": {
+        "category": "映像",
+        "sourceAvailabilityLabel": "取り寄せ",
+        "sourceConditionLabel": "新品",
+        "parserVersion": "animate-html-v1"
+      }
+    }
+  ],
+  "coverage": "rolling_window",
+  "parserVersion": "animate-html-v1",
+  "warnings": [
+    "搜索覆盖 Animate 当前公开结果；JAN、厂商与规格在详情查询时补全"
+  ],
+  "requestRoute": "direct",
+  "routeOutcome": {
+    "kind": "primary_success",
+    "route": "direct"
+  },
+  "fieldCoverage": {
+    "required": {
+      "total": 66,
+      "complete": 66
+    },
+    "optional": {
+      "total": 88,
+      "complete": 33
+    }
+  },
+  "durationMs": 3305,
+  "totalAvailable": 0,
+  "requestEvidence": {
+    "availabilityMode": "all",
+    "requestedStatuses": [],
+    "rawResultCount": 11,
+    "normalizedResultCount": 11,
+    "pagesFetched": 3,
+    "keywordRawResultCount": 0,
+    "liveDetailResultCount": 0,
+    "anchorCandidateCount": 0,
+    "parserAcceptedCount": 0,
+    "parserRejectedCount": 0
+  },
+  "candidateEvidence": {
+    "1348020": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 11,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 115.493,
+      "bestRank": 11,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "1348021": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 10,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 117.1429,
+      "bestRank": 10,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "1350997": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 9,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 118.8406,
+      "bestRank": 9,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "1353583": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 8,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 120.5882,
+      "bestRank": 8,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "1356096": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 7,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 122.3881,
+      "bestRank": 7,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "1357403": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 6,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 124.2424,
+      "bestRank": 6,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "1359566": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 5,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 126.1538,
+      "bestRank": 5,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "1417333": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 4,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 128.125,
+      "bestRank": 4,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "2801900": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 1,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 134.4262,
+      "bestRank": 1,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "3228552": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 3,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 130.1587,
+      "bestRank": 3,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "3228553": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 2,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 132.2581,
+      "bestRank": 2,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    }
+  }
+}

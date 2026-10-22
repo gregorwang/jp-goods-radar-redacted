@@ -1,0 +1,18 @@
+{
+  "version": "keyword-digest-classification-20260903-v1",
+  "summary": [
+    {
+      "profile": "爱蜜莉雅",
+      "newTotal": 23,
+      "recoveredTotal": 0,
+      "baselineTotal": 13
+    },
+    {
+      "profile": "路人女主｜加藤惠",
+      "newTotal": 18,
+      "recoveredTotal": 34,
+      "baselineTotal": 1
+    }
+  ],
+  "appliedAt": "2026-09-03T11:40:13.365Z"
+}

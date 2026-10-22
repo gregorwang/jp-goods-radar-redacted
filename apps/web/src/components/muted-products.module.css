@@ -1,0 +1,73 @@
+.intro { display: grid; gap: 16px; }
+.intro > p { max-width: 760px; margin: 0; color: var(--ink-soft); font-size: 12px; line-height: 1.9; }
+.intro strong { color: var(--ink); font-weight: 600; }
+.error { margin: 0; color: var(--red); font-size: 11px; }
+.saved { margin: 0; padding: 10px 14px; color: var(--blue-deep); background: var(--acid-soft); font-size: 12px; line-height: 1.7; }
+
+.builder { display: grid; gap: 26px; padding: 20px; }
+.label { margin: 0; color: var(--muted); font: 9px/1.6 var(--mono); letter-spacing: .12em; }
+.hint { margin: 0; color: var(--muted); font-size: 10px; line-height: 1.7; }
+
+/* 从邮件带进来的那件商品：图 + 标题 + 可点选的词。 */
+.sample { display: grid; grid-template-columns: 88px minmax(0,1fr); gap: 18px; }
+.sampleMain { display: grid; gap: 10px; min-width: 0; align-content: start; }
+.sampleMain > a { display: inline-flex; gap: 6px; align-items: flex-start; color: var(--ink); font: 400 16px/1.55 var(--display); overflow-wrap: anywhere; }
+.sampleMain > a:hover { color: var(--blue-deep); }
+.sampleMain > span { color: var(--muted); font: 9px/1.5 var(--mono); letter-spacing: .05em; }
+
+.tokens { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.tokens > button {
+  min-height: 34px;
+  padding: 0 12px;
+  cursor: pointer;
+  color: var(--ink-soft);
+  background: rgba(255,255,252,.72);
+  border: 1px solid var(--line-strong);
+  border-radius: 2px;
+  font-size: 12px;
+  transition: color .24s cubic-bezier(.215,.61,.355,1), background .24s cubic-bezier(.215,.61,.355,1), border-color .24s cubic-bezier(.215,.61,.355,1);
+}
+.tokens > button:hover { color: var(--blue-deep); border-color: var(--blue); }
+.tokens > button[aria-pressed="true"] { color: var(--blue-deep); background: var(--acid-soft); border-color: var(--blue); }
+.tokens > button:focus-visible, .selected li > button:focus-visible, .rules button:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+
+.selected { display: grid; gap: 10px; }
+.selected ol { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; counter-reset: word; }
+.selected li { display: grid; grid-template-columns: 22px minmax(0,1fr) 34px; align-items: center; gap: 8px; counter-increment: word; }
+.selected li::before { content: counter(word); color: var(--muted); font: 9px/1 var(--mono); }
+.selected li > button { width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; color: var(--muted); background: transparent; border: 1px solid var(--line); }
+.selected li > button:hover { color: var(--red); border-color: rgba(198,75,63,.38); }
+.addWord { display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: end; gap: 14px; max-width: 520px; }
+.addWord > button { min-height: 36px; }
+
+.preview { display: grid; gap: 12px; padding-top: 18px; border-top: 1px solid var(--line); }
+.examples { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; max-height: 520px; overflow-y: auto; border: 1px solid var(--line); }
+.examples > li { display: grid; grid-template-columns: 48px minmax(0,1fr); grid-template-rows: auto auto; column-gap: 12px; row-gap: 2px; padding: 8px 12px; border-bottom: 1px solid var(--line); }
+.examples > li:last-child { border-bottom: 0; }
+.thumb { grid-row: 1 / span 2; width: 48px; height: 48px; overflow: hidden; background: var(--paper-bright); }
+.thumb img, .thumb > div { width: 48px; height: 48px; object-fit: cover; }
+.examples a { min-width: 0; color: var(--ink-soft); font-size: 11px; line-height: 1.6; overflow-wrap: anywhere; }
+.examples a:hover { color: var(--blue-deep); }
+.examples span { color: var(--muted); font: 9px/1.5 var(--mono); }
+
+.actions { display: grid; gap: 10px; justify-items: start; }
+
+.rules { display: grid; margin: 0; padding: 0; list-style: none; }
+.rules > li { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 4px 18px; padding: 16px 20px; border-bottom: 1px solid var(--line); }
+.rules > li:last-child { border-bottom: 0; }
+.rules strong { color: var(--ink); font: 500 18px/1.35 var(--display); overflow-wrap: anywhere; }
+.rules a, .ruleSample { grid-column: 1; min-width: 0; color: var(--ink-soft); font-size: 11px; line-height: 1.6; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rules a:hover { color: var(--blue-deep); }
+.ruleMeta { grid-column: 1; color: var(--muted); font: 9px/1.5 var(--mono); letter-spacing: .04em; }
+.rules button { grid-column: 2; grid-row: 1 / span 3; align-self: center; display: inline-flex; align-items: center; gap: 5px; min-height: 30px; padding: 0 12px; cursor: pointer; color: var(--ink-soft); border: 1px solid var(--line); background: rgba(255,255,252,.72); font: 9px/1 var(--mono); letter-spacing: .05em; }
+.rules button:hover { color: var(--blue-deep); border-color: var(--blue); }
+
+@media (max-width: 720px) {
+  .builder { padding: 16px; }
+  .sample { grid-template-columns: 74px minmax(0,1fr); gap: 14px; }
+  .rules > li { padding: 14px 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tokens > button { transition: none; }
+}

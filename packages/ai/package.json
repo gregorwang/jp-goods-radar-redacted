@@ -1,0 +1,19 @@
+{
+  "name": "@jpgr/ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./gemini-scheduler": "./src/gemini-scheduler.ts",
+    "./listing-enrichment": "./src/listing-enrichment.ts",
+    "./search-overview": "./src/search-overview.ts"
+  },
+  "dependencies": {
+    "@jpgr/validation": "workspace:*",
+    "zod": "latest"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}

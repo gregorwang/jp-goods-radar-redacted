@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Databricks 使用手册</title>
+<style>
+:root {
+  --bg: #f7f7f5; --panel: #ffffff; --text: #1f2328; --muted: #5f6670; --line: #e3e3de;
+  --accent: #2d6a4f; --accent-soft: #e6f2ec; --warn: #9a3412; --warn-soft: #fff1e8;
+  --code-bg: #f1f1ee; --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171a; --panel: #1d2024; --text: #e6e6e3; --muted: #a0a6ad; --line: #30343a;
+    --accent: #74c69d; --accent-soft: #1f3329; --warn: #fdba74; --warn-soft: #3a2618; --code-bg: #24282d;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 15px/1.7 -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+main { max-width: 980px; margin: 0 auto; padding: 32px 16px 80px; }
+h1 { font-size: 28px; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 48px 0 12px; padding-top: 8px; border-top: 1px solid var(--line); }
+h3 { font-size: 16px; margin: 0 0 6px; }
+p { margin: 8px 0; }
+.lead { color: var(--muted); }
+nav.toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
+nav.toc a { padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; color: var(--text);
+  text-decoration: none; background: var(--panel); font-size: 14px; }
+nav.toc a:hover { border-color: var(--accent); color: var(--accent); }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; margin: 12px 0; }
+.flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 16px 0; }
+.flow div { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+.flow b { display: block; color: var(--accent); margin-bottom: 4px; }
+.flow span { color: var(--muted); font-size: 13px; }
+.warn { background: var(--warn-soft); border-left: 3px solid var(--warn); }
+.warn li { margin: 6px 0; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; white-space: nowrap; }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+code { font-family: var(--mono); font-size: 13px; background: var(--code-bg); padding: 1px 5px; border-radius: 4px; }
+.example { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; margin: 14px 0; }
+.note { color: var(--muted); font-size: 14px; }
+.code { position: relative; margin: 10px 0; }
+pre { margin: 0; background: var(--code-bg); border-radius: 8px; padding: 12px 14px; overflow-x: auto;
+  font: 13px/1.55 var(--mono); }
+.copy { position: absolute; top: 8px; right: 8px; border: 1px solid var(--line); background: var(--panel);
+  color: var(--text); border-radius: 6px; padding: 2px 10px; font-size: 12px; cursor: pointer; }
+.copy:hover { border-color: var(--accent); color: var(--accent); }
+details summary { cursor: pointer; color: var(--accent); font-size: 14px; margin: 6px 0; }
+.more { color: var(--muted); font-size: 12.5px; }
+.null { color: var(--muted); font-style: italic; }
+a { color: var(--accent); }
+@media (max-width: 640px) {
+  .flow { grid-template-columns: 1fr 1fr; }
+  h1 { font-size: 23px; }
+}
+</style>
+</head>
+<body>
+<main>
+<h1>Databricks 使用手册</h1>
+<p class="lead">JPGR 的数据每晚同步到 Databricks。这份手册讲清楚上面有什么、怎么进去、哪些数字容易看错，并附上能直接复制去跑的常用 SQL。2026-10-11 写，示例结果都是当天实际跑出来的。</p>
+
+<nav class="toc">
+  <a href="#start">怎么进去</a><a href="#layers">三层结构</a><a href="#traps">口径坑</a>
+  <a href="#g-health">每天体检</a><a href="#g-judgment">判定质量</a><a href="#g-market">行情价格</a><a href="#g-history">历史档案</a><a href="#tables">表速查</a><a href="#claude">让 Claude 分析</a>
+</nav>
+
+<section id="start">
+<h2>怎么进去</h2>
+<div class="flow">
+  <div><b>① 生产库</b><span>VPS 上的 PostgreSQL，系统每天在用</span></div>
+  <div><b>② 每晚同步</b><span>日本时间 05:30 整库复制过去，约 20 分钟</span></div>
+  <div><b>③ Databricks</b><span>镜像 + 只增不删的历史 + 整理好的表</span></div>
+  <div><b>④ 你来用</b><span>Genie 用中文问，或 SQL 编辑器直接查</span></div>
+</div>
+<div class="card">
+  <p><b>写 SQL：</b>打开 <a href="https://dbc-your-workspace.cloud.databricks.com/sql/editor" target="_blank">https://dbc-your-workspace.cloud.databricks.com/sql/editor</a>，右上角计算选 <code>Serverless Starter Warehouse</code>，把下面的 SQL 粘进去，按 Ctrl+Enter。机器闲置 10 分钟会自动关机，第一次跑要等十几秒开机。</p>
+  <p><b>Genie 问行情：</b><a href="https://dbc-your-workspace.cloud.databricks.com/genie/rooms/your-genie-room-id" target="_blank">JPGR 市场情报 Agent</a>：价格、在售、平台健康、亚马逊、雅虎拍卖。</p>
+  <p><b>Genie 问判定：</b><a href="https://dbc-your-workspace.cloud.databricks.com/genie/rooms/your-genie-room-id" target="_blank">JPGR 判定体检</a>：判得准不准、日报发了什么、哪里断了。</p>
+  <p>Genie 每次回答都会给出它跑的 SQL。数字要紧的时候，把它的 SQL 复制出来自己看一眼。</p>
+</div>
+</section>
+
+<section id="layers">
+<h2>三层结构</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>层</th><th>位置</th><th>是什么</th><th>什么时候用</th></tr></thead>
+<tbody>
+<tr><td>整理层</td><td><code>workspace.jpgr_ai</code></td><td>整理好的表，每个字段都有中文说明</td><td><b>先用这层</b>，90% 的问题够用</td></tr>
+<tr><td>历史档案</td><td><code>workspace.jpgr_history</code></td><td>生产库会定期删的 10 张表，这里只增不删</td><td>要看 90 天 / 180 天以前的判定、日报</td></tr>
+<tr><td>原始镜像</td><td><code>workspace.radar_core</code> 等</td><td>和生产库一模一样的副本，每晚覆盖</td><td>整理层没有的字段</td></tr>
+</tbody></table></div>
+<p>在 SQL 编辑器左栏的目录里点开任意一张表，就能看到每个字段的中文说明。完整的字段说明在仓库 <code>docs/常用/数据字典-Databricks.md</code>。</p>
+</section>
+
+<section id="traps">
+<h2>最容易看错的几个数</h2>
+<div class="card warn"><ul>
+<li><b>时间都是 UTC</b>，比日本时间晚 9 小时。列名带 <code>_jst</code> 的已经转好了；其他的用 <code>from_utc_timestamp(列, 'Asia/Tokyo')</code> 转。</li>
+<li><b>拍卖当前出价不是价格</b>：<code>price_basis = 'auction_current_bid'</code> 的价格还会涨，不能当成交价，也不能当可买价。</li>
+<li><b>已售出不等于成交</b>：<code>sold_out</code> 只是平台显示的状态。最接近成交价的是雅虎拍卖的公开落札，但也不证明买家付了款。</li>
+<li><b>亚马逊没有成交数据</b>：成交列是 NULL 表示看不到，不是 0。</li>
+<li><b>观察次数不是件数</b>：同一件商品每被搜到一次就算一行。要数件数，用按件的表（<code>judgment_listings_v1</code>、<code>current_listings</code>），或者 <code>count(DISTINCT source_id, source_item_id)</code>。</li>
+<li><b>误报只认你的标注</b>：<code>label_verdict = 'hide'</code> 才算误报证据。没标过的不算对也不算错，算比例时分母只用标过的件数。</li>
+<li><b>“AI 没表态”和“AI 说无关”是两回事</b>：<code>ai_relevance</code> 为空表示没送 AI。</li>
+</ul></div>
+</section>
+
+<section id="g-health"><h2>常用 SQL · 每天体检</h2><p>同步成功没有、每个档案的流水线有没有断、哪个平台在出错。</p>
+<article class="example" id="ex1">
+  <h3>数据新不新：最近 5 次同步</h3>
+  <p class="note">每天打开先看这条。status 不是 SUCCEEDED 就说明昨晚同步出了问题，后面查到的数据可能是旧的。</p>
+  <div class="code"><button class="copy" data-target="sql1">复制</button><pre id="sql1">SELECT snapshot_id, status, completed_at, changed_table_count, source_row_count, notes
+FROM workspace.jpgr_ai.sync_runs
+ORDER BY completed_at DESC
+LIMIT 5</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>snapshot_id</th><th>status</th><th>completed_at</th><th>changed_table_count</th><th>source_row_count</th><th>notes</th></tr></thead><tbody><tr><td>20261011T040622Z</td><td>SUCCEEDED</td><td>2026-10-11T04:28:57.798Z</td><td>90</td><td>718682</td><td></td></tr><tr><td>20261010T203001Z</td><td>SUCCEEDED</td><td>2026-10-10T20:46:20.174Z</td><td>49</td><td>717221</td><td></td></tr><tr><td>20261010T014900Z</td><td>SUCCEEDED</td><td>2026-10-10T02:09:15.502Z</td><td>89</td><td>708045</td><td></td></tr><tr><td>20261007T203001Z</td><td>SUCCEEDED</td><td>2026-10-07T20:49:00.903Z</td><td>84</td><td>665648</td><td></td></tr><tr><td>20261006T203001Z</td><td>SUCCEEDED</td><td>2026-10-06T20:43:50.942Z</td><td>46</td><td>647958</td><td></td></tr></tbody></table></div>
+    <p class="more">2026-10-11 的数据。</p>
+  </details>
+</article>
+<article class="example" id="ex2">
+  <h3>流水线体检：每个档案最近 7 天每天跑得怎么样</h3>
+  <p class="note">一行 = 一个档案一天。runs_total&gt;0 但 candidates=0：搜了但什么都没搜到（可能被拦）；关键词档案 confirmed&gt;0 但 digests_sent=0：判出了东西却没发日报。</p>
+  <div class="code"><button class="copy" data-target="sql2">复制</button><pre id="sql2">SELECT day_jst, profile_name, runs_total, runs_failed, candidates,
+       confirmed, uncertain, rejected, digests_sent, digest_items
+FROM workspace.jpgr_ai.profile_daily_pipeline_v1
+WHERE day_jst &gt;= date_sub(current_date(), 7)
+ORDER BY profile_name, day_jst DESC</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>day_jst</th><th>profile_name</th><th>runs_total</th><th>runs_failed</th><th>candidates</th><th>confirmed</th><th>uncertain</th><th>rejected</th><th>digests_sent</th><th>digest_items</th></tr></thead><tbody><tr><td>2026-10-11</td><td>Re:ゼロから始める異世界生活 リゼロ リュック エミリア モデル</td><td>2</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2026-10-10</td><td>Re:ゼロから始める異世界生活 リゼロ リュック エミリア モデル</td><td>4</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2026-10-09</td><td>Re:ゼロから始める異世界生活 リゼロ リュック エミリア モデル</td><td>4</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2026-10-08</td><td>Re:ゼロから始める異世界生活 リゼロ リュック エミリア モデル</td><td>4</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2026-10-07</td><td>Re:ゼロから始める異世界生活 リゼロ リュック エミリア モデル</td><td>4</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2026-10-06</td><td>Re:ゼロから始める異世界生活 リゼロ リュック エミリア モデル</td><td>4</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table></div>
+    <p class="more">实际返回 88 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article>
+<article class="example" id="ex3">
+  <h3>各平台最近 7 天搜索成功率</h3>
+  <p class="note">看哪个平台最近老失败。cooldown 是平台在冷却期没去搜，不算失败。</p>
+  <div class="code"><button class="copy" data-target="sql3">复制</button><pre id="sql3">SELECT source_id,
+       count(*) AS searches,
+       count_if(source_status = &#x27;success&#x27;) AS ok,
+       count_if(source_status = &#x27;empty&#x27;) AS empty,
+       count_if(source_status = &#x27;failed&#x27;) AS failed,
+       count_if(source_status = &#x27;cooldown&#x27;) AS cooldown,
+       round(count_if(source_status = &#x27;failed&#x27;) / count(*), 3) AS fail_rate
+FROM workspace.jpgr_ai.search_performance
+WHERE searched_at &gt;= current_timestamp() - INTERVAL 7 DAYS
+GROUP BY source_id
+ORDER BY fail_rate DESC</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>source_id</th><th>searches</th><th>ok</th><th>empty</th><th>failed</th><th>cooldown</th><th>fail_rate</th></tr></thead><tbody><tr><td>surugaya</td><td>125</td><td>48</td><td>77</td><td>0</td><td>0</td><td>0.0</td></tr><tr><td>amazon_jp</td><td>37</td><td>16</td><td>21</td><td>0</td><td>0</td><td>0.0</td></tr><tr><td>cospa</td><td>27</td><td>11</td><td>16</td><td>0</td><td>0</td><td>0.0</td></tr><tr><td>mercari_jp</td><td>161</td><td>161</td><td>0</td><td>0</td><td>0</td><td>0.0</td></tr><tr><td>yahoo_fleamarket_jp</td><td>125</td><td>118</td><td>7</td><td>0</td><td>0</td><td>0.0</td></tr><tr><td>yahoo_auctions_jp</td><td>119</td><td>103</td><td>16</td><td>0</td><td>0</td><td>0.0</td></tr></tbody></table></div>
+    <p class="more">实际返回 10 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article></section><section id="g-judgment"><h2>常用 SQL · 判定质量</h2><p>判得准不准、日报发了什么、哪些候选值得复查、AI 用了多少。数据都来自只增不删的历史档案。</p>
+<article class="example" id="ex4">
+  <h3>误报率：发出去的日报里有多少被我标了不想看</h3>
+  <p class="note">分母只用标过的件数（labeled_items）。没标过的不能算对也不能算错。</p>
+  <div class="code"><button class="copy" data-target="sql4">复制</button><pre id="sql4">SELECT profile_name,
+       count(*) AS digest_items,
+       count(label_verdict) AS labeled_items,
+       count_if(label_verdict = &#x27;hide&#x27;) AS hide_items,
+       round(count_if(label_verdict = &#x27;hide&#x27;) / nullif(count(label_verdict), 0), 3) AS hide_rate
+FROM workspace.jpgr_ai.digest_items_v1
+GROUP BY profile_name
+HAVING count(label_verdict) &gt; 0
+ORDER BY hide_rate DESC</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>profile_name</th><th>digest_items</th><th>labeled_items</th><th>hide_items</th><th>hide_rate</th></tr></thead><tbody><tr><td>赛车初音上新</td><td>1364</td><td>165</td><td>76</td><td>0.461</td></tr></tbody></table></div>
+    <p class="more">2026-10-11 的数据。</p>
+  </details>
+</article>
+<article class="example" id="ex5">
+  <h3>某个档案某天的日报发了什么</h3>
+  <p class="note">把 profile_name 和日期换成你要看的。section：new=新上架，baseline=基线，recovered=恢复，suspect=疑似分区。</p>
+  <div class="code"><button class="copy" data-target="sql5">复制</button><pre id="sql5">SELECT section, source_id, price_jpy, title, label_verdict, url
+FROM workspace.jpgr_ai.digest_items_v1
+WHERE profile_name = &#x27;赛车初音上新&#x27;
+  AND digest_day = DATE&#x27;2026-10-10&#x27;
+ORDER BY section, price_jpy</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>section</th><th>source_id</th><th>price_jpy</th><th>title</th><th>label_verdict</th><th>url</th></tr></thead><tbody><tr><td>new</td><td>yahoo_auctions_jp</td><td>500</td><td>初音ミク ボカロ 告知ポスター 4枚 まとめ売り Luminasta Conceptua…</td><td><span class="null">NULL</span></td><td>https://auctions.yahoo.co.jp/jp/auction/l124…</td></tr><tr><td>new</td><td>yahoo_auctions_jp</td><td>500</td><td>初音ミク 告知ポスター 3枚 まとめ売り レーシングミク2024 Summer チロルチ…</td><td><span class="null">NULL</span></td><td>https://auctions.yahoo.co.jp/jp/auction/h124…</td></tr><tr><td>new</td><td>yahoo_auctions_jp</td><td>500</td><td>ボカロ 告知ポスター 3枚 まとめ売り レーシングミク2023 巡音ルカ BiCute …</td><td><span class="null">NULL</span></td><td>https://auctions.yahoo.co.jp/jp/auction/r124…</td></tr><tr><td>new</td><td>yahoo_auctions_jp</td><td>610</td><td>中古キーホルダー レーシングミク 2013ver. 「初音ミク GTプロジェクト アクリ…</td><td><span class="null">NULL</span></td><td>https://auctions.yahoo.co.jp/jp/auction/r124…</td></tr><tr><td>new</td><td>amazon_jp</td><td>660</td><td>レーシングミク 2026 キービジュアル1 Ver. アクリルカード</td><td><span class="null">NULL</span></td><td>https://www.amazon.co.jp/dp/B0GVSR2QDQ</td></tr><tr><td>new</td><td>mercari_jp</td><td>777</td><td>SUPERGT レーシングミク初音ミク スーパーGT FUJI ステッカー</td><td><span class="null">NULL</span></td><td>https://jp.mercari.com/item/m85093060354</td></tr></tbody></table></div>
+    <p class="more">实际返回 78 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article>
+<article class="example" id="ex6">
+  <h3>判定档位分布：每个档案的商品都落在哪一档</h3>
+  <p class="note">按件数（每件商品只取最近一次判定）。精确同款雷达才有 match_relation。</p>
+  <div class="code"><button class="copy" data-target="sql6">复制</button><pre id="sql6">SELECT profile_name, decision_status, match_relation, ai_relevance,
+       count(*) AS listings,
+       count_if(sent_in_digest) AS sent,
+       count_if(label_verdict = &#x27;hide&#x27;) AS hide
+FROM workspace.jpgr_ai.judgment_listings_v1
+WHERE dossier_kind = &#x27;exact_product&#x27;
+GROUP BY ALL
+ORDER BY profile_name, listings DESC</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>profile_name</th><th>decision_status</th><th>match_relation</th><th>ai_relevance</th><th>listings</th><th>sent</th><th>hide</th></tr></thead><tbody><tr><td>『WHITE ALBUM2』ぬいぐるみ「小木曽雪菜」＆「冬馬かずさ」</td><td>rejected</td><td>irrelevant</td><td><span class="null">NULL</span></td><td>119</td><td>1</td><td>0</td></tr><tr><td>『WHITE ALBUM2』ぬいぐるみ「小木曽雪菜」＆「冬馬かずさ」</td><td>rejected</td><td>irrelevant</td><td>irrelevant</td><td>22</td><td>0</td><td>0</td></tr><tr><td>『WHITE ALBUM2』ぬいぐるみ「小木曽雪菜」＆「冬馬かずさ」</td><td>confirmed</td><td>irrelevant</td><td>relevant</td><td>1</td><td>1</td><td>0</td></tr><tr><td>『WHITE ALBUM2』ぬいぐるみ「小木曽雪菜」＆「冬馬かずさ」</td><td>uncertain</td><td>irrelevant</td><td>relevant</td><td>1</td><td>0</td><td>0</td></tr><tr><td>アゾンインターナショナル 1/6 ピュアニーモキャラクターシリーズ No.143 Re:…</td><td>rejected</td><td>irrelevant</td><td><span class="null">NULL</span></td><td>723</td><td>0</td><td>0</td></tr><tr><td>アゾンインターナショナル 1/6 ピュアニーモキャラクターシリーズ No.143 Re:…</td><td>rejected</td><td>irrelevant</td><td>irrelevant</td><td>35</td><td>0</td><td>0</td></tr></tbody></table></div>
+    <p class="more">实际返回 67 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article>
+<article class="example" id="ex7">
+  <h3>值得人工复查的候选</h3>
+  <p class="note">系统结论和 AI 表态互相矛盾，或者在售的高度疑似同款没轮到复核。只能说“值得看看”，不能直接说漏了。</p>
+  <div class="code"><button class="copy" data-target="sql7">复制</button><pre id="sql7">SELECT profile_name, review_flag, price_jpy, title, url
+FROM workspace.jpgr_ai.judgment_listings_v1
+WHERE review_flag IS NOT NULL
+ORDER BY profile_name, review_flag, last_seen_at DESC
+LIMIT 50</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>profile_name</th><th>review_flag</th><th>price_jpy</th><th>title</th><th>url</th></tr></thead><tbody><tr><td>メダリスト展 アートブック</td><td>在售、字面高度疑似同款，却没轮到 AI 复核就被拒</td><td>5000</td><td>メダリスト展 公式アートブック</td><td>https://jp.mercari.com/item/m30058906515</td></tr><tr><td>メダリスト展 アートブック</td><td>在售、字面高度疑似同款，却没轮到 AI 复核就被拒</td><td>6799</td><td>新品未開封 メダリスト展 公式アートブック</td><td>https://jp.mercari.com/item/m85238784837</td></tr><tr><td>メダリスト展 アートブック</td><td>在售、字面高度疑似同款，却没轮到 AI 复核就被拒</td><td>5700</td><td>メダリスト展 公式アートブック つるまいかだ</td><td>https://jp.mercari.com/item/m55639177310</td></tr><tr><td>同款 · ぬいぐるみ　エミリア ふわかわロリータぬいぐるみ 「Re：ゼロから始める異世界…</td><td>在售、字面高度疑似同款，却没轮到 AI 复核就被拒</td><td>23500</td><td>[Sakura-Saki Cosplay]実物撮影！Re:ゼロから始める異世界生活 エミ…</td><td>https://www.amazon.co.jp/dp/B0G3W22NVJ</td></tr><tr><td>同款 · 初音ミク レーシングVer. ミニ色紙 Tony 浴衣Ver.</td><td>在售、字面高度疑似同款，却没轮到 AI 复核就被拒</td><td>460</td><td>【中古】紙製品 レーシングミク 2025 Rd.6 SUGO Ver. ミニ色紙 「初音…</td><td>https://jp.mercari.com/shops/product/2JNFvCp…</td></tr><tr><td>同款 · 初音ミク レーシングVer. ミニ色紙 Tony 浴衣Ver.</td><td>在售、字面高度疑似同款，却没轮到 AI 复核就被拒</td><td>3830</td><td>中古フィギュア 初音ミク レーシングVer. 「キャラクター・ボーカル・シリーズ01 初…</td><td>https://auctions.yahoo.co.jp/jp/auction/r122…</td></tr></tbody></table></div>
+    <p class="more">实际返回 50 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article>
+<article class="example" id="ex8">
+  <h3>一件商品的判定轨迹：它每天被怎么判</h3>
+  <p class="note">把商品号换成你要查的。能看到它哪天从确认变成拒绝、理由是什么。数据从 2026-08-22 起，生产库删掉的也在。</p>
+  <div class="code"><button class="copy" data-target="sql8">复制</button><pre id="sql8">SELECT observed_at, decision_status, match_relation, ai_relevance, price_jpy, decision_reason
+FROM workspace.jpgr_ai.judgment_observations_v1
+WHERE source_item_id = &#x27;m30058906515&#x27;
+ORDER BY observed_at</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>observed_at</th><th>decision_status</th><th>match_relation</th><th>ai_relevance</th><th>price_jpy</th><th>decision_reason</th></tr></thead><tbody><tr><td>2026-08-30T08:58:30.589Z</td><td>uncertain</td><td>probable_exact</td><td><span class="null">NULL</span></td><td>5000</td><td>商品完全符合目标“メダリスト展 アートブック”的同款身份。</td></tr><tr><td>2026-08-31T08:58:24.284Z</td><td>uncertain</td><td>probable_exact</td><td><span class="null">NULL</span></td><td>5000</td><td>商品完全符合目标“メダリスト展 アートブック”的同款身份。</td></tr><tr><td>2026-09-01T08:59:38.994Z</td><td>uncertain</td><td>probable_exact</td><td><span class="null">NULL</span></td><td>5000</td><td>商品完全符合目标“メダリスト展 アートブック”的同款身份。</td></tr><tr><td>2026-09-02T09:00:36.435Z</td><td>uncertain</td><td>probable_exact</td><td><span class="null">NULL</span></td><td>5000</td><td>商品完全符合目标“メダリスト展 アートブック”的同款身份。</td></tr><tr><td>2026-09-03T08:59:18.132Z</td><td>uncertain</td><td>probable_exact</td><td><span class="null">NULL</span></td><td>5000</td><td>商品完全符合目标“メダリスト展 アートブック”的同款身份。</td></tr><tr><td>2026-09-04T08:59:03.967Z</td><td>uncertain</td><td>probable_exact</td><td><span class="null">NULL</span></td><td>5000</td><td>商品完全符合目标“メダリスト展 アートブック”的同款身份。</td></tr></tbody></table></div>
+    <p class="more">实际返回 42 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article>
+<article class="example" id="ex9">
+  <h3>AI 每天复核多少件（看 AI 用量）</h3>
+  <p class="note">按档案、按天数送过 AI 的不同商品件数。突然暴涨就要看是不是哪个档案的搜索词太宽了。</p>
+  <div class="code"><button class="copy" data-target="sql9">复制</button><pre id="sql9">SELECT observed_date_jst, profile_name,
+       count(DISTINCT source_id, source_item_id) AS ai_reviewed_items
+FROM workspace.jpgr_ai.judgment_observations_v1
+WHERE ai_consulted AND observed_date_jst &gt;= date_sub(current_date(), 14)
+GROUP BY ALL
+ORDER BY observed_date_jst DESC, ai_reviewed_items DESC</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>observed_date_jst</th><th>profile_name</th><th>ai_reviewed_items</th></tr></thead><tbody><tr><td>2026-10-11</td><td>同款 · 初音ミク レーシングVer. ミニ色紙 Tony 浴衣Ver.</td><td>62</td></tr><tr><td>2026-10-11</td><td>同款 · ぬいぐるみ　エミリア ふわかわロリータぬいぐるみ 「Re：ゼロから始める異世界…</td><td>32</td></tr><tr><td>2026-10-11</td><td>『WHITE ALBUM2』ぬいぐるみ「小木曽雪菜」＆「冬馬かずさ」</td><td>2</td></tr><tr><td>2026-10-11</td><td>同款 · 高木さん からかいパーカー グレー Lサイズ</td><td>1</td></tr><tr><td>2026-10-10</td><td>鸣濑白羽上新</td><td>361</td></tr><tr><td>2026-10-10</td><td>路人女主｜加藤惠</td><td>277</td></tr></tbody></table></div>
+    <p class="more">实际返回 139 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article>
+<article class="example" id="ex10">
+  <h3>哪个平台给每个档案贡献了确认商品</h3>
+  <p class="note">看平台性价比：哪个平台在搜，但从来没贡献过确认商品。</p>
+  <div class="code"><button class="copy" data-target="sql10">复制</button><pre id="sql10">SELECT profile_name, source_id,
+       count(*) AS candidates,
+       count_if(ever_confirmed) AS ever_confirmed,
+       round(count_if(ever_confirmed) / count(*), 3) AS confirm_rate
+FROM workspace.jpgr_ai.judgment_listings_v1
+GROUP BY ALL
+ORDER BY profile_name, ever_confirmed DESC</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>profile_name</th><th>source_id</th><th>candidates</th><th>ever_confirmed</th><th>confirm_rate</th></tr></thead><tbody><tr><td>Re:ゼロから始める異世界生活 リゼロ リュック エミリア モデル</td><td>mercari_jp</td><td>1</td><td>1</td><td>1.0</td></tr><tr><td>『WHITE ALBUM2』ぬいぐるみ「小木曽雪菜」＆「冬馬かずさ」</td><td>mercari_jp</td><td>29</td><td>2</td><td>0.069</td></tr><tr><td>『WHITE ALBUM2』ぬいぐるみ「小木曽雪菜」＆「冬馬かずさ」</td><td>yahoo_auctions_jp</td><td>112</td><td>0</td><td>0.0</td></tr><tr><td>『WHITE ALBUM2』ぬいぐるみ「小木曽雪菜」＆「冬馬かずさ」</td><td>yahoo_fleamarket_jp</td><td>2</td><td>0</td><td>0.0</td></tr><tr><td>アゾンインターナショナル 1/6 ピュアニーモキャラクターシリーズ No.143 Re:…</td><td>yahoo_auctions_jp</td><td>473</td><td>2</td><td>0.004</td></tr><tr><td>アゾンインターナショナル 1/6 ピュアニーモキャラクターシリーズ No.143 Re:…</td><td>amazon_jp</td><td>7</td><td>0</td><td>0.0</td></tr></tbody></table></div>
+    <p class="more">实际返回 88 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article></section><section id="g-market"><h2>常用 SQL · 行情价格</h2><p>现在能买什么、多少钱、谁降价了、雅虎拍卖落札价。</p>
+<article class="example" id="ex11">
+  <h3>现在能买的商品，按平台数</h3>
+  <p class="note">“现在能买”只认 is_currently_buyable。</p>
+  <div class="code"><button class="copy" data-target="sql11">复制</button><pre id="sql11">SELECT source_id, count(*) AS buyable
+FROM workspace.jpgr_ai.current_listings
+WHERE is_currently_buyable
+GROUP BY source_id
+ORDER BY buyable DESC</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>source_id</th><th>buyable</th></tr></thead><tbody><tr><td>mercari_jp</td><td>8767</td></tr><tr><td>yahoo_fleamarket_jp</td><td>5401</td></tr><tr><td>yahoo_auctions_jp</td><td>4234</td></tr><tr><td>rakuten_ichiba</td><td>3653</td></tr><tr><td>surugaya</td><td>1763</td></tr><tr><td>amazon_jp</td><td>519</td></tr></tbody></table></div>
+    <p class="more">实际返回 9 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article>
+<article class="example" id="ex12">
+  <h3>按标题关键字查商品现价</h3>
+  <p class="note">ilike 不分大小写，% 是通配符。拍卖的 current_price_jpy 是当前出价，不是能买的价。</p>
+  <div class="code"><button class="copy" data-target="sql12">复制</button><pre id="sql12">SELECT source_id, current_price_jpy, price_basis, item_condition, availability, title, canonical_url
+FROM workspace.jpgr_ai.current_listings
+WHERE title ILIKE &#x27;%メダリスト展%アートブック%&#x27;
+  AND is_currently_buyable
+ORDER BY current_price_jpy
+LIMIT 20</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>source_id</th><th>current_price_jpy</th><th>price_basis</th><th>item_condition</th><th>availability</th><th>title</th><th>canonical_url</th></tr></thead><tbody><tr><td>yahoo_auctions_jp</td><td>4106</td><td>auction_current_bid</td><td>unknown</td><td>available</td><td>メダリスト展 公式 アートブック つるまいかだ</td><td>https://auctions.yahoo.co.jp/jp/auction/t124…</td></tr><tr><td>mercari_jp</td><td>4200</td><td>listing_price</td><td>used</td><td>available</td><td>メダリスト展 公式アートブック</td><td>https://jp.mercari.com/item/m71608054364</td></tr><tr><td>mercari_jp</td><td>4200</td><td>listing_price</td><td>used</td><td>available</td><td>メダリスト展 公式アートブック</td><td>https://jp.mercari.com/item/m30625203244</td></tr><tr><td>yahoo_auctions_jp</td><td>4400</td><td>auction_current_bid</td><td>unknown</td><td>available</td><td>【中古】メダリスト展 公式アートブック　つるまいかだ</td><td>https://auctions.yahoo.co.jp/jp/auction/c124…</td></tr><tr><td>mercari_jp</td><td>4480</td><td>listing_price</td><td>used</td><td>available</td><td>メダリスト展 公式アートブック つるまいかだ</td><td>https://jp.mercari.com/item/m86998669244</td></tr><tr><td>mercari_jp</td><td>4500</td><td>listing_price</td><td>used</td><td>available</td><td>メダリスト展 公式アートブック</td><td>https://jp.mercari.com/item/m86074270827</td></tr></tbody></table></div>
+    <p class="more">实际返回 20 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article>
+<article class="example" id="ex13">
+  <h3>被盯的同款现在多少钱</h3>
+  <p class="note">每个确认过的同款一行：有几件、现在能买的最低价和中位价、在哪些平台。</p>
+  <div class="code"><button class="copy" data-target="sql13">复制</button><pre id="sql13">SELECT canonical_name, variant_name, matched_listing_count, available_listing_count,
+       min_available_price_jpy, median_available_price_jpy, source_ids
+FROM workspace.jpgr_ai.product_market_overview
+ORDER BY available_listing_count DESC</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>canonical_name</th><th>variant_name</th><th>matched_listing_count</th><th>available_listing_count</th><th>min_available_price_jpy</th><th>median_available_price_jpy</th><th>source_ids</th></tr></thead><tbody><tr><td>レーシングミク</td><td>レーシングミク</td><td>50</td><td>49</td><td>50</td><td>2876</td><td>amiami, mercari_jp, rakuten_ichiba, surugaya…</td></tr><tr><td>メダリスト展 アートブック</td><td>メダリスト展 アートブック</td><td>35</td><td>35</td><td>4106</td><td>5300</td><td>mercari_jp, rakuten_ichiba, surugaya, yahoo_…</td></tr><tr><td>メダリスト展 アートブック</td><td>メダリスト展 アートブック</td><td>21</td><td>18</td><td>4106</td><td>5250</td><td>mercari_jp, rakuten_ichiba, surugaya, yahoo_…</td></tr><tr><td>ユリウス　ぬいぐるみ</td><td>ユリウス　ぬいぐるみ</td><td>94</td><td>14</td><td>500</td><td>3555</td><td>amiami, mercari_jp, rakuten_ichiba, yahoo_au…</td></tr><tr><td>冴えない彼女の育てかた Fine トレーディング 加藤恵 缶バッジ</td><td>冴えない彼女の育てかた Fine トレーディング 加藤恵 缶バッジ</td><td>10</td><td>7</td><td>680</td><td>999</td><td>animate, mercari_jp, rakuten_ichiba</td></tr><tr><td>冴えない彼女の育てかた♭ 深崎暮人イラスト A3プリモアート</td><td>冴えない彼女の育てかた♭ 深崎暮人イラスト A3プリモアート</td><td>6</td><td>5</td><td>18000</td><td>34000</td><td>mercari_jp, yahoo_auctions_jp, yahoo_fleamar…</td></tr></tbody></table></div>
+    <p class="more">实际返回 31 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article>
+<article class="example" id="ex14">
+  <h3>最近 7 天降价最多的商品（排除拍卖）</h3>
+  <p class="note">拍卖出价会涨，这里只看挂牌价的变化。</p>
+  <div class="code"><button class="copy" data-target="sql14">复制</button><pre id="sql14">SELECT c.source_id, c.title, c.previous_price_jpy, c.new_price_jpy, c.price_change_percent, c.observed_at
+FROM workspace.jpgr_ai.price_changes AS c
+JOIN workspace.jpgr_ai.current_listings AS l ON l.listing_id = c.listing_id
+WHERE c.observed_at &gt;= current_timestamp() - INTERVAL 7 DAYS
+  AND l.price_basis = &#x27;listing_price&#x27;
+  AND c.price_change_jpy &lt; 0
+ORDER BY c.price_change_percent
+LIMIT 20</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>source_id</th><th>title</th><th>previous_price_jpy</th><th>new_price_jpy</th><th>price_change_percent</th><th>observed_at</th></tr></thead><tbody><tr><td>yahoo_fleamarket_jp</td><td>★即日発送★限定品Do you know ELIZA？ tシャツ</td><td>2990</td><td>777</td><td>-74.01</td><td>2026-10-08T06:26:13.790Z</td></tr><tr><td>mercari_jp</td><td>リゼロ アクリルスタンド アクスタ 竜車でうたたね トレーディング エミリア</td><td>2980</td><td>800</td><td>-73.15</td><td>2026-10-06T11:05:07.289Z</td></tr><tr><td>yahoo_fleamarket_jp</td><td>プロセカ 青柳冬弥 色紙 光線歌</td><td>2500</td><td>1000</td><td>-60.00</td><td>2026-10-08T09:38:13.018Z</td></tr><tr><td>yahoo_fleamarket_jp</td><td>★即日発送★wego ストリート系 ロゴデザイン クルーネック ニット セーター ホワイト</td><td>1870</td><td>777</td><td>-58.45</td><td>2026-10-08T06:26:13.790Z</td></tr><tr><td>mercari_jp</td><td>Re:ゼロから始める異世界生活 デスクマット 缶バッジ アクキー エミリア</td><td>3999</td><td>1888</td><td>-52.79</td><td>2026-10-07T11:07:20.394Z</td></tr><tr><td>mercari_jp</td><td>PSA10/ヴァイス/Re:ゼロ/SEC/サイン/あなただけを想う エミリア</td><td>399900</td><td>199900</td><td>-50.01</td><td>2026-10-09T11:06:21.287Z</td></tr></tbody></table></div>
+    <p class="more">实际返回 20 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article>
+<article class="example" id="ex15">
+  <h3>雅虎拍卖的公开落札价</h3>
+  <p class="note">拍卖结束且有出价的最终价格，最接近成交价的公开信号；但不证明付款完成。</p>
+  <div class="code"><button class="copy" data-target="sql15">复制</button><pre id="sql15">SELECT confirmed_product_name, latest_public_awarded_price_jpy, latest_public_awarded_at, title, canonical_url
+FROM workspace.jpgr_ai.yahoo_auction_analysis_facts_v1
+WHERE has_public_awarded_signal
+ORDER BY latest_public_awarded_at DESC
+LIMIT 20</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>confirmed_product_name</th><th>latest_public_awarded_price_jpy</th><th>latest_public_awarded_at</th><th>title</th><th>canonical_url</th></tr></thead><tbody><tr><td><span class="null">NULL</span></td><td>1900</td><td>2026-09-10T04:51:31.000Z</td><td>リゼロ Re:ゼロから始める異世界生活 グッズ まとめ売り</td><td>https://auctions.yahoo.co.jp/jp/auction/z679…</td></tr><tr><td><span class="null">NULL</span></td><td>10000</td><td>2026-09-09T14:15:50.000Z</td><td>グッドスマイルカンパニー 冴えない彼女の育てかた 加藤恵 1/4スケールフィギュア An…</td><td>https://auctions.yahoo.co.jp/jp/auction/1243…</td></tr><tr><td><span class="null">NULL</span></td><td>2500</td><td>2026-09-09T14:07:35.000Z</td><td>冴えない彼女の育てかたFine アニメジャパン 2019 記念セット 加藤恵 未開封 ア…</td><td>https://auctions.yahoo.co.jp/jp/auction/v124…</td></tr><tr><td><span class="null">NULL</span></td><td>5500</td><td>2026-09-09T13:13:25.000Z</td><td>◆ 加藤恵 冴えない彼女の育てかたFine 等身大タペストリー ティザービジュアル第2弾…</td><td>https://auctions.yahoo.co.jp/jp/auction/c118…</td></tr><tr><td><span class="null">NULL</span></td><td>3500</td><td>2026-09-08T14:44:33.000Z</td><td>冴えない彼女の育てかた Fine 加藤恵 レーシングVer フィギュア　海外生産モデル1…</td><td>https://auctions.yahoo.co.jp/jp/auction/z673…</td></tr><tr><td><span class="null">NULL</span></td><td>600</td><td>2026-09-08T13:48:08.000Z</td><td>加藤恵B イラストカード 冴えカノ 冴えない彼女の育てかた アトレ秋葉原 深崎暮人展</td><td>https://auctions.yahoo.co.jp/jp/auction/e479…</td></tr></tbody></table></div>
+    <p class="more">实际返回 20 行，这里只显示前 6 行（2026-10-11 的数据）。</p>
+  </details>
+</article></section><section id="g-history"><h2>常用 SQL · 历史档案</h2><p>生产库按保留期删掉、只在 Databricks 留着的数据。</p>
+<article class="example" id="ex16">
+  <h3>历史档案：生产库已经删掉、只在 Databricks 留着的数据量</h3>
+  <p class="note">_archived_last_seen_at 早于最近一次同步 = 生产库已删。</p>
+  <div class="code"><button class="copy" data-target="sql16">复制</button><pre id="sql16">SELECT &#x27;watch_runs&#x27; AS table_name,
+       count(*) AS total_rows,
+       count_if(_archived_last_seen_at &lt; (SELECT max(_archived_last_seen_at) FROM workspace.jpgr_history.watch_runs)) AS gone_from_production,
+       min(try_cast(started_at AS TIMESTAMP)) AS earliest
+FROM workspace.jpgr_history.watch_runs</pre></div>
+  <details><summary>示例结果</summary>
+    <div class="table-wrap"><table><thead><tr><th>table_name</th><th>total_rows</th><th>gone_from_production</th><th>earliest</th></tr></thead><tbody><tr><td>watch_runs</td><td>7727</td><td>0</td><td>2026-07-13T05:17:02.151Z</td></tr></tbody></table></div>
+    <p class="more">2026-10-11 的数据。</p>
+  </details>
+</article></section>
+
+<section id="tables">
+<h2>表速查</h2>
+<h3>判定体检（Genie「JPGR 判定体检」用的 4 张）</h3>
+<div class="table-wrap"><table><thead><tr><th>表</th><th>一行是什么</th><th>用来回答</th></tr></thead><tbody><tr><td><code>judgment_listings_v1</code></td><td>一个档案 × 一件商品，结论取最近一次</td><td>数件数、误报率、哪些值得复查</td></tr><tr><td><code>judgment_observations_v1</code></td><td>一次搜索里看到的一件商品</td><td>某件商品的判定怎么随时间变</td></tr><tr><td><code>digest_items_v1</code></td><td>已发出日报里的一件商品</td><td>日报发了什么、被标了多少不想看</td></tr><tr><td><code>profile_daily_pipeline_v1</code></td><td>一个档案一天</td><td>抓取 → 判定 → 日报 哪段断了</td></tr></tbody></table></div>
+<h3 style="margin-top:20px">行情与运行（Genie「JPGR 市场情报 Agent」用的 22 张）</h3>
+<div class="table-wrap"><table><thead><tr><th>表</th><th>说明</th></tr></thead><tbody><tr><td><code>alert_exact_product_reappearances_v1</code></td><td>商品提醒候选①：单品档案盯的那件、或精确同款雷达的严格同款，重新变得能买。已排除关键词相关和进行中的拍卖。</td></tr><tr><td><code>alert_public_awarded_sales_v1</code></td><td>商品提醒候选②：被盯的同款在雅虎拍卖出现公开落札（拍卖结束且有出价）。不证明已付款或最终成交。</td></tr><tr><td><code>alert_target_purchase_opportunities_v1</code></td><td>商品提醒候选③：现在能买的固定价商品达到你设的目标挂牌价或目标到手成本。已排除进行中的拍卖。</td></tr><tr><td><code>amazon_market_signal_facts_v1</code></td><td>亚马逊每个商品（ASIN）一行。亚马逊不公开成交，成交列恒为 NULL；只能用报价、库存和“过去一个月购买”标记间接看需求。</td></tr><tr><td><code>amazon_market_signal_summary_v1</code></td><td>亚马逊汇总一行。成交相关列为 NULL 表示看不到，绝不是 0。</td></tr><tr><td><code>current_listings</code></td><td>所有平台的商品，每件一行，带当前价格和状态。问“现在能买的有多少”用 is_currently_buyable。</td></tr><tr><td><code>daily_market_prices</code></td><td>每个平台每天一行的价格分布（日本时间分日）。按观察次数算，不是按商品件数。</td></tr><tr><td><code>data_freshness</code></td><td>几个主要数据集的行数和最新时间，用来看数据新不新。</td></tr><tr><td><code>executive_summary</code></td><td>一行总览：商品数、能买的件数、平台健康、最近一次同步。</td></tr><tr><td><code>latest_source_health</code></td><td>每个平台最近一次健康检查的结果，每平台一行。问“现在哪个平台坏了”用这张，别用历史记录。</td></tr><tr><td><code>market_source_transaction_semantics_v1</code></td><td>各平台能不能看到成交：防止把需求代理说成销量。</td></tr><tr><td><code>p1_price_fact_readiness_by_role</code></td><td>投资研究用：价格事实按价格角色分组的数量、身份覆盖和偷看未来的风险。</td></tr><tr><td><code>p1_price_fact_readiness_summary</code></td><td>投资研究用：价格事实是否够用的一行体检。平台显示已售不算确认成交。</td></tr><tr><td><code>price_changes</code></td><td>商品价格变化记录：每次看到价格和上次不同就一行。</td></tr><tr><td><code>product_market_overview</code></td><td>每个被确认的同款商品一行：有多少件、现在能买的价格区间、在哪些平台。</td></tr><tr><td><code>search_performance</code></td><td>每次搜索 × 每个平台一行：结果数、新增、耗时、走的线路。</td></tr><tr><td><code>strategy_price_facts</code></td><td>投资研究用的价格事实，每条价格一行。不同 price_role 不能混算；回测只能用 knowledge_at 之前的数据。</td></tr><tr><td><code>sync_runs</code></td><td>生产库同步到 Databricks 的每次运行记录。成功的筛 status=&#x27;SUCCEEDED&#x27;。</td></tr><tr><td><code>yahoo_auction_analysis_facts_v1</code></td><td>雅虎拍卖每场拍卖一行：疑似重挂、确认同款、公开落札分别打标，互不替代。</td></tr><tr><td><code>yahoo_auction_batch_dedup_v1</code></td><td>雅虎拍卖每次搜索一行的入库核对：同批重复应为 0。</td></tr><tr><td><code>yahoo_auction_event_facts_v1</code></td><td>雅虎拍卖每次搜索看到的每场拍卖一行（同一场会在多次搜索中重复出现）。</td></tr><tr><td><code>yahoo_auction_market_layers_v1</code></td><td>雅虎拍卖五种口径的数量，供仪表盘用。五层口径不同，不能相加，也不是漏斗。</td></tr></tbody></table></div>
+</section>
+
+<section id="claude">
+<h2>让 Claude 帮你做更深的分析</h2>
+<div class="card">
+<p>Genie 适合问一句、看一个数。要多步分析的时候，比如“为什么这个月误报变多了”“哪些搜索词在白花钱”，直接在 Claude Code 里说<b>“用 Databricks 查……”</b>就行。</p>
+<p>Claude 会先读 <code>docs/常用/数据字典-Databricks.md</code> 弄清字段含义，再用你本机已经登录的命令行（<code>databricks --profile jpgr-local</code>）跑 SQL。查到的结论会附上它用的 SQL，方便核对。</p>
+<p>本机登录过期时，在 Claude Code 里输入 <code>! databricks auth login --profile jpgr-local</code> 重新登录。</p>
+</div>
+</section>
+</main>
+<script>
+document.querySelectorAll('.copy').forEach(function (button) {
+  button.addEventListener('click', function () {
+    var text = document.getElementById(button.dataset.target).innerText;
+    var done = function () { button.textContent = '已复制'; setTimeout(function () { button.textContent = '复制'; }, 1500); };
+    if (navigator.clipboard) { navigator.clipboard.writeText(text).then(done, function () {}); }
+  });
+});
+</script>
+</body>
+</html>

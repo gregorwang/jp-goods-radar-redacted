@@ -1,0 +1,23 @@
+{
+  "name": "@jpgr/source-runner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "probe": "tsx src/probe.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@jpgr/adapters": "workspace:*",
+    "@jpgr/core": "workspace:*",
+    "@jpgr/validation": "workspace:*",
+    "tsx": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.9.3"
+  }
+}

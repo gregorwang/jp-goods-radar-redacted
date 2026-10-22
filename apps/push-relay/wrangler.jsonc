@@ -1,0 +1,33 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // 自用手机的推送中转（docs/进行中/安卓推送App-工程文档-20261011.md）。
+  // collector 经服务绑定 POST /publish 投消息；手机 App 用 WebSocket 连 /connect 实时收，
+  // 断线重连后用 GET /messages?after= 补发。只有一台手机、一个设备口令。
+  //
+  // 手动部署：pnpm --filter @jpgr/push-relay run deploy。没有挂 Workers Builds。
+  "name": "jp-goods-radar-push-relay",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-15",
+  // 手机要从公网连进来，所以开 workers.dev；collector 不走这个网址（同账号互调会被拦成 1042），走服务绑定。
+  "workers_dev": true,
+  // 飞书事件 / 回调地址用自己的域名：workers.dev 在大陆被墙，飞书的服务器在国内，连 workers.dev 会 3 秒超时（2026-10-13 实测）。
+  // App 仍然连 workers.dev（运营者在日本）。
+  "routes": [{ "pattern": "push.example.com", "custom_domain": true }],
+  "preview_urls": false,
+  "durable_objects": {
+    "bindings": [{ "name": "PUSH_HUB", "class_name": "PushHub" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["PushHub"] }],
+  // 飞书推送（2026-10-13，docs/研究/飞书自建应用机器人-能力调研-20261013.md）。
+  // App Secret / Verification Token / Encrypt Key 是 secret，本机副本在 ~/.jpgr/feishu-app.env；没配齐时飞书这一路不动，App 不受影响。
+  // FEISHU_WEBHOOK_IMAGES：群自定义机器人那一路带不带拼图，"0" = 纯标题版（地址和签名密钥是 secret FEISHU_WEBHOOK_URL / FEISHU_WEBHOOK_SECRET）。
+  "vars": { "FEISHU_APP_ID": "cli_your_app_id", "FEISHU_WEBHOOK_IMAGES": "1" },
+  // 卡片上「不想看」「等降价」转给主站的 /api/device/*（和 App 同一个口令 PUSH_DEVICE_TOKEN = 主站 OWNER_DEVICE_TOKEN）。
+  // 同账号 Worker 用网址互调会被拦成 1042，所以走服务绑定。
+  "services": [{ "binding": "WEB", "service": "jp-goods-radar-web" }],
+  "secrets": {
+    // PUSH_DEVICE_TOKEN：手机 App 用（≥32 字节随机）。PUSH_PUBLISH_TOKEN：collector 用，和 collector 的同名 secret 成对。
+    "required": ["PUSH_DEVICE_TOKEN", "PUSH_PUBLISH_TOKEN"]
+  },
+  "observability": { "enabled": true, "head_sampling_rate": 1 }
+}

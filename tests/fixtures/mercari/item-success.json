@@ -1,0 +1,16 @@
+{
+  "result": "OK",
+  "data": {
+    "id": "m95317526324",
+    "seller": { "id": 1, "name": "えるのお店" },
+    "status": "on_sale",
+    "name": "氷菓 千反田える フィギュア",
+    "price": 2800,
+    "description": "テスト用の商品説明",
+    "photos": ["https://static.mercdn.net/item/detail/orig/photos/m95317526324_1.jpg"],
+    "item_condition": { "id": "2", "name": "目立った傷なし" },
+    "created": 1725752994,
+    "updated": 1783780261
+  },
+  "meta": {}
+}

@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "nextPageToken": "auction:v1:1",
+    "previousPageToken": "",
+    "numFound": "2",
+    "properties": []
+  },
+  "items": [
+    {
+      "id": "m11111111111",
+      "status": "ITEM_STATUS_ON_SALE",
+      "name": "普通一口价商品",
+      "price": "1650",
+      "created": "1784060000",
+      "updated": "1784061000",
+      "thumbnails": ["https://static.mercdn.net/thumb/item/webp/m11111111111_1.jpg"],
+      "itemType": "ITEM_TYPE_MERCARI",
+      "itemConditionId": "2",
+      "sellerId": "must-not-leak-seller",
+      "buyerId": "must-not-leak-buyer",
+      "auction": null
+    },
+    {
+      "id": "m22222222222",
+      "status": "ITEM_STATUS_ON_SALE",
+      "name": "Mercari 普通拍卖商品",
+      "price": "6100",
+      "created": "1784062000",
+      "updated": "1784063000",
+      "thumbnails": ["https://static.mercdn.net/thumb/item/webp/m22222222222_1.jpg"],
+      "itemType": "ITEM_TYPE_MERCARI",
+      "itemConditionId": "4",
+      "sellerId": "must-not-leak-seller",
+      "buyerId": "must-not-leak-buyer",
+      "auction": {
+        "id": "must-not-leak-auction-id",
+        "bidDeadline": "2026-07-15T11:00:00Z",
+        "totalBid": "1",
+        "highestBid": "6100",
+        "initialPrice": "6000"
+      }
+    }
+  ]
+}

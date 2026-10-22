@@ -1,0 +1,49 @@
+{
+  "name": "jp-goods-radar",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@9.4.0",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @jpgr/web dev",
+    "dev:collector": "pnpm --filter @jpgr/collector dev",
+    "build": "pnpm -r --if-present build",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "test": "vitest run",
+    "test:workers": "vitest run --config vitest.workers.config.mts",
+    "test:all": "pnpm test && pnpm test:workers",
+    "lint": "pnpm -r --if-present lint",
+    "preview": "pnpm --filter @jpgr/web preview",
+    "verify:sql": "node scripts/verify-operational-sql.mjs",
+    "deploy:web": "pnpm verify:sql && pnpm --filter @jpgr/web run deploy",
+    "deploy:collector": "pnpm --filter @jpgr/collector typecheck && pnpm verify:sql && pnpm --filter @jpgr/collector run deploy",
+    "deploy:collector:only": "pnpm --filter @jpgr/collector run deploy",
+    "export:search-evidence": "node scripts/export-search-evidence.mjs",
+    "rotate:mercari-key": "node scripts/rotate-mercari-signing-key.mjs --confirm-rotation",
+    "cf:types": "pnpm --filter @jpgr/collector cf-typegen && pnpm --filter @jpgr/web cf-typegen"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.18.8",
+    "@types/node": "^20.19.43",
+    "@types/pg": "8.20.0",
+    "pg": "8.22.0",
+    "typescript": "^5.9.3",
+    "vitest": "latest",
+    "wrangler": "^4.114.0"
+  },
+  "pnpm": {
+    "auditConfig": {
+      "ignoreCves": [
+        "CVE-2026-14257"
+      ]
+    },
+    "overrides": {
+      "postcss@<8.5.18": "8.5.18",
+      "sharp@<0.35.3": "0.35.3",
+      "brace-expansion@>=1.0.0 <3.0.0": "2.1.3",
+      "brace-expansion@>=5.0.0 <6.0.0": "5.0.8"
+    }
+  }
+}

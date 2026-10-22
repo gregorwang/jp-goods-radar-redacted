@@ -1,0 +1,95 @@
+.head { display: grid; gap: 18px; }
+.lead { max-width: 760px; margin: 0; color: var(--ink-soft); font-size: 12px; line-height: 1.9; }
+.error { margin: 0; color: var(--red); font-size: 11px; line-height: 1.7; }
+
+/* 档案栏：一个档案一个下划线标签，后面是没标的件数；放不下就横向滑。 */
+.profiles { display: flex; gap: 22px; overflow-x: auto; padding-bottom: 2px; border-bottom: 1px solid var(--line); scrollbar-width: thin; }
+.profiles > button { flex: 0 0 auto; display: inline-flex; align-items: baseline; gap: 6px; padding: 8px 0 10px; cursor: pointer; color: var(--muted); background: transparent; border: 0; box-shadow: inset 0 -2px transparent; font: 400 15px/1.2 var(--display); white-space: nowrap; transition: color .24s cubic-bezier(.215,.61,.355,1), box-shadow .24s cubic-bezier(.215,.61,.355,1); }
+.profiles > button span { font: 9px/1 var(--mono); letter-spacing: .04em; }
+.profiles > button[data-paused="true"] { opacity: .6; }
+.profiles > button:hover { color: var(--ink); }
+.profiles > button[aria-pressed="true"] { color: var(--ink); box-shadow: inset 0 -2px var(--blue); }
+.profiles > button[aria-pressed="true"] span { color: var(--blue-deep); }
+.profiles > button:focus-visible, .views > button:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+
+.state { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin: -6px 0 0; color: var(--muted); font: 10px/1.6 var(--mono); letter-spacing: .04em; }
+.state span[data-silent="true"] { color: var(--amber); }
+.state a { display: inline-flex; align-items: center; gap: 2px; color: var(--blue-deep); }
+.state a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.views { display: flex; flex-wrap: wrap; gap: 0; border-top: 1px solid var(--ink); }
+.views > button { display: inline-flex; align-items: baseline; gap: 6px; padding: 12px 20px 10px 0; cursor: pointer; color: var(--muted); background: transparent; border: 0; font-size: 13px; letter-spacing: .04em; transition: color .24s cubic-bezier(.215,.61,.355,1); }
+.views > button + button { padding-left: 20px; border-left: 1px solid var(--line); }
+.views > button span { font: 10px/1 var(--mono); }
+.views > button:hover { color: var(--ink); }
+.views > button[aria-selected="true"] { color: var(--ink); box-shadow: inset 0 3px var(--blue); }
+.views > button[aria-selected="true"] span { color: var(--blue-deep); }
+
+.list { padding: 8px 28px 28px; }
+.caption { max-width: 760px; margin: 14px 0 4px; color: var(--muted); font-size: 11px; line-height: 1.8; }
+.empty { margin: 28px 0; color: var(--muted); font-size: 13px; }
+
+.day > h3 { display: flex; align-items: baseline; gap: 10px; margin: 22px 0 0; padding-bottom: 8px; border-bottom: 1px solid var(--line-strong); color: var(--ink); font: 400 17px/1.2 var(--display); }
+.day > h3 span { color: var(--muted); font: 10px/1 var(--mono); letter-spacing: .04em; }
+.day > ol { margin: 0; padding: 0; list-style: none; }
+
+/* 一行一件：左边图和字（点了去来源页），右边按钮。点过的变淡但留在原位。 */
+.row { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "item actions" "note actions"; column-gap: 18px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.item { grid-area: item; display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 14px; align-items: center; min-width: 0; color: inherit; text-decoration: none; transition: opacity .3s cubic-bezier(.215,.61,.355,1); }
+.row[data-settled="true"] .item, .row[data-settled="true"] .note { opacity: .42; }
+.thumb { display: block; width: 72px; height: 72px; overflow: hidden; background: var(--paper-bright); border: 1px solid var(--line); }
+.thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.text { display: grid; gap: 3px; min-width: 0; }
+.title { display: -webkit-box; overflow: hidden; color: var(--ink); font-size: 13px; line-height: 1.6; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow-wrap: anywhere; }
+a.item:hover .title { color: var(--blue-deep); }
+a.item:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+.price { color: var(--ink); font: 400 18px/1.2 var(--display); }
+.price small { color: var(--muted); font: 10px/1 var(--sans); }
+.meta { overflow: hidden; color: var(--blue-deep); font: 9px/1.5 var(--mono); letter-spacing: .03em; white-space: nowrap; text-overflow: ellipsis; }
+
+.note { grid-area: note; display: grid; gap: 2px; margin: 8px 0 0 86px; font-size: 11px; line-height: 1.7; transition: opacity .3s cubic-bezier(.215,.61,.355,1); }
+.note b { color: var(--ink-soft); font-weight: 500; }
+.note b[data-kind="series_signal"], .note b[data-kind="term_elsewhere"] { color: var(--red); }
+.note b[data-kind="rule_fallback"] { color: var(--amber); }
+.note b[data-kind="watching"] { color: var(--blue-deep); }
+.note span { color: var(--muted); }
+
+.actions { grid-area: actions; display: flex; gap: 8px; justify-content: flex-end; }
+.choice { min-width: 76px; min-height: 40px; padding: 0 14px; cursor: pointer; background: transparent; border: 1px solid; font-size: 12px; letter-spacing: .04em; white-space: nowrap; transition: background .24s cubic-bezier(.215,.61,.355,1), color .24s cubic-bezier(.215,.61,.355,1); }
+.choice[data-tone="alert"] { color: var(--red); border-color: rgba(182,83,77,.45); }
+.choice[data-tone="alert"][aria-pressed="true"] { color: #fff; background: var(--red); border-color: var(--red); }
+.choice[data-tone="sky"] { color: var(--blue-deep); border-color: rgba(65,107,128,.45); }
+.choice[data-tone="sky"][aria-pressed="true"] { color: #fff; background: var(--blue); border-color: var(--blue); }
+.choice:hover:not(:disabled):not([aria-pressed="true"]) { background: var(--acid-soft); }
+.choice:disabled { opacity: .5; cursor: progress; }
+.choice:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+
+.terms { margin-top: 34px; padding-top: 4px; }
+.terms > h3 { display: flex; align-items: baseline; gap: 10px; margin: 0; padding-bottom: 8px; border-bottom: 1px solid var(--line-strong); font: 400 17px/1.2 var(--display); }
+.terms > h3 span { color: var(--muted); font: 10px/1 var(--mono); }
+.terms > p { max-width: 760px; margin: 10px 0 0; color: var(--muted); font-size: 11px; line-height: 1.8; }
+.terms > ol { margin: 6px 0 0; padding: 0; list-style: none; }
+.terms li { display: flex; gap: 16px; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.terms li > div { display: grid; gap: 2px; min-width: 0; }
+.terms strong { font: 400 16px/1.3 var(--display); }
+.terms small { overflow: hidden; color: var(--muted); font-size: 11px; white-space: nowrap; text-overflow: ellipsis; }
+.terms li > button { flex: 0 0 auto; display: inline-flex; align-items: center; gap: 4px; min-height: 36px; padding: 0 12px; cursor: pointer; color: var(--blue-deep); background: transparent; border: 1px solid rgba(65,107,128,.45); font-size: 12px; }
+.terms li > button:hover { background: var(--acid-soft); }
+
+
+@media (max-width: 720px) {
+  .list { padding: 4px 16px 20px; }
+  .row { column-gap: 10px; }
+  .item { grid-template-columns: 60px minmax(0, 1fr); gap: 10px; }
+  .thumb { width: 60px; height: 60px; }
+  .note { margin-left: 70px; }
+  .choice { min-width: 64px; padding: 0 10px; }
+  .row[data-stacked="true"] { grid-template-columns: minmax(0, 1fr); grid-template-areas: "item" "note" "actions"; }
+  .row[data-stacked="true"] .actions { justify-content: flex-start; margin: 10px 0 0 70px; }
+  .views > button { padding-right: 12px; font-size: 12px; }
+  .views > button + button { padding-left: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .item, .note, .choice, .profiles > button, .views > button { transition: none; }
+}

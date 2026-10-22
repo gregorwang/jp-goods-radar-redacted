@@ -1,0 +1,9 @@
+{
+  "sourceId": "yahoo_auctions_jp",
+  "status": "cooldown",
+  "listings": [],
+  "error": "来源正在冷却，暂不重复请求",
+  "errorCode": "yahoo_auctions_network_error",
+  "retryAt": "2026-07-18T13:21:40.682Z",
+  "durationMs": 54
+}

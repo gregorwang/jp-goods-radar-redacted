@@ -1,0 +1,30 @@
+{
+  "name": "@jpgr/collector",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --test-scheduled",
+    "deploy": "wrangler deploy",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "cf-typegen": "wrangler types worker-configuration.d.ts",
+    "check:startup": "wrangler check startup"
+  },
+  "dependencies": {
+    "@jpgr/adapters": "workspace:*",
+    "@jpgr/ai": "workspace:*",
+    "@jpgr/analytics": "workspace:*",
+    "@jpgr/core": "workspace:*",
+    "@jpgr/db": "workspace:*",
+    "@jpgr/email": "workspace:*",
+    "@jpgr/notifications": "workspace:*",
+    "@jpgr/validation": "workspace:*",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.114.0"
+  }
+}

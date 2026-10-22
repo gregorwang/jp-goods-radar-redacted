@@ -1,0 +1,1291 @@
+{
+  "sourceId": "surugaya",
+  "status": "success",
+  "listings": [
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "508184821",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/508184821",
+      "title": "松井秀喜(ニューヨーク・ヤンキース)/ユニフォーム：青 携帯ストラップ JAL限定",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=508184821&size=m",
+      "currency": "JPY",
+      "currentPrice": 350,
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "available",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "雑貨",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "GL681883",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/GL681883",
+      "title": "青森県",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=GL681883&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "コレクションシール/東北地方/JAL 都道府県シール",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "134008409",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/134008409",
+      "title": "大林宣彦コレクションBOX 第弐集(青春の想ひ出)",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=134008409&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "邦画DVD",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "224001384",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/224001384",
+      "title": "オリジナル版 懐かしの青春ドラマ主題歌集2 1970～1971",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=224001384&size=m",
+      "currency": "JPY",
+      "currentPrice": 3300,
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "available",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "TVサントラ",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "252048209",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/252048209",
+      "title": "小島拓也 / 青春共和国（帯付き/サンプル品）",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=252048209&size=m",
+      "currency": "JPY",
+      "currentPrice": 500,
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "available",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "LPレコード",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "134010658",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/134010658",
+      "title": "群青 愛が沈んだ海の色 プレミアムエディション",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=134010658&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "邦画DVD",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "979003793",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/979003793",
+      "title": "青田典子/藤原理恵/藤森夕子/計4名「JAL OKINAWA ’94/C.C.ガールズ」",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=979003793&size=m",
+      "currency": "JPY",
+      "currentPrice": 750,
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "available",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "女性アイドル・俳優系テレホンカード",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "BO4535952",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/BO4535952",
+      "title": "&lt;&lt;社会&gt;&gt; 組織行動の会計学 / 青木康晴",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=BO4535952&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "単行本(実用)",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "252050486",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/252050486",
+      "title": "安田成美・成清加奈子・青田浩子 / 三原色宣言",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=252050486&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "LPレコード",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "226022984",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/226022984",
+      "title": "ジェットストリーム・オーケストラ / JAL JET STREAM 9 SHADOW 青い影",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=226022984&size=m",
+      "currency": "JPY",
+      "currentPrice": 600,
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "available",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "その他CD",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "BO2906885",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/BO2906885",
+      "title": "&lt;&lt;社会&gt;&gt; JAL裁判日航123便墜落事件と1985 / 青山透子",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=BO2906885&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "単行本(実用)",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "560226186",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/560226186",
+      "title": "青空フライト ミニタオル 「JAL」",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=560226186&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "タオル・手ぬぐい",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "979030111",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/979030111",
+      "title": "藤森夕子/藤原理恵/青田典子/計4名「JAL STORY/C.C.ガールズ」",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=979030111&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "女性アイドル・俳優系テレホンカード",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "BO2946060",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/BO2946060",
+      "title": "&lt;&lt;地理・地誌・紀行&gt;&gt; ジュネーブ・チューリッヒ / 青野寿郎",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=BO2946060&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "単行本(実用)",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "BO287345",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/BO287345",
+      "title": "&lt;&lt;歴史・地理&gt;&gt; 大連・青島",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=BO287345&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "単行本(実用)",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "984016399",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/984016399",
+      "title": "【進撃の巨人】アクリルストラップ リヴァイ＆エレン・イェーガー(みなゆき) 超壁外調査博2018/ 99LBT",
+      "imageUrl": "https://cdn.suruga-ya.jp/database/pics_webp/game/984016399.jpg.webp",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "offerAvailability": null,
+        "referenceListPrice": null,
+        "priceEvidence": null
+      },
+      "facts": {
+        "sourceAvailabilityLabel": "品切れ",
+        "provenance": {
+          "sourceAvailabilityLabel": {
+            "method": "html",
+            "sourceLabel": "骏河屋商品详情库存状态"
+          }
+        }
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "BN164943",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/BN164943",
+      "title": "&lt;&lt;海外文学&gt;&gt; ウクライナ、地下壕から届いた俳句 The Wings of a Butterfly / ウラジスラバ・シモノバ",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=BN164943&size=m",
+      "currency": "JPY",
+      "currentPrice": 530,
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "available",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "単行本(小説・エッセイ)",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "607063970",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/607063970",
+      "title": "ダイヤブロック エコロボット イグル(南北アメリカ地区) JAL日本航空配布品",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=607063970&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "おもちゃ",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "ZTOKU33569",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/ZTOKU33569",
+      "title": "063/249[U]：【A25】Jalira Master Polymorphist/練達の変身術士、ジャリラ",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=ZTOKU33569&size=m",
+      "currency": "JPY",
+      "currentPrice": 160,
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "available",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "マジックザギャザリング/英語版/U/青/マスターズ25th",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "ZTOKU21222",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/ZTOKU21222",
+      "title": "[R]：Jalira， Master Polymorphist/練達の変身術士、ジャリラ",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=ZTOKU21222&size=m",
+      "currency": "JPY",
+      "currentPrice": 160,
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "available",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "マジックザギャザリング/英語版/R/基本セット2015/青",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "ZTOKE33569",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/ZTOKE33569",
+      "title": "063/249[U]：【A25】【FOIL】Jalira Master Polymorphist/練達の変身術士、ジャリラ",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=ZTOKE33569&size=m",
+      "currency": "JPY",
+      "currentPrice": 160,
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "available",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "マジックザギャザリング/英語版FOIL/U/青/マスターズ25th",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "ZTOKE21222",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/ZTOKE21222",
+      "title": "[R]：【FOIL】Jalira， Master Polymorphist/練達の変身術士、ジャリラ",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=ZTOKE21222&size=m",
+      "currency": "JPY",
+      "currentPrice": 160,
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "available",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "マジックザギャザリング/英語版FOIL/R/基本セット2015/青",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "ZTOKU27912",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/ZTOKU27912",
+      "title": "063/249[U]：【MB2】Jalira Master Polymorphist/練達の変身術士、ジャリラ",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=ZTOKU27912&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "マジックザギャザリング/英語版/U/青/MYSTERY BOOSTER 2",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "ZTOKD21222",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/ZTOKD21222",
+      "title": "064/269[R]：【フランス語版】【M15】【FOIL】Jalira Master Polymorphist/練達の変身術士、ジャリラ",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=ZTOKD21222&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "マジックザギャザリング/フランス語版FOIL/R/青/基本セット2015",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    },
+    {
+      "sourceId": "surugaya",
+      "sourceItemId": "ZTOKV33569",
+      "identityScope": "listing",
+      "canonicalUrl": "https://www.suruga-ya.jp/product/detail/ZTOKV33569",
+      "title": "[UC]：【簡体字中国語版】【FOIL】Jalira Master Polymorphist/練達の変身術士、ジャリラ",
+      "imageUrl": "https://www.suruga-ya.jp/database/photo.php?shinaban=ZTOKV33569&size=m",
+      "currency": "JPY",
+      "priceBasis": "listing_price",
+      "condition": "used",
+      "availability": "sold_out",
+      "rawMetadata": {
+        "marketplacePrice": null,
+        "category": "マジックザギャザリング/簡体字中国語版FOIL/UC/マスターズ25th/青",
+        "sourceConditionLabel": "中古",
+        "parserVersion": "surugaya-html-v3",
+        "pageBytes": 230918,
+        "containerCount": 24
+      }
+    }
+  ],
+  "coverage": "rolling_window",
+  "parserVersion": "surugaya-html-v3",
+  "warnings": [
+    "最近修改排序不等同于首次上架；默认只读取一页有限滚动窗口",
+    "已按骏河屋官方品切れ开关包含无库存商品",
+    "Cloudflare 直连按完整关键词请求；不会改写或缩短搜索词",
+    "查询「雪ミク SNOW MIKU 限定ネックストラップ HAC JAL 青」未完成：骏河屋完整关键词搜索未命中 (404)",
+    "查询「HAC JAL 青」未完成：骏河屋完整关键词搜索未命中 (404)",
+    "已加入本地或 Postgres 历史索引候选；未通过实时详情核验的记录会明确标为历史参考。"
+  ],
+  "requestRoute": "direct",
+  "routeOutcome": {
+    "kind": "primary_success",
+    "route": "direct"
+  },
+  "fieldCoverage": {
+    "required": {
+      "total": 150,
+      "complete": 135
+    },
+    "optional": {
+      "total": 0,
+      "complete": 0
+    }
+  },
+  "durationMs": 3962,
+  "nextCursor": "2",
+  "requestEvidence": {
+    "availabilityMode": "all",
+    "requestedStatuses": [],
+    "rawResultCount": 24,
+    "normalizedResultCount": 25,
+    "pagesFetched": 1,
+    "keywordRawResultCount": 0,
+    "liveDetailResultCount": 0,
+    "anchorCandidateCount": 0,
+    "parserAcceptedCount": 0,
+    "parserRejectedCount": 0
+  },
+  "candidateEvidence": {
+    "134008409": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 2,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 132.2581,
+      "bestRank": 2,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "134010658": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 5,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 126.1538,
+      "bestRank": 5,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "224001384": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 3,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 130.1587,
+      "bestRank": 3,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "226022984": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 15,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 109.3333,
+      "bestRank": 15,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "252048209": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 4,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 128.125,
+      "bestRank": 4,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "252050486": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 10,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 117.1429,
+      "bestRank": 10,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "508184821": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 8,
+          "weight": 0.82,
+          "liveVerified": true
+        },
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 2,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 206.556,
+      "bestRank": 2,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 40,
+        "confidence": "low",
+        "matchedFields": [
+          "品类",
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "品类匹配",
+          "角色匹配：青"
+        ]
+      }
+    },
+    "560226186": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 21,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 101.2346,
+      "bestRank": 21,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "607063970": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 11,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 115.493,
+      "bestRank": 11,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "979003793": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 6,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 124.2424,
+      "bestRank": 6,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "979030111": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 22,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 100,
+      "bestRank": 22,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "984016399": {
+      "hits": [
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 1,
+          "weight": 0.533,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 87.377,
+      "bestRank": 1,
+      "historical": true,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "uncertain",
+        "score": 14,
+        "confidence": "low",
+        "matchedFields": [
+          "品类"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "品类匹配"
+        ]
+      }
+    },
+    "GL681883": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 1,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 134.4262,
+      "bestRank": 1,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "BN164943": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 7,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 122.3881,
+      "bestRank": 7,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "BO4535952": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 9,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 118.8406,
+      "bestRank": 9,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "ZTOKU33569": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 12,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 113.8889,
+      "bestRank": 12,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "ZTOKU21222": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 13,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 112.3288,
+      "bestRank": 13,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "ZTOKE33569": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 14,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 110.8108,
+      "bestRank": 14,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "ZTOKE21222": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 16,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 107.8947,
+      "bestRank": 16,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "BO2906885": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 17,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 106.4935,
+      "bestRank": 17,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "ZTOKU27912": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 18,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 105.1282,
+      "bestRank": 18,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "ZTOKD21222": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 19,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 103.7975,
+      "bestRank": 19,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "ZTOKV33569": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 20,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 102.5,
+      "bestRank": 20,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "BO2946060": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 23,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 98.7952,
+      "bestRank": 23,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "BO287345": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 24,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 97.619,
+      "bestRank": 24,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title desc">
+  <title id="title">格银西里尔紧凑符印</title>
+  <desc id="desc">供侧栏、移动端与小尺寸场景使用的菱形雷达符印。</desc>
+  <g color="#416b80" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M24 2v7m0-7-3 3m3-3 3 3M24 39v7m0 0-3-3m3 3 3-3M2 24h7m-7 0 3-3m-3 3 3 3M39 24h7m0 0-3-3m3 3-3 3"/>
+    <path d="m24 9 15 15-15 15L9 24 24 9Z"/>
+    <path d="M24 14v20M15 24h18M18 18l12 12M30 18 18 30"/>
+    <path d="M5 17v-5h5M38 12h5v5M43 31v5h-5M10 36H5v-5" stroke-width="2"/>
+    <path d="m24 20 4 4-4 4-4-4 4-4Z" fill="currentColor" stroke="none"/>
+  </g>
+</svg>

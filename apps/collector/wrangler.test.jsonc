@@ -1,0 +1,78 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jp-goods-radar-collector-test",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "hyperdrive": [
+    {
+      "binding": "ANALYTICS_DB",
+      "id": "your-hyperdrive-id"
+    },
+    {
+      "binding": "PRIMARY_DB",
+      "id": "your-hyperdrive-id"
+    }
+  ],
+  "browser": {
+    "binding": "BROWSER",
+    "remote": true
+  },
+  "workflows": [
+    {
+      "name": "jp-goods-radar-product-search-test",
+      "binding": "PRODUCT_SEARCH_WORKFLOW",
+      "class_name": "ProductSearchWorkflow"
+    }
+  ],
+  "queues": {
+    "producers": [
+      {
+        "binding": "MONITOR_QUEUE",
+        "queue": "jp-goods-radar-jobs-test"
+      },
+      {
+        "binding": "GEMINI_QUEUE",
+        "queue": "jp-goods-radar-gemini-test"
+      }
+    ]
+  },
+  "triggers": {
+    "crons": ["* * * * *"]
+  },
+  "vars": {
+    "ALERT_EMAIL_FROM": "格银西里尔 <alerts@example.com>",
+    "ALERT_EMAIL_TO": "alerts@example.com",
+    "MAX_EMAILS_PER_DAY": "80",
+    "HERMES_NOTIFICATIONS_ENABLED": "true",
+    "HERMES_WEBHOOK_URL": "https://jp-goods-radar.96-9-210-39.sslip.io:8443/webhooks/jp-goods-radar",
+    // Legacy name: per-tick dispatch batch only; never a watch creation/resume cap.
+    "MAX_ACTIVE_BINDINGS": "80",
+    "DEFAULT_INTERVAL_MINUTES": "60",
+    "MERCARI_ADAPTER_URL": "https://your-mercari-service.vercel.app/",
+    "MERCARI_SOURCE_RUNNER_MODE": "off",
+    "SURUGAYA_ADAPTER_URL": "https://your-mercari-service.vercel.app/",
+    "SOURCE_ADAPTER_URL": "https://your-mercari-service.vercel.app/",
+    "SOURCE_RUNNER_URL": "https://jp-goods-radar.96-9-210-39.sslip.io:8443/source-runner/",
+    "AMAZON_CLOUDFLARE_DIRECT_ENABLED": "true",
+    "YAHOO_CLOUDFLARE_DIRECT_ENABLED": "true",
+    "SURUGAYA_CLOUDFLARE_DIRECT_ENABLED": "true",
+    "FIXED_HTML_CLOUDFLARE_DIRECT_ENABLED": "true",
+    "YAHOO_FLEAMARKET_CLOUDFLARE_DIRECT_ENABLED": "true",
+    "BROWSER_RUN_FALLBACK_ENABLED": "true",
+    "YAHOO_WEB_EXPERIMENTAL_ENABLED": "true",
+    "YAHOO_WEB_EXPERIMENTAL_MAX_PAGES": "3",
+    "YAHOO_WEB_EXPERIMENTAL_DELAY_MS": "2000",
+    "RAKUTEN_APPLICATION_URL": "https://eru.example.com/",
+    "RAKUTEN_AFFILIATE_MODE": "false",
+    "RAKUTEN_PRIVATE_MONITORING_ENABLED": "false",
+    "RAKUTEN_ICHIBA_PRIVATE_MONITORING_ENABLED": "true",
+    "RAKUTEN_BOOKS_PRIVATE_MONITORING_ENABLED": "false",
+    "AMAZON_HTML_MONITORING_ENABLED": "true",
+    "YAHOO_AUCTIONS_EXPERIMENTAL_ENABLED": "true",
+    "YAHOO_AUCTIONS_TIMEOUT_MS": "15000",
+    "YAHOO_AUCTIONS_RATE_INTERVAL_MS": "2000",
+    "YAHOO_AUCTIONS_SEARCH_CACHE_SECONDS": "45",
+    "YAHOO_AUCTIONS_DETAIL_CACHE_SECONDS": "30"
+  }
+}

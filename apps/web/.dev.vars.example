@@ -1,0 +1,4 @@
+NEXTJS_ENV=development
+ADMIN_AUTH_SECRET=replace-with-a-random-secret
+ADMIN_PASSWORD_DIGEST=replace-with-hmac-sha256-hex
+SESSION_SIGNING_SECRET=replace-with-a-different-random-secret

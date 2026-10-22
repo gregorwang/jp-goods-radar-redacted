@@ -1,0 +1,9 @@
+{
+  "name": "@jpgr/email",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts", "./listing-groups": "./src/listing-groups.ts" },
+  "dependencies": { "@jpgr/core": "workspace:*" },
+  "scripts": { "typecheck": "tsc --noEmit" }
+}

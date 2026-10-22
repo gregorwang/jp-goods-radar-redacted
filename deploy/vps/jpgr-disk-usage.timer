@@ -1,0 +1,11 @@
+[Unit]
+Description=Record JP Goods Radar VPS disk usage every 6 hours
+
+[Timer]
+OnCalendar=*-*-* 00/6:05:00
+Persistent=true
+RandomizedDelaySec=5m
+Unit=jpgr-disk-usage.service
+
+[Install]
+WantedBy=timers.target

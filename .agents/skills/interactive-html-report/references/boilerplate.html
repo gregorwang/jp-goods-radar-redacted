@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>交互式数据研究报告模板 · 商业智能与决策分析</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+SC:wght@400;500;700&family=Spectral:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper:          #F2EFE7;
+  --surface:        #FBFAF6;
+  --sunk:           #EAE6DA;
+  --ink:            #1B2422;
+  --ink-2:          #4A5754;
+  --ink-3:          #7C8884;
+  --rule:           #D9D3C5;
+  --rule-2:         #C4BCA9;
+  --risk:           #2E6F66;
+  --event:          #C0522F;
+  --warn:           #B4832B;
+  --censor:         #9AA79F;
+  --accent-blue:    #2E6F9E;
+  --shadow:         0 1px 0 rgba(27,36,34,.06), 0 8px 24px -18px rgba(27,36,34,.5);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px; line-height: 1.78; -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 28px; }
+.col { max-width: 76ch; }
+
+h1, h2, h3, h4 { font-family: Spectral, Georgia, serif; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2.1rem, 5.2vw, 3.4rem); font-weight: 700; line-height: 1.12; letter-spacing: -.015em; }
+h2 { font-size: clamp(1.45rem, 3.0vw, 2.05rem); font-weight: 600; line-height: 1.28; margin-bottom: 8px; }
+h3 { font-size: 1.18rem; font-weight: 600; line-height: 1.38; }
+p { margin: 0; }
+
+.eyebrow {
+  font-family: "IBM Plex Mono", monospace; font-size: .72rem; font-weight: 500;
+  letter-spacing: .19em; text-transform: uppercase; color: var(--ink-3);
+}
+.lead { font-size: 1.12rem; color: var(--ink-2); line-height: 1.82; }
+
+/* 头部与 Factbar */
+header { border-bottom: 1px solid var(--rule); background: var(--surface); }
+.masthead { display: flex; flex-direction: column; gap: 24px; padding: 44px 0 32px; }
+.crumb { display: flex; gap: 10px 18px; align-items: baseline; }
+.crumb a { color: var(--risk); text-decoration: none; }
+.title-block { display: flex; flex-direction: column; gap: 12px; max-width: 44ch; }
+.subtitle { font-family: Spectral, serif; font-size: clamp(1.05rem, 2.2vw, 1.3rem); font-style: italic; color: var(--ink-2); }
+
+.factbar {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  border-top: 1px solid var(--rule); border-left: 1px solid var(--rule);
+}
+.factbar div { border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: 12px 14px; }
+.factbar dt { font-family: "IBM Plex Mono", monospace; font-size: .64rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 4px; }
+.factbar dd { margin: 0; font-family: "IBM Plex Mono", monospace; font-size: 1.05rem; font-weight: 600; color: var(--ink); }
+
+/* 章节 */
+section { padding: 50px 0; border-bottom: 1px solid var(--rule); }
+.sec-head { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+.stack { display: flex; flex-direction: column; gap: 20px; }
+
+/* 置顶初学者与避坑 */
+#learn { background: linear-gradient(180deg, var(--sunk) 0%, var(--paper) 100%); border-bottom: 2px solid var(--rule-2); padding: 40px 0 46px; }
+details.learn { border: 1px solid var(--rule); background: var(--surface); margin-bottom: -1px; }
+details.learn summary { padding: 14px 18px; cursor: pointer; font-family: Spectral, serif; font-size: 1.05rem; font-weight: 600; user-select: none; }
+.learn-body { padding: 0 20px 20px 40px; display: flex; flex-direction: column; gap: 12px; font-size: .94rem; color: var(--ink-2); }
+
+/* 警示与注记 */
+.note { border-left: 3px solid var(--risk); background: var(--sunk); padding: 16px 20px; display: flex; flex-direction: column; gap: 6px; }
+.note.event { border-left-color: var(--event); }
+.note.caution { border-left-color: var(--warn); }
+
+/* 表格与交互控制 */
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--rule); background: var(--surface); margin: 8px 0; }
+table { border-collapse: collapse; width: 100%; font-size: .86rem; min-width: 680px; }
+th, td { padding: 10px 14px; text-align: right; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; font-family: "IBM Plex Sans", sans-serif; font-weight: 500; color: var(--ink); }
+thead th { font-family: "IBM Plex Mono", monospace; font-size: .66rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); background: var(--sunk); }
+tbody td { font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; color: var(--ink-2); }
+tbody tr:hover { background: rgba(234,230,218, .5); }
+
+/* 交互控制条 */
+.table-controls { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.filter-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+.pill {
+  background: var(--surface); border: 1px solid var(--rule); padding: 4px 12px;
+  font-family: "IBM Plex Sans", sans-serif; font-size: 0.78rem; font-weight: 500;
+  color: var(--ink-2); cursor: pointer; border-radius: 20px; transition: all 0.15s ease;
+}
+.pill:hover { background: var(--sunk); color: var(--ink); }
+.pill.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.search-box {
+  display: flex; align-items: center; gap: 8px; background: var(--surface);
+  border: 1px solid var(--rule); padding: 4px 10px; border-radius: 4px;
+}
+.search-box input { border: none; background: transparent; font-size: 0.85rem; color: var(--ink); outline: none; width: 220px; }
+.count-badge { font-family: "IBM Plex Mono", monospace; font-size: 0.72rem; color: var(--ink-3); }
+
+/* 表头排序 */
+th[data-sort] { cursor: pointer; user-select: none; position: relative; padding-right: 22px !important; }
+th[data-sort]::after { content: " ⇅"; opacity: 0.35; font-family: "IBM Plex Mono", monospace; font-size: 0.75rem; }
+th[data-sort].asc::after { content: " ▲"; opacity: 0.9; color: var(--risk); }
+th[data-sort].desc::after { content: " ▼"; opacity: 0.9; color: var(--event); }
+
+/* SVG 与 Tooltip */
+.figure { display: flex; flex-direction: column; gap: 10px; margin: 12px 0; }
+.figure-head { display: flex; justify-content: space-between; align-items: baseline; }
+.figure-title { font-family: Spectral, serif; font-size: 1.12rem; font-weight: 600; }
+.qid { font-family: "IBM Plex Mono", monospace; font-size: .66rem; color: var(--ink-3); border: 1px solid var(--rule-2); padding: 2px 6px; background: var(--surface); }
+.plot { background: var(--surface); border: 1px solid var(--rule); padding: 20px 18px 14px; position: relative; overflow-x: auto; }
+.plot svg { display: block; min-width: 620px; width: 100%; height: auto; }
+.chart-bar { cursor: pointer; transition: opacity 0.15s ease; }
+.chart-bar:hover { opacity: 1 !important; filter: brightness(1.15); }
+.chart-tooltip {
+  position: absolute; display: none; pointer-events: none; background: var(--ink);
+  color: var(--surface); padding: 8px 12px; border-radius: 4px; font-size: 0.8rem;
+  line-height: 1.4; box-shadow: 0 4px 16px rgba(27,36,34, 0.25); z-index: 1000;
+  max-width: 260px; border: 1px solid var(--rule-2);
+}
+.chart-tooltip .tt-title { font-family: Spectral, serif; font-weight: 600; font-size: 0.95rem; margin-bottom: 4px; border-bottom: 1px solid rgba(255,255,255, 0.2); }
+.chart-tooltip .tt-row { display: flex; justify-content: space-between; gap: 12px; font-family: "IBM Plex Mono", monospace; font-size: 0.75rem; }
+
+/* 发现卡 */
+.finding { display: grid; grid-template-columns: auto 1fr; gap: 0 20px; padding: 22px 0; border-top: 1px solid var(--rule); }
+.finding-n { font-family: "IBM Plex Mono", monospace; font-size: .82rem; color: var(--event); font-weight: 600; }
+.claim { font-family: Spectral, serif; font-size: 1.24rem; font-weight: 600; line-height: 1.35; margin-bottom: 6px; }
+.rebut { font-size: .93rem; color: var(--ink-2); border-left: 2px solid var(--rule-2); padding-left: 14px; line-height: 1.72; }
+
+/* 代码与一键复制 */
+pre { background: var(--sunk); padding: 14px 16px; border: 1px solid var(--rule-2); overflow-x: auto; font-family: "IBM Plex Mono", monospace; font-size: .82rem; position: relative; margin: 0; }
+.copy-btn {
+  position: absolute; top: 8px; right: 8px; background: var(--surface); border: 1px solid var(--rule-2);
+  font-family: "IBM Plex Mono", monospace; font-size: 0.68rem; padding: 3px 8px; cursor: pointer;
+  color: var(--ink-2); border-radius: 2px; transition: all 0.15s ease;
+}
+.copy-btn:hover { background: var(--paper); color: var(--ink); }
+
+footer { padding: 44px 0 68px; color: var(--ink-3); font-size: .84rem; border-top: 1px solid var(--rule); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap masthead">
+    <div class="crumb eyebrow">
+      <a href="#">← 报告库</a>
+      <span>分析专题</span>
+    </div>
+    <div class="title-block">
+      <h1>报告主标题：核心现象与宏观断层</h1>
+      <p class="subtitle">针对关键业务指标的定量追踪、实证检验与系统策略结论。</p>
+    </div>
+    <dl class="factbar">
+      <div><dt>核心指标 1</dt><dd>59 个</dd></div>
+      <div><dt>核心指标 2</dt><dd>2,246 次</dd></div>
+      <div><dt>核心指标 3</dt><dd>15 件</dd></div>
+      <div><dt>核心指标 4</dt><dd>3.52 ×</dd></div>
+      <div><dt>核心指标 5</dt><dd>0.0%</dd></div>
+      <div><dt>核心指标 6</dt><dd>5 ~ 28 天</dd></div>
+    </dl>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- 置顶方法论 -->
+<section id="learn">
+  <div class="sec-head">
+    <p class="eyebrow">方法论前置 · 初学者导航</p>
+    <h2>避坑指南、口径声明与复现准备</h2>
+  </div>
+  <div class="stack">
+    <details class="learn" open>
+      <summary>01 · 核心指标计算公式与度量标准</summary>
+      <div class="learn-body">
+        <p>在数据分析中，严禁简单使用算术平均数掩盖极端值。单品获取成本的计算公式为：</p>
+        <pre><code>UnitCost = TotalRequests / DistinctConfirmedItems</code></pre>
+      </div>
+    </details>
+  </div>
+</section>
+
+<!-- 第一章：大盘与交互式数据表格 -->
+<section id="analytics">
+  <div class="sec-head">
+    <p class="eyebrow">第一章 · 宏观大盘 · 实时交互</p>
+    <h2>各来源产出效能与成本阶梯</h2>
+  </div>
+  <div class="stack">
+    <p class="lead">下方表格已集成<b>多列智能排序</b>、<b>即时模糊搜索</b>与<b>分类标签快速筛选</b>。点击表头即可即时排序，输入关键词可实时过滤。</p>
+
+    <!-- 交互控制条 -->
+    <div class="table-controls">
+      <div class="filter-pills" id="pillsContainer">
+        <button class="pill active" data-filter="all">全部来源</button>
+        <button class="pill" data-filter="second">二手市场</button>
+        <button class="pill" data-filter="primary">一手平台</button>
+      </div>
+      <div class="search-box">
+        <input type="text" id="tableSearchInput" placeholder="输入名称、类型过滤..." />
+        <span class="count-badge" id="rowCountBadge"></span>
+      </div>
+    </div>
+
+    <!-- 数据表格 -->
+    <div class="tbl-wrap">
+      <table id="mainDataTable">
+        <thead>
+          <tr>
+            <th data-sort="text">平台来源</th>
+            <th data-sort="text">市场类别</th>
+            <th data-sort="number">成功巡检轮次</th>
+            <th data-sort="number">上游请求总数</th>
+            <th data-sort="number">平均每轮请求</th>
+            <th data-sort="number">确认去重商品</th>
+            <th data-sort="number">单品请求成本</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-category="second" data-source="mercari_jp">
+            <td><b>mercari_jp (煤炉)</b></td>
+            <td>二手市场</td>
+            <td>37</td>
+            <td>675</td>
+            <td>18.2</td>
+            <td>7</td>
+            <td>96.4</td>
+          </tr>
+          <tr data-category="second" data-source="yahoo_auctions_jp">
+            <td><b>yahoo_auctions_jp (拍卖)</b></td>
+            <td>二手市场</td>
+            <td>43</td>
+            <td>947</td>
+            <td>22.0</td>
+            <td>6</td>
+            <td>157.8</td>
+          </tr>
+          <tr data-category="second" data-source="yahoo_fleamarket_jp">
+            <td><b>yahoo_fleamarket_jp (二手)</b></td>
+            <td>二手市场</td>
+            <td>22</td>
+            <td>132</td>
+            <td>6.0</td>
+            <td>2</td>
+            <td>66.0</td>
+          </tr>
+          <tr data-category="primary" data-source="rakuten_ichiba">
+            <td><b>rakuten_ichiba (乐天)</b></td>
+            <td>一手平台</td>
+            <td>23</td>
+            <td>41</td>
+            <td>1.8</td>
+            <td>1</td>
+            <td>41.0</td>
+          </tr>
+          <tr data-category="primary" data-source="animate">
+            <td><b>animate (Animate)</b></td>
+            <td>一手单店</td>
+            <td>23</td>
+            <td>48</td>
+            <td>2.1</td>
+            <td>0</td>
+            <td>0.0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 交互式 SVG 矢量图表 -->
+    <div class="figure">
+      <div class="figure-head">
+        <span class="figure-title">图 1 · 单品获取请求成本阶梯 (Requests / Item) · 鼠标悬停查看详情</span>
+        <span class="qid">fig_01.svg</span>
+      </div>
+      <div class="plot" id="plotContainer">
+        <svg viewBox="0 0 900 200" role="img">
+          <line x1="220" x2="840" y1="20" y2="160" stroke="#C4BCA9" stroke-width="1"></line>
+          
+          <text fill="#1B2422" font-size="12" text-anchor="end" x="208" y="44">乐天市场 (代购)</text>
+          <rect x="220" y="30" width="100" height="20" fill="#2E6F66" opacity="0.88" rx="2" class="chart-bar"
+                data-source="rakuten_ichiba" data-label="乐天市场 (rakuten_ichiba)" data-requests="41" data-items="1" data-cost="41.0 次/品" data-note="山森堂第三方书店代购">
+          </rect>
+          <text fill="#1B2422" font-size="11" font-weight="600" font-family="IBM Plex Mono, monospace" x="330" y="45">41.0 次</text>
+
+          <text fill="#1B2422" font-size="12" text-anchor="end" x="208" y="84">雅虎二手 (Yahoo! Flea)</text>
+          <rect x="220" y="70" width="160" height="20" fill="#2E6F66" opacity="0.88" rx="2" class="chart-bar"
+                data-source="yahoo_fleamarket_jp" data-label="雅虎二手 (yahoo_fleamarket_jp)" data-requests="132" data-items="2" data-cost="66.0 次/品" data-note="高性价比一口价二手">
+          </rect>
+          <text fill="#1B2422" font-size="11" font-weight="600" font-family="IBM Plex Mono, monospace" x="390" y="85">66.0 次</text>
+
+          <text fill="#1B2422" font-size="12" text-anchor="end" x="208" y="124">煤炉 (Mercari)</text>
+          <rect x="220" y="110" width="234" height="20" fill="#2E6F66" opacity="0.88" rx="2" class="chart-bar"
+                data-source="mercari_jp" data-label="煤炉 (mercari_jp)" data-requests="675" data-items="7" data-cost="96.4 次/品" data-note="核心出货主力，独占服饰原画">
+          </rect>
+          <text fill="#1B2422" font-size="11" font-weight="600" font-family="IBM Plex Mono, monospace" x="464" y="125">96.4 次</text>
+        </svg>
+      </div>
+    </div>
+
+    <!-- 发现卡 -->
+    <div class="finding">
+      <div class="finding-n">F-01</div>
+      <div>
+        <div class="claim">核心反常识论断：二手市场为唯一同款出货场域，一手店扩写导致 100% 空转</div>
+        <div class="rebut">
+          详细实证推导与反驳...
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap">
+  <div><b>交互式商业智能报告架构</b> · 纯前端自洽规范</div>
+</footer>
+
+<!-- 纯前端零依赖交互脚本 -->
+<script>
+// 1. 表格即时多列排序
+function makeSortable(table) {
+  const headers = table.querySelectorAll('th[data-sort]');
+  headers.forEach((header, index) => {
+    header.addEventListener('click', () => {
+      const tbody = table.querySelector('tbody');
+      const rows = Array.from(tbody.querySelectorAll('tr'));
+      const isAsc = header.classList.contains('asc');
+      headers.forEach(h => h.classList.remove('asc', 'desc'));
+      header.classList.toggle('asc', !isAsc);
+      header.classList.toggle('desc', isAsc);
+      const sortType = header.getAttribute('data-sort') || 'text';
+      rows.sort((rowA, rowB) => {
+        const cellA = rowA.children[index].innerText.trim();
+        const cellB = rowB.children[index].innerText.trim();
+        if (sortType === 'number') {
+          const numA = parseFloat(cellA.replace(/[^0-9.-]+/g, '')) || 0;
+          const numB = parseFloat(cellB.replace(/[^0-9.-]+/g, '')) || 0;
+          return isAsc ? numB - numA : numA - numB;
+        } else {
+          return isAsc ? cellB.localeCompare(cellA, 'zh-CN') : cellA.localeCompare(cellB, 'zh-CN');
+        }
+      });
+      const fragment = document.createDocumentFragment();
+      rows.forEach(r => fragment.appendChild(r));
+      tbody.appendChild(fragment);
+    });
+  });
+}
+
+// 2. 实时表格过滤与胶囊
+function initTableFilter(tableId, searchInputId, pillsContainerId, countBadgeId) {
+  const table = document.getElementById(tableId);
+  const searchInput = document.getElementById(searchInputId);
+  const pillsContainer = document.getElementById(pillsContainerId);
+  const countBadge = document.getElementById(countBadgeId);
+  if (!table) return;
+  const rows = Array.from(table.querySelectorAll('tbody tr'));
+  let currentCategory = 'all';
+  let currentSearch = '';
+  function apply() {
+    let visible = 0;
+    rows.forEach(row => {
+      const text = row.innerText.toLowerCase();
+      const cat = row.getAttribute('data-category') || '';
+      const mSearch = currentSearch === '' || text.includes(currentSearch);
+      const mPill = currentCategory === 'all' || cat === currentCategory;
+      if (mSearch && mPill) {
+        row.style.display = '';
+        visible++;
+      } else {
+        row.style.display = 'none';
+      }
+    });
+    if (countBadge) countBadge.innerText = `${visible} / ${rows.length} 条`;
+  }
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      currentSearch = e.target.value.trim().toLowerCase();
+      apply();
+    });
+  }
+  if (pillsContainer) {
+    pillsContainer.querySelectorAll('.pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        pillsContainer.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        currentCategory = pill.getAttribute('data-filter') || 'all';
+        apply();
+      });
+    });
+  }
+  apply();
+}
+
+// 3. SVG 悬浮 Tooltip 引擎
+function initSvgTooltips(containerId) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  let tooltip = document.querySelector('.chart-tooltip');
+  if (!tooltip) {
+    tooltip = document.createElement('div');
+    tooltip.className = 'chart-tooltip';
+    document.body.appendChild(tooltip);
+  }
+  const elements = container.querySelectorAll('[data-label]');
+  elements.forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      const title = el.getAttribute('data-label') || '';
+      const reqs = el.getAttribute('data-requests') || '';
+      const items = el.getAttribute('data-items') || '';
+      const cost = el.getAttribute('data-cost') || '';
+      const note = el.getAttribute('data-note') || '';
+      tooltip.innerHTML = `
+        <div class="tt-title">${title}</div>
+        ${reqs ? `<div class="tt-row"><span>捕获请求:</span><b>${reqs} 次</b></div>` : ''}
+        ${items ? `<div class="tt-row"><span>确认商品:</span><b>${items} 件</b></div>` : ''}
+        ${cost ? `<div class="tt-row"><span>单品成本:</span><b>${cost}</b></div>` : ''}
+        ${note ? `<div style="margin-top:4px;font-size:0.7rem;color:#C4BCA9;">${note}</div>` : ''}
+      `;
+      tooltip.style.display = 'block';
+    });
+    el.addEventListener('mousemove', (e) => {
+      let left = e.pageX + 15;
+      let top = e.pageY + 15;
+      if (left + 260 > window.innerWidth) left = e.pageX - 270;
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${top}px`;
+    });
+    el.addEventListener('mouseleave', () => {
+      tooltip.style.display = 'none';
+    });
+  });
+}
+
+// 4. 一键复制 SQL / 代码
+function initCopyButtons() {
+  document.querySelectorAll('pre code').forEach(code => {
+    const pre = code.parentNode;
+    if (pre.querySelector('.copy-btn')) return;
+    const btn = document.createElement('button');
+    btn.className = 'copy-btn';
+    btn.innerText = '复制';
+    btn.addEventListener('click', async () => {
+      await navigator.clipboard.writeText(code.innerText);
+      btn.innerText = '已复制 ✓';
+      btn.style.color = 'var(--risk)';
+      setTimeout(() => { btn.innerText = '复制'; btn.style.color = ''; }, 1500);
+    });
+    pre.appendChild(btn);
+  });
+}
+
+// 5. 图表与表格联动
+function initCrossHighlight() {
+  document.querySelectorAll('.chart-bar[data-source]').forEach(bar => {
+    const src = bar.getAttribute('data-source');
+    bar.addEventListener('mouseenter', () => {
+      document.querySelectorAll('#mainDataTable tbody tr').forEach(tr => {
+        if (tr.getAttribute('data-source') === src) {
+          tr.style.background = 'rgba(46, 111, 102, 0.18)';
+        } else {
+          tr.style.opacity = '0.35';
+        }
+      });
+    });
+    bar.addEventListener('mouseleave', () => {
+      document.querySelectorAll('#mainDataTable tbody tr').forEach(tr => {
+        tr.style.background = '';
+        tr.style.opacity = '1';
+      });
+    });
+  });
+}
+
+// 页面加载完成初始化
+document.addEventListener('DOMContentLoaded', () => {
+  const table = document.getElementById('mainDataTable');
+  if (table) makeSortable(table);
+  initTableFilter('mainDataTable', 'tableSearchInput', 'pillsContainer', 'rowCountBadge');
+  initSvgTooltips('plotContainer');
+  initCopyButtons();
+  initCrossHighlight();
+});
+</script>
+
+</body>
+</html>

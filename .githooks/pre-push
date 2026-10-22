@@ -1,0 +1,42 @@
+#!/bin/sh
+# 部署门禁的新位置。
+#
+# collector 与 web 都由 Cloudflare Workers Builds 在 push 之后自动部署，
+# 构建机上没有那台 VPS 的 SSH 密钥，跑不了 `pnpm verify:sql`（它是
+# `ssh root@… psql` 把每条静态 .prepare() 拿到生产库 PREPARE）。
+# 把根 SSH 私钥放进构建环境不值得，所以门禁前移到 push——这是最后一个
+# 还握着密钥、又必然经过的关口。
+#
+# 见 AGENTS.md §1：2026-09-04 一条 `WHEN ? IS NULL` 就是这样溜上线的，
+# 采集整夜 42P08 全失败，而摘要邮件照常送达、看上去一切正常。
+#
+# 数据库连不上时用 JPGR_SKIP_SQL_VERIFY=1 git push 跳过。
+
+set -e
+
+if [ "$JPGR_SKIP_SQL_VERIFY" = "1" ]; then
+  echo "pre-push: JPGR_SKIP_SQL_VERIFY=1，跳过 SQL 预编译校验"
+  exit 0
+fi
+
+zero=$(git hash-object --stdin </dev/null | tr '0-9a-f' '0')
+changed=""
+while read -r _local_ref local_sha _remote_ref remote_sha; do
+  [ "$local_sha" = "$zero" ] && continue
+  if [ "$remote_sha" = "$zero" ]; then
+    range=$(git rev-list -n 50 "$local_sha" | tail -1)
+    files=$(git diff --name-only "$range" "$local_sha" 2>/dev/null || git show --name-only --pretty=format: "$local_sha")
+  else
+    files=$(git diff --name-only "$remote_sha" "$local_sha")
+  fi
+  changed="$changed
+$files"
+done
+
+# 静态 .prepare() 只出现在这三个源码目录；迁移目录一起看，改了表结构也要复验。
+if ! printf '%s\n' "$changed" | grep -Eq '^(apps/collector/src/|apps/web/src/|packages/db/src/|postgres/)'; then
+  exit 0
+fi
+
+echo "pre-push: 检测到 SQL 相关改动，运行 pnpm verify:sql…"
+pnpm verify:sql

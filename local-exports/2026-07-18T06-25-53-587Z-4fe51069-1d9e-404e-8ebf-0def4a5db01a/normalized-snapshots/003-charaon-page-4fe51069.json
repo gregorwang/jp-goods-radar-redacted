@@ -1,0 +1,40 @@
+{
+  "sourceId": "charaon",
+  "status": "empty",
+  "listings": [],
+  "coverage": "rolling_window",
+  "parserVersion": "charaon-html-v1",
+  "warnings": [
+    "搜索结果覆盖 CharaON 当前公开分页；详情字段仅在展开或监控时补全",
+    "该来源成功响应但没有匹配商品；可尝试更短的日文关键词或放宽筛选"
+  ],
+  "requestRoute": "direct",
+  "routeOutcome": {
+    "kind": "primary_success",
+    "route": "direct"
+  },
+  "fieldCoverage": {
+    "required": {
+      "total": 0,
+      "complete": 0
+    },
+    "optional": {
+      "total": 0,
+      "complete": 0
+    }
+  },
+  "durationMs": 3264,
+  "requestEvidence": {
+    "availabilityMode": "all",
+    "requestedStatuses": [],
+    "rawResultCount": 0,
+    "normalizedResultCount": 0,
+    "pagesFetched": 3,
+    "keywordRawResultCount": 0,
+    "liveDetailResultCount": 0,
+    "anchorCandidateCount": 0,
+    "parserAcceptedCount": 0,
+    "parserRejectedCount": 0
+  },
+  "candidateEvidence": {}
+}

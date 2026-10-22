@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">格银西里尔导航符号组</title>
+  <desc id="desc">七枚业务导航符号与一枚紧凑品牌符印的矢量预览。</desc>
+  <defs>
+    <style>
+      .icon { fill: none; stroke: currentColor; stroke-width: 2.6; stroke-linecap: square; stroke-linejoin: miter; }
+      .fine { stroke-width: 1.9; }
+      .solid { fill: currentColor; stroke: none; }
+      .label { fill: #18211e; font: 500 18px "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; letter-spacing: .08em; }
+      .caption { fill: #6c7a76; font: 12px Consolas, monospace; letter-spacing: .18em; }
+    </style>
+
+    <symbol id="overview" viewBox="0 0 48 48">
+      <g class="icon">
+        <circle cx="24" cy="24" r="18"/>
+        <path d="M24 6v8m0-8-3-3m3 3 3-3M24 34v8m0 0-3 3m3-3 3 3M6 24h9m-9 0 3-3m-3 3 3 3m24-3h9m0 0-3-3m3 3-3 3"/>
+        <path d="m24 14 10 10-10 10-10-10 10-10Z"/>
+        <path d="M24 18v12m0-10 4 4-4 4"/>
+        <path class="fine" d="M11 18c2-4 4-6 7-8m12 0c3 2 5 4 7 8M11 30c2 4 4 6 7 8m12 0c3-2 5-4 7-8"/>
+      </g>
+    </symbol>
+
+    <symbol id="search" viewBox="0 0 48 48">
+      <g class="icon">
+        <path d="M8 16V8h8M32 8h8v8M8 32v8h8"/>
+        <path d="m24 13 12 12-12 12-12-12 12-12Z"/>
+        <path d="M31.5 32.5 42 43M35 36l3-3"/>
+        <path d="M23 18v14m0-11 7 7v-7"/>
+        <path class="solid" d="m17 25 2-2 2 2-2 2-2-2Z"/>
+      </g>
+    </symbol>
+
+    <symbol id="watches" viewBox="0 0 48 48">
+      <g class="icon">
+        <path d="M13 5h22v35L24 32 13 40V5Z"/>
+        <path class="fine" d="M17 9h14v22l-7-5-7 5V9Z"/>
+        <path d="M24 12v15m0-9 6-5m-6 11 6-5"/>
+        <path d="m24 34 3 3-3 3-3-3 3-3Z"/>
+      </g>
+    </symbol>
+
+    <symbol id="archive" viewBox="0 0 48 48">
+      <g class="icon">
+        <path d="m7 15 9-8h24l5 6v25l-5 5H9l-4-4V17l2-2Z"/>
+        <path d="M7 15h31l7-2M5 24h34l6-5M38 15v28"/>
+        <path class="fine" d="m16 7-5 8m14-8-5 8m15-8-5 8M8 17l8 7m9-9 9 9"/>
+        <path d="m24 27 6 6-6 6-6-6 6-6Z"/>
+        <path d="M24 29v8m0-6 3 3"/>
+      </g>
+    </symbol>
+
+    <symbol id="signals" viewBox="0 0 48 48">
+      <g class="icon">
+        <path d="m24 11 6 6-6 6-6-6 6-6ZM24 23v18m-8 5 8-8 8 8M24 3v8m0-8-3 3m3-3 3 3"/>
+        <path class="fine" d="M15 12c-5 6-5 13 0 19m18-19c5 6 5 13 0 19M10 8C2 17 3 28 10 36m28-28c8 9 7 20 0 28"/>
+        <path d="m21 27 6-5m-6 11 6-5"/>
+      </g>
+    </symbol>
+
+    <symbol id="analytics" viewBox="0 0 48 48">
+      <g class="icon">
+        <path d="M7 41h34M10 36V27h7v9m3 0V21h7v15m3 0V14h7v22"/>
+        <path d="m8 25 9-10 6 6L38 5m0 0h-8m8 0v8"/>
+        <path d="m24 38 3 3-3 3-3-3 3-3Z"/>
+        <path class="fine" d="m12 31 3-3m8-3 3-3m6-3 4-4"/>
+      </g>
+    </symbol>
+
+    <symbol id="sources" viewBox="0 0 48 48">
+      <g class="icon">
+        <path d="m24 4 7 7-7 7-7-7 7-7ZM24 18v22M24 24 12 35m12-11 12 11"/>
+        <path d="m11 31 6 6-6 6-6-6 6-6Zm26 0 6 6-6 6-6-6 6-6Zm-13 9 4 4-4 4-4-4 4-4Z"/>
+        <path d="M24 8v7m0-5 3 3M11 35v5m26-5v5m-13 3v3"/>
+      </g>
+    </symbol>
+
+    <symbol id="brand" viewBox="0 0 48 48">
+      <g class="icon">
+        <path d="M24 2v7m0-7-3 3m3-3 3 3M24 39v7m0 0-3-3m3 3 3-3M2 24h7m-7 0 3-3m-3 3 3 3m34-3h7m0 0-3-3m3 3-3 3"/>
+        <path d="m24 9 15 15-15 15L9 24 24 9Z"/>
+        <path d="M24 14v20M15 24h18M18 18l12 12m0-12L18 30"/>
+        <path class="fine" d="M5 17v-5h5m28 0h5v5m0 14v5h-5m-28 0H5v-5"/>
+        <path class="solid" d="m24 20 4 4-4 4-4-4 4-4Z"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <rect width="960" height="540" fill="#fbfcfa"/>
+  <path d="M0 270h960M240 0v540M480 0v540M720 0v540" stroke="#18211e" stroke-opacity=".1"/>
+
+  <g color="#416b80">
+    <use href="#overview" x="72" y="46" width="96" height="96"/>
+    <use href="#search" x="312" y="46" width="96" height="96"/>
+    <use href="#watches" x="552" y="46" width="96" height="96"/>
+    <use href="#archive" x="792" y="46" width="96" height="96"/>
+    <use href="#signals" x="72" y="316" width="96" height="96"/>
+    <use href="#analytics" x="312" y="316" width="96" height="96"/>
+    <use href="#sources" x="552" y="316" width="96" height="96"/>
+    <use href="#brand" x="792" y="316" width="96" height="96"/>
+  </g>
+
+  <g text-anchor="middle">
+    <text class="label" x="120" y="178">今日情报</text><text class="caption" x="120" y="204">OVERVIEW</text>
+    <text class="label" x="360" y="178">跨站搜索</text><text class="caption" x="360" y="204">SEARCH</text>
+    <text class="label" x="600" y="178">关注档案</text><text class="caption" x="600" y="204">WATCHES</text>
+    <text class="label" x="840" y="178">商品库</text><text class="caption" x="840" y="204">ARCHIVE</text>
+    <text class="label" x="120" y="448">变化与通知</text><text class="caption" x="120" y="474">SIGNALS</text>
+    <text class="label" x="360" y="448">数据分析</text><text class="caption" x="360" y="474">ANALYTICS</text>
+    <text class="label" x="600" y="448">来源控制台</text><text class="caption" x="600" y="474">SOURCES</text>
+    <text class="label" x="840" y="448">紧凑品牌符印</text><text class="caption" x="840" y="474">GOINNHELLIR</text>
+  </g>
+</svg>

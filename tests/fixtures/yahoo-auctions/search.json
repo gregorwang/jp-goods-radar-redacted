@@ -1,0 +1,55 @@
+{
+  "totalResultsAvailable": 100,
+  "items": [
+    {
+      "auctionId": "x1234567890",
+      "title": "合成测试用 ポケモンカード",
+      "price": 3888,
+      "buyNowPrice": 5200,
+      "bidCount": 3,
+      "watchCount": 12,
+      "startTime": "2026-07-12T00:50:04+09:00",
+      "endTime": "2026-07-15T21:39:43+09:00",
+      "itemCondition": "USED40",
+      "imageUrl": "https://auc-pctr.c.yimg.jp/synthetic/item.jpg",
+      "imageWidth": 300,
+      "imageHeight": 300,
+      "category": {
+        "id": 2084317608,
+        "name": "シングルカード",
+        "isAdult": false
+      },
+      "categoryPath": [
+        { "id": 1, "name": "おもちゃ" },
+        { "id": 2084317608, "name": "シングルカード" }
+      ],
+      "seller": {
+        "displayName": "synthetic-seller",
+        "goodRating": "100%",
+        "isStore": false,
+        "type": "AUCTION",
+        "userId": "must-not-leak-user-id",
+        "aucUserId": "must-not-leak-auc-id"
+      },
+      "isFreeShipping": true,
+      "isFixedPrice": false,
+      "isFleamarketItem": false,
+      "isShoppingItem": false,
+      "isAppraisal": true,
+      "isNewArrival": true,
+      "isFeatured": false,
+      "crumb": "must-not-leak-crumb",
+      "trackingScore": "must-not-leak-tracking"
+    },
+    {
+      "auctionId": "bad",
+      "title": "缺少合法拍卖 ID 的隔离行",
+      "price": 100
+    }
+  ],
+  "metadata": {
+    "limit": 20,
+    "sort": "+PRICE"
+  },
+  "crumb": "must-not-leak-root-crumb"
+}

@@ -1,0 +1,4199 @@
+{
+  "sourceId": "amazon_jp",
+  "status": "success",
+  "listings": [
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B07K65GFFT",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B07K65GFFT",
+      "title": "品 JAL ビジネスクラス アメニティ キッド 龍村美術織物 ポーチ 小物入れ 濃紺 紺 ネイビー 青 ブルー 飛行機 日本航空",
+      "imageUrl": "https://m.media-amazon.com/images/I/61kx9+s0A-L._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 7000,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B07K65GFFT"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61kx9+s0A-L._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り1点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0GLJ76D3W",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0GLJ76D3W",
+      "title": "JALビジネスクラスアメニティ ヘラルボニー 青",
+      "imageUrl": "https://m.media-amazon.com/images/I/71woIblse9L._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 4980,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0GLJ76D3W"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/71woIblse9L._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0H8LY385V",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0H8LY385V",
+      "title": "Dies irae ラバーストラップ 藤井蓮&ラインハルト",
+      "descriptionExcerpt": "Dies irae　ラバーストラップ　藤井蓮&ラインハルト",
+      "imageUrl": "https://m.media-amazon.com/images/I/61ZzcN508vL._AC_SL1080_.jpg",
+      "shopName": "ブランド: ノーブランド品",
+      "currency": "JPY",
+      "currentPrice": 8970,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0H8LY385V"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61ZzcN508vL._AC_SL1080_.jpg",
+          "https://m.media-amazon.com/images/I/61RZKqzMR4L._AC_SL1080_.jpg",
+          "https://m.media-amazon.com/images/I/61Ymc-CW0DL._AC_SL1080_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "通常4～5日以内に発送します。            在庫状況について",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0GWZ5D919",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0GWZ5D919",
+      "title": "[ENGAGING TOYS] JAL ひこうきTシャツ SORA KIDS ソラキッズ",
+      "imageUrl": "https://m.media-amazon.com/images/I/61HbPcg3NCL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 3520,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0GWZ5D919"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61HbPcg3NCL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0DW99MPCB",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0DW99MPCB",
+      "title": "JAL 株主優待券2枚セット 2026年11月30日まで有効 日本航空",
+      "imageUrl": "https://m.media-amazon.com/images/I/6131FahSwIL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1599,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0DW99MPCB"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/6131FahSwIL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4.7 · 7 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 7,
+        "starRating": "4.7",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0C86RB7PL",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0C86RB7PL",
+      "title": "[keychain] ANA JAL 全日空 日本航空 扇子 せんす",
+      "imageUrl": "https://m.media-amazon.com/images/I/51L2uJtw+UL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1320,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0C86RB7PL"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51L2uJtw+UL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 5 · 3 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 3,
+        "starRating": "5",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0FQ5545RP",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0FQ5545RP",
+      "title": "1/400 JAL ボーイング777 飛行機モデル 15.5cm ダイキャスト合金製 模型飛行機 日本航空完成品 プラスチックスタンド付属 デスクトップディスプレイの装飾、クリエイティブな旅客機の装飾",
+      "imageUrl": "https://m.media-amazon.com/images/I/51IUuGulofL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 3299,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0FQ5545RP"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51IUuGulofL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4.5 · 238 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り16点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 238,
+        "starRating": "4.5",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0FQ584BZG",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0FQ584BZG",
+      "title": "1/300 JAL 日本航空787 飛行機模型 - 日本航空 ボーイング787 ダイキャストメタル製飛行機 (スタンド付き) 航空機愛好家へのギフト、ディスプレイコレクション、デスクデコレーションに最適な航空会社模型 - 長さ8インチ",
+      "imageUrl": "https://m.media-amazon.com/images/I/51hAHApZ7aL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 4179,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0FQ584BZG"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51hAHApZ7aL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 5 · 1 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り4点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 1,
+        "starRating": "5",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0DS8ZWC7K",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0DS8ZWC7K",
+      "title": "JAL ノベルティ エンジェルブルー ANGELBLUE ステーショナリーセット",
+      "imageUrl": "https://m.media-amazon.com/images/I/61hlqFWmHHL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1980,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0DS8ZWC7K"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61hlqFWmHHL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0H1CT3RFG",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0H1CT3RFG",
+      "title": "JAL エアバス A350 JA01WJ 飛行機 プラモデル 航空機",
+      "imageUrl": "https://m.media-amazon.com/images/I/615oIvRcakL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1650,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0H1CT3RFG"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/615oIvRcakL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B01EOF5RJU",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B01EOF5RJU",
+      "title": "ジャルックス 1/600 B737-800 JAL 完成品",
+      "imageUrl": "https://m.media-amazon.com/images/I/51p+4TQQQML._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2380,
+      "originalPrice": 2750,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B01EOF5RJU"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51p+4TQQQML._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 5 · 3 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り3点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 3,
+        "starRating": "5",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B01FFNJTF8",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B01FFNJTF8",
+      "title": "TANG DYNASTY 1/400 16cm 日本航空 Japan Airline (JAL) B747 合金飛行機プレーン模型 おもちゃ",
+      "imageUrl": "https://m.media-amazon.com/images/I/61xm+zeitxL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2900,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B01FFNJTF8"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61xm+zeitxL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4.5 · 12 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り9点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 12,
+        "starRating": "4.5",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B08JHRFM5J",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B08JHRFM5J",
+      "title": "[MARUSHO] キャリーオンバッグ JAL Ver.02 日本航空 Japan Air Airlines JAL LOGO 折り畳み トラベル 旅行 お買い物 トートバッグ マイバッグ エコバッグ エアライン グッズ goods",
+      "imageUrl": "https://m.media-amazon.com/images/I/51ohse4sLUL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1530,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B08JHRFM5J"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51ohse4sLUL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4.2 · 15 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 15,
+        "starRating": "4.2",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0FQ55TX5Q",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0FQ55TX5Q",
+      "title": "1/400 JAL 日本航空 ボーイング747 飛行機モデル 15.5cm ダイキャスト合金製 模型飛行機 完成品 プラスチックスタンド付属 デスクトップディスプレイの装飾、クリエイティブな旅客機の装飾",
+      "imageUrl": "https://m.media-amazon.com/images/I/51bSYouEBdL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 3299,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0FQ55TX5Q"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51bSYouEBdL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4.6 · 431 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 431,
+        "starRating": "4.6",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B08NYH17B7",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B08NYH17B7",
+      "title": "JAL 日本航空 ボーイング 787-8 ドリームライナー 完成品",
+      "imageUrl": "https://m.media-amazon.com/images/I/41Dkqt2rFcL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1760,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B08NYH17B7"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/41Dkqt2rFcL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 3.8 · 10 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り3点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 10,
+        "starRating": "3.8",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0FDFZ451G",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0FDFZ451G",
+      "title": "丸眞 不織布バッグ キャラクター トートバッグ 軽い",
+      "imageUrl": "https://m.media-amazon.com/images/I/61-tVp3x2QL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 409,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0FDFZ451G"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61-tVp3x2QL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 5 · 2 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 2,
+        "starRating": "5",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0F899CZ49",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0F899CZ49",
+      "title": "JAL KIDS エンジェルブルーコレクション トートバッグ",
+      "imageUrl": "https://m.media-amazon.com/images/I/71O3vMVYoSL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 0,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0F899CZ49"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/71O3vMVYoSL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0GVLPX4BF",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0GVLPX4BF",
+      "title": "JAL エアバスA350 模型 U",
+      "imageUrl": "https://m.media-amazon.com/images/I/71cp6nkylpL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2050,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0GVLPX4BF"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/71cp6nkylpL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0FM8CN8SF",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0FM8CN8SF",
+      "title": "Japan Airlines A350 プラモデル JAL エアバス",
+      "imageUrl": "https://m.media-amazon.com/images/I/61HLrWWb+NL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1650,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0FM8CN8SF"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61HLrWWb+NL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0F8VN444F",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0F8VN444F",
+      "title": "JAL ノベルティー キーホルダー フライトタグ 日本航空",
+      "imageUrl": "https://m.media-amazon.com/images/I/61HBYd6DPdL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2280,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0F8VN444F"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61HBYd6DPdL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B01FFNNJR2",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B01FFNNJR2",
+      "title": "TANG DYNASTY 1/400 16cm 日本航空 Japan Airline (JAL) B777 合金飛行機プレーン模型 おもちゃ",
+      "imageUrl": "https://m.media-amazon.com/images/I/61ka7iiQmJL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 3499,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B01FFNNJR2"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61ka7iiQmJL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4.1 · 27 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 27,
+        "starRating": "4.1",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B08P4BTT4S",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B08P4BTT4S",
+      "title": "マルショウ フライトタグ JAL MZ416 135×30mm",
+      "imageUrl": "https://m.media-amazon.com/images/I/71H8t9H8pcL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1383,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B08P4BTT4S"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/71H8t9H8pcL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4 · 10 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 10,
+        "starRating": "4",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0BLLV46BV",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0BLLV46BV",
+      "title": "ZIPPO JAPAN AIRLINES 日本航空 JAL スカイブルー グラデーションカラー2002年10月製造 オイルライター ジッポー 廃版激",
+      "imageUrl": "https://m.media-amazon.com/images/I/315RImnFSwL._AC_UL600_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 52330,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0BLLV46BV"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/315RImnFSwL._AC_UL600_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0GW5YS9V4",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0GW5YS9V4",
+      "title": "JAL 沖縄 UEO フライトタグ 琉球 日本航空 飛行機",
+      "imageUrl": "https://m.media-amazon.com/images/I/71-gEUBoujL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1950,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0GW5YS9V4"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/71-gEUBoujL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0FKBWPL3Y",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0FKBWPL3Y",
+      "title": "【非売品】 JAL ビジネスクラス アメニティ ヘラルボニー",
+      "imageUrl": "https://m.media-amazon.com/images/I/61+skbe7oUL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 3058,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0FKBWPL3Y"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61+skbe7oUL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0BBL37YG5",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0BBL37YG5",
+      "title": "リアルサウンドジェット JAL MT490",
+      "imageUrl": "https://m.media-amazon.com/images/I/31rKjn-jipL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2200,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0BBL37YG5"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/31rKjn-jipL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4 · 11 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 11,
+        "starRating": "4",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B06XX36HB4",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B06XX36HB4",
+      "title": "JALUX G JAL B777300 ﾀﾞｲｷｬｽﾄﾓﾃﾞﾙ 1:600 1/600 BJS1006",
+      "imageUrl": "https://m.media-amazon.com/images/I/418sWg+SeNL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2510,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B06XX36HB4"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/418sWg+SeNL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 3.1 · 5 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 5,
+        "starRating": "3.1",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0H48FH41L",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0H48FH41L",
+      "title": "JAL 日本航空 プラモデル A350-1000 ノベルティ",
+      "imageUrl": "https://m.media-amazon.com/images/I/81kkHe4ECcL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1980,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0H48FH41L"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/81kkHe4ECcL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0GJTM15QW",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0GJTM15QW",
+      "title": "JAL 飛行機 JA01JC ハイビスカス プラモデル",
+      "imageUrl": "https://m.media-amazon.com/images/I/51rPKTzmZOL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1900,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0GJTM15QW"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51rPKTzmZOL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0GN9KNTLR",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0GN9KNTLR",
+      "title": "JAL JA15XJ 飛行機 プラモデル 航空機",
+      "imageUrl": "https://m.media-amazon.com/images/I/61TH-qp65bL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1650,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0GN9KNTLR"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61TH-qp65bL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0G6HQTFQD",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0G6HQTFQD",
+      "title": "【7】 エフトイズ 1/500 JALウイングコレクション Vol.2 747-400BCF JA8902 単品",
+      "imageUrl": "https://m.media-amazon.com/images/I/51QEQDVkc6L._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 3480,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0G6HQTFQD"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51QEQDVkc6L._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り1点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B06XXD89HB",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B06XXD89HB",
+      "title": "JALUX G JAL A350900 ﾀﾞｲｷｬｽﾄﾓﾃﾞﾙ 1:600 1/600 BJS1007",
+      "imageUrl": "https://m.media-amazon.com/images/I/61infHKmXNL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2422,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B06XXD89HB"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61infHKmXNL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 3.5 · 8 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 8,
+        "starRating": "3.5",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0GF413JYB",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0GF413JYB",
+      "title": "【1】 【アウトレット 小箱痛み品】 エフトイズ 1/500 JALウイングコレクション Vol.2 ボーイング 787-8 JA851J 単品",
+      "imageUrl": "https://m.media-amazon.com/images/I/5133SfMTPlL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2300,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0GF413JYB"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/5133SfMTPlL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り1点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0DGDYFB53",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0DGDYFB53",
+      "title": "JAL ノベルティー キーホルダー フライトタグ",
+      "imageUrl": "https://m.media-amazon.com/images/I/71-RuLtSQgL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2480,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0DGDYFB53"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/71-RuLtSQgL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0F5PCJD5V",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0F5PCJD5V",
+      "title": "【3】 エフトイズ 1/500 JALウイングコレクション Vol.1 ボーイング B767-300 JA8397 単品",
+      "imageUrl": "https://m.media-amazon.com/images/I/51FcDOAyUgL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1980,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0F5PCJD5V"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51FcDOAyUgL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り2点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0GSF68SFW",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0GSF68SFW",
+      "title": "【5】 【アウトレット 解説書欠品】 エフトイズ 1/500 JALウイングコレクション Vol.1 ボーイング B747-400 JA8088 単品",
+      "imageUrl": "https://m.media-amazon.com/images/I/51OjoRd3vNL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 3300,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0GSF68SFW"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51OjoRd3vNL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り1点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0DTYN7Q5M",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0DTYN7Q5M",
+      "title": "【ビデオテープ】 JAL ジェットストリーム ハイパーブルー music セリア ナレーション：城達也 レア品",
+      "imageUrl": "https://m.media-amazon.com/images/I/6100AS23leL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 0,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0DTYN7Q5M"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/6100AS23leL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0H48RL657",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0H48RL657",
+      "title": "JAL A350 プラモデル",
+      "imageUrl": "https://m.media-amazon.com/images/I/71dG+E3a7HL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1980,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0H48RL657"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/71dG+E3a7HL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B07SDGK9HM",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B07SDGK9HM",
+      "title": "R V Essential 純粋なバラの水/Gulab Jal 100ml (3.38oz)- (100％ピュア＆ナチュラル) Pure Rose Water/Gulab Jal",
+      "imageUrl": "https://m.media-amazon.com/images/I/51PbsikvHWL._AC_UL960_QL65_.jpg",
+      "shopName": "ローズ",
+      "currency": "JPY",
+      "currentPrice": 1261,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B07SDGK9HM"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51PbsikvHWL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4.1 · 16 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 16,
+        "starRating": "4.1",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0GSF5957P",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0GSF5957P",
+      "title": "【2】 【アウトレット 解説書欠品】 エフトイズ 1/500 JALウイングコレクション Vol.1 ボーイング B777-300 JA8945 単品",
+      "imageUrl": "https://m.media-amazon.com/images/I/51aEyxwq26L._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2300,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0GSF5957P"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51aEyxwq26L._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り1点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0H47ZZG93",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0H47ZZG93",
+      "title": "JAL ノベルティ A350-1000 模型 プラモデル 4個セット",
+      "imageUrl": "https://m.media-amazon.com/images/I/71o9l2mj9tL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2980,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0H47ZZG93"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/71o9l2mj9tL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B01NCLZ1JU",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B01NCLZ1JU",
+      "title": "くるピカエイト JAL",
+      "imageUrl": "https://m.media-amazon.com/images/I/51EfW50ZTsS._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 1588,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B01NCLZ1JU"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51EfW50ZTsS._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4.1 · 3 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 3,
+        "starRating": "4.1",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B002FONAAQ",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B002FONAAQ",
+      "title": "1/400 B777-300 JAL ONE WORLD 特別塗装機 (BJE2042) 完成品",
+      "imageUrl": "https://m.media-amazon.com/images/I/412Q0l9jY7L._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 0,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B002FONAAQ"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/412Q0l9jY7L._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0FNK4424J",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0FNK4424J",
+      "title": "JAL B747-100 1:400スケール ダイキャストモデル航空機 - 17.7cm プレミアム合金ジェットレプリカ ディスプレイスタンド付き 航空愛好家、自宅/オフィスの装飾、コレクターのショーケースに最適",
+      "imageUrl": "https://m.media-amazon.com/images/I/61rArf4AUdL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 17998,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0FNK4424J"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/61rArf4AUdL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B07SC9XF26",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B07SC9XF26",
+      "title": "R V Essential 純粋なバラの水/Gulab Jal 200ml (6.76oz)- (100％ピュア＆ナチュラル) Pure Rose Water/Gulab Jal",
+      "imageUrl": "https://m.media-amazon.com/images/I/51PbsikvHWL._AC_UL960_QL65_.jpg",
+      "shopName": "ローズ",
+      "currency": "JPY",
+      "currentPrice": 1950,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B07SC9XF26"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51PbsikvHWL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4.1 · 16 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 16,
+        "starRating": "4.1",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0BWWPF78X",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0BWWPF78X",
+      "title": "JAL オリジナル 御翔印帳 黒色",
+      "imageUrl": "https://m.media-amazon.com/images/I/51zSHpEL16L._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 6280,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0BWWPF78X"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/51zSHpEL16L._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0FBSB73HY",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0FBSB73HY",
+      "title": "JAL オリジナル ヘルシンキ ノート",
+      "imageUrl": "https://m.media-amazon.com/images/I/71S7dzLOBVL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 2110,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0FBSB73HY"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/71S7dzLOBVL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B0761PQF2X",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B0761PQF2X",
+      "title": "SKYWARD 2017 9 嵐 松本潤 ナラタージュ 機内誌 JAL 機内誌 スカイワード",
+      "imageUrl": "https://m.media-amazon.com/images/I/41qZzNEB5wL._AC_UL960_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 3980,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B0761PQF2X"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/41qZzNEB5wL._AC_UL960_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "sourceAvailabilityLabel": "残り2点 ご注文はお早めに",
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 0,
+        "starRating": null,
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    },
+    {
+      "sourceId": "amazon_jp",
+      "sourceItemId": "B07WRPWVTK",
+      "identityScope": "catalog",
+      "canonicalUrl": "https://www.amazon.co.jp/dp/B07WRPWVTK",
+      "title": "嵐 ARASHI 5×20 JAL限定パッケージ ハワイ",
+      "imageUrl": "https://m.media-amazon.com/images/I/41u07FHPbAL._AC_UL954_QL65_.jpg",
+      "currency": "JPY",
+      "currentPrice": 13000,
+      "originalPrice": 0,
+      "priceBasis": "catalog_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "identifiers": {
+          "asin": "B07WRPWVTK"
+        },
+        "imageUrls": [
+          "https://m.media-amazon.com/images/I/41u07FHPbAL._AC_UL954_QL65_.jpg"
+        ],
+        "displayFacts": [
+          {
+            "key": "product_rating",
+            "label": "Amazon 评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 5 · 4 件评价"
+          },
+          {
+            "key": "prime",
+            "label": "Prime",
+            "group": "shipping",
+            "kind": "text",
+            "value": "不支持"
+          }
+        ],
+        "provenance": {
+          "identifiers": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          },
+          "imageUrls": {
+            "method": "managed_api"
+          },
+          "displayFacts": {
+            "method": "managed_api",
+            "sourceLabel": "OpenWebNinja Real-Time Amazon Data API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "apiProvider": "openwebninja",
+        "ratings": 4,
+        "starRating": "5",
+        "prime": false,
+        "parserVersion": "amazon-openwebninja-v1"
+      }
+    }
+  ],
+  "coverage": "best_effort",
+  "parserVersion": "amazon-openwebninja-v1",
+  "warnings": [
+    "Amazon Japan 结果由 OpenWebNinja 实时公开数据 API 提供，不代表 Amazon 官方完整库存",
+    "已加入本地或 Postgres 历史索引候选；未通过实时详情核验的记录会明确标为历史参考。"
+  ],
+  "requestRoute": "managed_api",
+  "routeOutcome": {
+    "kind": "primary_success",
+    "route": "managed_api"
+  },
+  "fieldCoverage": {
+    "required": {
+      "total": 147,
+      "complete": 147
+    },
+    "optional": {
+      "total": 294,
+      "complete": 245
+    }
+  },
+  "durationMs": 11621,
+  "totalAvailable": 0,
+  "requestEvidence": {
+    "availabilityMode": "all",
+    "requestedStatuses": [],
+    "rawResultCount": 48,
+    "normalizedResultCount": 49,
+    "pagesFetched": 3,
+    "keywordRawResultCount": 0,
+    "liveDetailResultCount": 0,
+    "anchorCandidateCount": 0,
+    "parserAcceptedCount": 0,
+    "parserRejectedCount": 0
+  },
+  "candidateEvidence": {
+    "B0GWZ5D919": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 1,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 134.4262,
+      "bestRank": 1,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0DW99MPCB": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 2,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 132.2581,
+      "bestRank": 2,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0C86RB7PL": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 3,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 130.1587,
+      "bestRank": 3,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0FQ5545RP": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 4,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 128.125,
+      "bestRank": 4,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0FQ584BZG": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 5,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 126.1538,
+      "bestRank": 5,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0DS8ZWC7K": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 6,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 124.2424,
+      "bestRank": 6,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0H1CT3RFG": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 7,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 122.3881,
+      "bestRank": 7,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B01EOF5RJU": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 8,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 120.5882,
+      "bestRank": 8,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B01FFNJTF8": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 9,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 118.8406,
+      "bestRank": 9,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B08JHRFM5J": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 10,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 117.1429,
+      "bestRank": 10,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0FQ55TX5Q": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 11,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 115.493,
+      "bestRank": 11,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B08NYH17B7": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 12,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 113.8889,
+      "bestRank": 12,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0GLJ76D3W": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 13,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 112.3288,
+      "bestRank": 13,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "B0FDFZ451G": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 14,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 110.8108,
+      "bestRank": 14,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B07K65GFFT": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 15,
+          "weight": 0.82,
+          "liveVerified": true
+        },
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 2,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 195.3011,
+      "bestRank": 2,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "B0F899CZ49": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 16,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 107.8947,
+      "bestRank": 16,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0GVLPX4BF": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 17,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 106.4935,
+      "bestRank": 17,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0FM8CN8SF": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 18,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 105.1282,
+      "bestRank": 18,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0F8VN444F": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 19,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 103.7975,
+      "bestRank": 19,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B01FFNNJR2": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 20,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 102.5,
+      "bestRank": 20,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B08P4BTT4S": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 21,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 101.2346,
+      "bestRank": 21,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0BLLV46BV": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 22,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 100,
+      "bestRank": 22,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0GW5YS9V4": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 23,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 98.7952,
+      "bestRank": 23,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0FKBWPL3Y": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 24,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 97.619,
+      "bestRank": 24,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0BBL37YG5": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 25,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 96.4706,
+      "bestRank": 25,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B06XX36HB4": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 26,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 95.3488,
+      "bestRank": 26,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0H48FH41L": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 27,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 94.2529,
+      "bestRank": 27,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0GJTM15QW": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 28,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 93.1818,
+      "bestRank": 28,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0GN9KNTLR": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 29,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 92.1348,
+      "bestRank": 29,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0G6HQTFQD": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 30,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 91.1111,
+      "bestRank": 30,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B06XXD89HB": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 31,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 90.1099,
+      "bestRank": 31,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0GF413JYB": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 32,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 89.1304,
+      "bestRank": 32,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0DGDYFB53": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 33,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 88.172,
+      "bestRank": 33,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0F5PCJD5V": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 34,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 87.234,
+      "bestRank": 34,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0GSF68SFW": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 35,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 86.3158,
+      "bestRank": 35,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0DTYN7Q5M": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 36,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 85.4167,
+      "bestRank": 36,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0H48RL657": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 37,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 84.5361,
+      "bestRank": 37,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B07SDGK9HM": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 38,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 83.6735,
+      "bestRank": 38,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0GSF5957P": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 39,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 82.8283,
+      "bestRank": 39,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0H47ZZG93": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 40,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 82,
+      "bestRank": 40,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B01NCLZ1JU": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 41,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 81.1881,
+      "bestRank": 41,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B002FONAAQ": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 42,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 80.3922,
+      "bestRank": 42,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0FNK4424J": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 43,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 79.6117,
+      "bestRank": 43,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B07SC9XF26": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 44,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 78.8462,
+      "bestRank": 44,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0BWWPF78X": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 45,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 78.0952,
+      "bestRank": 45,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0FBSB73HY": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 46,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 77.3585,
+      "bestRank": 46,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0761PQF2X": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 47,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 76.6355,
+      "bestRank": 47,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B07WRPWVTK": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 48,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 75.9259,
+      "bestRank": 48,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "B0H8LY385V": {
+      "hits": [
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 1,
+          "weight": 0.533,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 87.377,
+      "bestRank": 1,
+      "historical": true,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "uncertain",
+        "score": 14,
+        "confidence": "low",
+        "matchedFields": [
+          "品类"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "品类匹配"
+        ]
+      }
+    }
+  }
+}

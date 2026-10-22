@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "itemCode": "shop:123",
+      "itemUrl": "https://item.rakuten.co.jp/shop/123/",
+      "itemName": "千反田 Tシャツ",
+      "itemPrice": 4980,
+      "availability": 1,
+      "mediumImageUrls": [{ "imageUrl": "https://img.example/item.jpg" }],
+      "shopName": "テスト店"
+    }
+  ]
+}

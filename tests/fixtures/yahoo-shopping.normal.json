@@ -1,0 +1,15 @@
+{
+  "hits": [
+    {
+      "code": "store_item",
+      "url": "https://store.shopping.yahoo.co.jp/store/item.html",
+      "name": "中古 Blu-ray",
+      "condition": "used",
+      "isCrossBorderAgency": true,
+      "inStock": true,
+      "price": 3200,
+      "image": {},
+      "seller": { "name": "中古店" }
+    }
+  ]
+}

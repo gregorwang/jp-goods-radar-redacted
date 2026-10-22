@@ -1,0 +1,60 @@
+{
+  "auctionId": "x1234567890",
+  "title": "合成测试用 ポケモンカード 詳細",
+  "auctionItemUrl": "https://attacker.invalid/must-not-be-used",
+  "initPrice": 1000,
+  "price": 3888,
+  "buyNowPrice": 5200,
+  "quantity": 1,
+  "watchListNum": 12,
+  "bids": 3,
+  "biddersNum": 2,
+  "startTime": "2026-07-12T00:50:04+09:00",
+  "endTime": "2026-07-15T21:39:43+09:00",
+  "leftTime": 12345,
+  "status": "OPEN",
+  "conditionName": "やや傷や汚れあり",
+  "img": [
+    {
+      "image": "https://auc-pctr.c.yimg.jp/synthetic/detail-1.jpg",
+      "thumbnail": "https://auc-pctr.c.yimg.jp/synthetic/detail-1-thumb.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image": "https://auc-pctr.c.yimg.jp/synthetic/detail-2.jpg",
+      "width": 800,
+      "height": 800
+    }
+  ],
+  "category": {
+    "path": [
+      { "id": 1, "name": "おもちゃ" },
+      { "id": 2084317608, "name": "シングルカード" }
+    ]
+  },
+  "brand": {
+    "path": [
+      { "id": 25, "name": "Synthetic Brand" }
+    ]
+  },
+  "description": [
+    "合成测试说明第一行。",
+    "合成测试说明第二行。"
+  ],
+  "descriptionHtml": "<script>must-not-leak-description-html</script>",
+  "shipping": "宅配便",
+  "chargeForShipping": "落札者",
+  "seller": {
+    "displayName": "synthetic-seller",
+    "rating": "100%",
+    "location": "東京都",
+    "aucUserId": "must-not-leak-auc-id",
+    "crumb": "must-not-leak-seller-crumb"
+  },
+  "isAutomaticExtension": true,
+  "isEarlyClosing": true,
+  "isPrivacyDeliveryAvailable": true,
+  "appraisal": { "enabled": true },
+  "internalTransactionId": "must-not-leak-transaction"
+}

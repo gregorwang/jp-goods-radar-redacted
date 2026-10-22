@@ -1,0 +1,17 @@
+.intro { max-width: 760px; margin: 0; color: var(--ink-soft); font-size: 12px; line-height: 1.9; }
+.rows { display: grid; margin: 16px 0 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.rowTitle { display: grid; gap: 4px; min-width: 0; max-width: 620px; }
+.rowTitle strong { color: var(--ink); font: 500 18px/1.4 var(--display); }
+.row[data-on="false"] .rowTitle strong { color: var(--muted); }
+.rowTitle span { color: var(--muted); font-size: 11px; line-height: 1.7; }
+.state { margin-left: 8px; color: var(--muted); font: 10px/1 var(--mono); letter-spacing: .06em; }
+.notes { display: grid; gap: 8px; margin-top: 14px; }
+.note { margin: 0; color: var(--ink-soft); font-size: 12px; line-height: 1.8; }
+/* 必须看清的约束：墨色左线（和「推送」页同一种）。 */
+.warn { margin: 0; padding: 10px 14px; color: var(--ink); border-left: 2px solid var(--red); background: rgba(198,75,63,.05); font-size: 12px; line-height: 1.8; }
+.warn a, .note a { color: var(--blue-deep); text-decoration: none; border-bottom: 1px solid currentColor; }
+
+@media (max-width: 640px) {
+  .row > button { width: 100%; }
+}

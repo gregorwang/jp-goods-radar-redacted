@@ -1,0 +1,21 @@
+{
+  "name": "@jpgr/adapters",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./amazon": "./src/amazon/index.ts",
+    "./http": "./src/http.ts",
+    "./charaon": "./src/charaon/index.ts",
+    "./cospa": "./src/cospa/index.ts",
+    "./animate": "./src/animate/index.ts",
+    "./mercari": "./src/mercari/index.ts",
+    "./surugaya": "./src/surugaya/index.ts",
+    "./yahoo-shopping": "./src/yahoo-shopping/index.ts",
+    "./yahoo-auctions": "./src/yahoo-auctions/index.ts",
+    "./yahoo-fleamarket": "./src/yahoo-fleamarket/index.ts"
+  },
+  "dependencies": { "@jpgr/core": "workspace:*" },
+  "scripts": { "typecheck": "tsc --noEmit" }
+}

@@ -1,0 +1,56 @@
+{
+	http_port 80
+	https_port 8443
+	admin 127.0.0.1:2019
+}
+
+https://jp-goods-radar.96-9-210-39.sslip.io:8443 {
+	@jp_goods_radar {
+		method POST
+		path /webhooks/jp-goods-radar
+	}
+
+	handle @jp_goods_radar {
+		request_body {
+			max_size 128KB
+		}
+		reverse_proxy 127.0.0.1:8644 {
+			transport http {
+				dial_timeout 3s
+				response_header_timeout 20s
+			}
+		}
+	}
+
+	handle_path /source-runner/* {
+		request_body {
+			max_size 96KB
+		}
+		reverse_proxy 127.0.0.1:8788 {
+			transport http {
+				dial_timeout 2s
+				response_header_timeout 15s
+			}
+		}
+	}
+
+	handle {
+		respond "Not Found" 404
+	}
+
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options "nosniff"
+	}
+}
+
+http://203.0.113.10 {
+	handle /.well-known/acme-challenge/* {
+		root * /var/www/certbot
+		file_server
+	}
+
+	handle {
+		respond "Not Found" 404
+	}
+}

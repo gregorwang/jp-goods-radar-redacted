@@ -1,0 +1,27 @@
+{
+  "meta": { "nextPageToken": "v1:1", "previousPageToken": "", "numFound": "2", "properties": [] },
+  "items": [
+    {
+      "id": "m95317526324",
+      "status": "ITEM_STATUS_ON_SALE",
+      "name": "氷菓 千反田える フィギュア",
+      "price": "3000",
+      "created": "1725752994",
+      "updated": "1783780261",
+      "thumbnails": ["https://static.mercdn.net/thumb/item/webp/m95317526324_1.jpg"],
+      "itemType": "ITEM_TYPE_MERCARI",
+      "itemConditionId": "2"
+    },
+    {
+      "id": "m42583722790",
+      "status": "ITEM_STATUS_SOLD_OUT",
+      "name": "氷菓 Tシャツ 千反田える",
+      "price": "4300",
+      "created": "1725752995",
+      "updated": "1783780262",
+      "thumbnails": ["https://static.mercdn.net/thumb/item/webp/m42583722790_1.jpg"],
+      "itemType": "ITEM_TYPE_MERCARI",
+      "itemConditionId": "1"
+    }
+  ]
+}

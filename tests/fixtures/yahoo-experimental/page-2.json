@@ -1,0 +1,52 @@
+{
+  "searchResultsExperimentA": {
+    "items": {
+      "2": [
+        {
+          "type": "PAGER",
+          "content": {
+            "start": 2,
+            "end": 3,
+            "total": 200,
+            "totalPage": 7,
+            "nextUrl": {
+              "url": "https://shopping.yahoo.co.jp/search/%E6%B0%B7%E8%8F%93%20Blu-ray/0/3/?prom=1&view=grid&pf=3000&pt=10000"
+            }
+          }
+        },
+        {
+          "type": "RESULT",
+          "content": {
+            "items": [
+              {
+                "itemId": "fixture-store_item-1",
+                "url": "https://store.shopping.yahoo.co.jp/fixture-store/item-1.html",
+                "name": "氷菓 Blu-ray 限定版",
+                "price": 5830,
+                "actualPrice": 5563
+              },
+              {
+                "itemId": "fixture-store_item-2",
+                "url": "https://store.shopping.yahoo.co.jp/fixture-store/item-2.html",
+                "name": "氷菓 Blu-ray 通常版",
+                "price": 4200,
+                "image": {
+                  "url": "https://item-shopping.c.yimg.jp/i/n/fixture-store_item-2"
+                },
+                "storeId": "fixture-store",
+                "store": {
+                  "name": "テスト書店"
+                },
+                "productCategory": "12345"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "welcomeToTheEnd": {},
+  "customLogger": {
+    "browserFingerprint": "must-not-leak"
+  }
+}

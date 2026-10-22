@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["@cloudflare/vitest-pool-workers/types", "vitest/globals"],
+    "baseUrl": "../..",
+    "paths": {
+      "@jpgr/core": ["packages/core/src/index.ts"],
+      "@jpgr/db": ["packages/db/src/index.ts"],
+      "@jpgr/adapters": ["packages/adapters/src/index.ts"],
+      "@jpgr/email": ["packages/email/src/index.ts"],
+      "@jpgr/validation": ["packages/validation/src/index.ts"]
+    }
+  },
+  "include": ["./**/*.ts", "../../apps/collector/worker-configuration.d.ts"]
+}

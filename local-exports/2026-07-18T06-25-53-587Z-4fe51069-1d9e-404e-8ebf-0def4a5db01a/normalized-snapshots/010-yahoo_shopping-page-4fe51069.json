@@ -1,0 +1,3272 @@
+{
+  "sourceId": "yahoo_shopping",
+  "status": "success",
+  "listings": [
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "pirol_to-fst-314012",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/pirol/to-fst-314012.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "◇ キャラクター   タオル ハンカチ （ ミニ ）ＪＡＬ （ 20ｃm角 ）  （ ビューティフルスカイ 青/ブルー ）",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/pirol_to-fst-314012?resolution=2x",
+      "shopName": "手芸のピロル・手芸用品と生地と雑貨のお店",
+      "currency": "JPY",
+      "currentPrice": 369,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.69 · 4173 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "30528"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 385,
+        "payablePrice": 369,
+        "discountRate": 0,
+        "sellerId": "pirol",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/pirol/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.69,
+          "count": 4173
+        },
+        "brandId": "0",
+        "categoryId": "30528",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "pleasure-supply_taf005",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/pleasure-supply/taf005.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "マフラーフードタオル(青) 航空自衛隊 ブルーインパルス 愛媛県今治産 日本製 綿 コットン TAF005 空自 Blue Impulse 自衛隊グッズ タオル TOWEL 防災",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/pleasure-supply_taf005?resolution=2x",
+      "shopName": "プレジャー サプライ",
+      "currency": "JPY",
+      "currentPrice": 2672,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "今治タオル",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "product_review",
+            "label": "商品评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4.8 · 5 件评价"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.9 · 245 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "3980"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 2800,
+        "payablePrice": 2672,
+        "discountRate": 0,
+        "sellerId": "pleasure-supply",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/pleasure-supply/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.9,
+          "count": 245
+        },
+        "review": {
+          "average": 4.8,
+          "count": 5,
+          "url": "https://shopping.yahoo.co.jp/review/item/list?store_id=pleasure-supply&page_key=taf005&sc_i=shopping-pc-web-result-item-rsltlst-rvw"
+        },
+        "brandId": "10645",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=10645&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "3980",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "weekindenim_931413099",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/weekindenim/931413099.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "防衛省自衛隊グッズ タオル メンズ 今治タオル 日本製 国産 フード付き ポンチョ パーカー マフラー ブルーインパルス 航空自衛隊 上昇 アクロバット飛行 青",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/weekindenim_931413099?resolution=2x",
+      "shopName": "本格派大人のB系XL&零ZERO",
+      "currency": "JPY",
+      "currentPrice": 2575,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.57 · 3912 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "3980"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 2750,
+        "payablePrice": 2575,
+        "discountRate": 0,
+        "sellerId": "weekindenim",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/weekindenim/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.57,
+          "count": 3912
+        },
+        "brandId": "0",
+        "categoryId": "3980"
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "japan_erjal",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/japan/erjal.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "エコ ボストンバッグ 日本航空 JAL ブルー エコバッグ 旅行 手提げカバン ショッピング 鞄 軽量 バッグ コンパクト 持ち運び 便利 飛行機 買い物 送料無料",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/japan_erjal?resolution=2x",
+      "shopName": "日本のおみやげ専門店",
+      "currency": "JPY",
+      "currentPrice": 1575,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.49 · 857 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "1588"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "2"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 1650,
+        "payablePrice": 1575,
+        "discountRate": 0,
+        "sellerId": "japan",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/japan/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.49,
+          "count": 857
+        },
+        "brandId": "0",
+        "categoryId": "1588",
+        "shippingCode": 2
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "zozo_105916556",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/zozo/105916556.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "tシャツ 「JALコラボ」飛行機図面エンボス加工ロゴ半袖Tシャツ キッズ 子供服 男の子",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/zozo_105916556?resolution=2x",
+      "shopName": "ZOZOTOWN Yahoo!店",
+      "currency": "JPY",
+      "currentPrice": 4408,
+      "originalPrice": 6600,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "BeBe",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "30%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.55 · 193570 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "44804"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 4620,
+        "payablePrice": 4408,
+        "discountRate": 30,
+        "sellerId": "zozo",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/zozo/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.55,
+          "count": 193570
+        },
+        "brandId": "7912",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=7912&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "44804"
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "cinemacollection_mrs-6305002200",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/cinemacollection/mrs-6305002200.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "JAL 日本航空 パスポートケース カードケース ナイトフライト おしゃれ 爆買",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/cinemacollection_mrs-6305002200?resolution=2x",
+      "shopName": "キャラクターのシネマコレクション",
+      "currency": "JPY",
+      "currentPrice": 2099,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.62 · 16887 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "31193"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 2199,
+        "payablePrice": 2099,
+        "discountRate": 0,
+        "sellerId": "cinemacollection",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/cinemacollection/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.62,
+          "count": 16887
+        },
+        "brandId": "38074",
+        "categoryId": "31193",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "cinemacollection_mrs-6305002000",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/cinemacollection/mrs-6305002000.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "JAL 日本航空 旅行ポーチ トラベルポーチ3点セット トラベルフライト 丸眞 爆買",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/cinemacollection_mrs-6305002000?resolution=2x",
+      "shopName": "キャラクターのシネマコレクション",
+      "currency": "JPY",
+      "currentPrice": 3673,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.62 · 16887 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "4144"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 3849,
+        "payablePrice": 3673,
+        "discountRate": 0,
+        "sellerId": "cinemacollection",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/cinemacollection/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.62,
+          "count": 16887
+        },
+        "brandId": "38074",
+        "categoryId": "4144",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "cinemacollection-yj_mrs-6305002000",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/cinemacollection-yj/mrs-6305002000.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "JAL 日本航空 グッズ 旅行ポーチ 飛行機 トラベルポーチ3点セット トラベルフライト",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/cinemacollection-yj_mrs-6305002000?resolution=2x",
+      "shopName": "おもしろマニアックグッズの通販店 ブライ開新堂",
+      "currency": "JPY",
+      "currentPrice": 3638,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.7 · 314 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "4144"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 3849,
+        "payablePrice": 3638,
+        "discountRate": 0,
+        "sellerId": "cinemacollection-yj",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/cinemacollection-yj/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.7,
+          "count": 314
+        },
+        "brandId": "38074",
+        "categoryId": "4144",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "0101marui_cg0243284801",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/0101marui/cg0243284801.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "【JALコラボ】飛行機図面エンボス加工ロゴ半袖Tシャツ(90~140cm)",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/0101marui_cg0243284801?resolution=2x",
+      "shopName": "マルイ(丸井)Yahoo!店",
+      "currency": "JPY",
+      "currentPrice": 6297,
+      "originalPrice": 6600,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "BeBe",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 3.86 · 597 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "44804"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 6600,
+        "payablePrice": 6297,
+        "discountRate": 0,
+        "sellerId": "0101marui",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/0101marui/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 3.86,
+          "count": 597
+        },
+        "brandId": "7912",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=7912&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "44804"
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "pilothousefs-cima_1092",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/pilothousefs-cima/1092.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "JAL日本航空グッズ商品　３色ボールペンJAL鶴丸",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/pilothousefs-cima_1092?resolution=2x",
+      "shopName": "パイロットハウスエフエス・シーマ",
+      "currency": "JPY",
+      "currentPrice": 630,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.65 · 269 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "4925"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 660,
+        "payablePrice": 630,
+        "discountRate": 0,
+        "sellerId": "pilothousefs-cima",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/pilothousefs-cima/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.65,
+          "count": 269
+        },
+        "brandId": "0",
+        "categoryId": "4925"
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "janpara_45116789-45",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/janpara/45116789-45.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "【未使用】NEC LAVIE N16 N1655/JAL PC-N1655JAL ネイビーブルー【i5-1235U 16G 256G(SSD) DVDマルチ WiFI 16LCD】【道玄坂】保証期間３ヶ月",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/janpara_45116789-45?resolution=2x",
+      "shopName": "じゃんぱら Yahoo!店",
+      "currency": "JPY",
+      "currentPrice": 110657,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "LaVie",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.82 · 611 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "14055"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "2"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 115980,
+        "payablePrice": 110657,
+        "discountRate": 0,
+        "sellerId": "janpara",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/janpara/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.82,
+          "count": 611
+        },
+        "brandId": "4684",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=4684&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "14055",
+        "shippingCode": 2
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "ishidaya-co_249zak275ms",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/ishidaya-co/249zak275ms.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "マル2335078100 【送料無料】【JAL×ディズニーキャラクター】エコボストンバッグ【トラベルブルー】【ミッキーマウス】【コラボ】【かばん】【カバン】【鞄】…",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/ishidaya-co_249zak275ms?resolution=2x",
+      "shopName": "いしだ屋",
+      "currency": "JPY",
+      "currentPrice": 3307,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "MICKEY MOUSE",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.18 · 3152 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "42488"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "2"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 3465,
+        "payablePrice": 3307,
+        "discountRate": 0,
+        "sellerId": "ishidaya-co",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/ishidaya-co/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.18,
+          "count": 3152
+        },
+        "brandId": "46744",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=46744&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "42488",
+        "shippingCode": 2
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "cinemacollection_mrs-6305001600",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/cinemacollection/mrs-6305001600.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "JAL 日本航空 手提げかばん 不織布バッグ ナイトフライト 丸眞 爆買",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/cinemacollection_mrs-6305001600?resolution=2x",
+      "shopName": "キャラクターのシネマコレクション",
+      "currency": "JPY",
+      "currentPrice": 391,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.62 · 16887 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "44099"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 409,
+        "payablePrice": 391,
+        "discountRate": 0,
+        "sellerId": "cinemacollection",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/cinemacollection/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.62,
+          "count": 16887
+        },
+        "brandId": "38074",
+        "categoryId": "44099",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "cinemacollection_mrs-6205004600",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/cinemacollection/mrs-6205004600.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "JAL 日本航空 グッズ ミニタオル 飛行機 ジャガードハンカチタオル オーガニックコットン スカイフライト",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/cinemacollection_mrs-6205004600?resolution=2x",
+      "shopName": "キャラクターのシネマコレクション",
+      "currency": "JPY",
+      "currentPrice": 735,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.62 · 16887 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "44111"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 769,
+        "payablePrice": 735,
+        "discountRate": 0,
+        "sellerId": "cinemacollection",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/cinemacollection/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.62,
+          "count": 16887
+        },
+        "brandId": "38074",
+        "categoryId": "44111",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "santex333_mz635",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/santex333/mz635.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "JAL 3色ボールペン",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/santex333_mz635?resolution=2x",
+      "shopName": "サンテグジュペリ ヤフーショップ",
+      "currency": "JPY",
+      "currentPrice": 630,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.86 · 36 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "42484"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 660,
+        "payablePrice": 630,
+        "discountRate": 0,
+        "sellerId": "santex333",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/santex333/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.86,
+          "count": 36
+        },
+        "brandId": "0",
+        "categoryId": "42484"
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "tokyodenki_4573525920635--",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/tokyodenki/4573525920635--.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "展示品 NEC ノートPC LAVIE N16 PC-N1655JAL[16型 | WUXGA | Core i5 | 16GB | 256GB | Windows 11 Home | Office H&B | ネイビーブルー]",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/tokyodenki_4573525920635--?resolution=2x",
+      "shopName": "東京電気",
+      "currency": "JPY",
+      "currentPrice": 113156,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "LaVie",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.32 · 580 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "14055"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "2"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 118600,
+        "payablePrice": 113156,
+        "discountRate": 0,
+        "sellerId": "tokyodenki",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/tokyodenki/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.32,
+          "count": 580
+        },
+        "brandId": "4684",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=4684&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "14055",
+        "shippingCode": 2
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "ishidaya-co_249zak274ms",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/ishidaya-co/249zak274ms.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "マル2335080000 【送料無料】【JAL×ディズニーキャラクター】エコバッグ【トラベルブルー】【ミッキーマウス】【コラボ】【かばん】【カバン】【鞄】【袋】【…",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/ishidaya-co_249zak274ms?resolution=2x",
+      "shopName": "いしだ屋",
+      "currency": "JPY",
+      "currentPrice": 2185,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "MICKEY MOUSE",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.18 · 3152 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "42488"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "2"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 2288,
+        "payablePrice": 2185,
+        "discountRate": 0,
+        "sellerId": "ishidaya-co",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/ishidaya-co/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.18,
+          "count": 3152
+        },
+        "brandId": "46744",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=46744&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "42488",
+        "shippingCode": 2
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "youplan_100003519474",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/youplan/100003519474.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "NEC ノートパソコン LAVIE N16 N1655/JAL PC-N1655JAL [ネイビーブルー]",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/youplan_100003519474?resolution=2x",
+      "shopName": "ユープラン",
+      "currency": "JPY",
+      "currentPrice": 183139,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "LaVie",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.52 · 54 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "14055"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "2"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 200970,
+        "payablePrice": 183139,
+        "discountRate": 0,
+        "sellerId": "youplan",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/youplan/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.52,
+          "count": 54
+        },
+        "brandId": "4684",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=4684&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "14055",
+        "shippingCode": 2
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "cinemacollection-yj_mrs-6305002200",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/cinemacollection-yj/mrs-6305002200.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "JAL 日本航空 おしゃれ カードケース パスポートケース ナイトフライト グッズ",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/cinemacollection-yj_mrs-6305002200?resolution=2x",
+      "shopName": "おもしろマニアックグッズの通販店 ブライ開新堂",
+      "currency": "JPY",
+      "currentPrice": 2079,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.7 · 314 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "31193"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 2199,
+        "payablePrice": 2079,
+        "discountRate": 0,
+        "sellerId": "cinemacollection-yj",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/cinemacollection-yj/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.7,
+          "count": 314
+        },
+        "brandId": "38074",
+        "categoryId": "31193",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "suruga-ya_zsaro19331",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/suruga-ya/zsaro19331.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "中古ホビー雑誌 付録付)JAL旅客機コレクション 全国版 6",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/suruga-ya_zsaro19331?resolution=2x",
+      "shopName": "駿河屋Yahoo!店",
+      "currency": "JPY",
+      "currentPrice": 3208,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.2 · 43042 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "13463"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 3360,
+        "payablePrice": 3208,
+        "discountRate": 0,
+        "sellerId": "suruga-ya",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/suruga-ya/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.2,
+          "count": 43042
+        },
+        "brandId": "0",
+        "categoryId": "13463"
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "cinemacollection-yj_mrs-2006057700",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/cinemacollection-yj/mrs-2006057700.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "JAL×Disney キャラクター ハンカチタオル ミニタオル トラベルブルー ディズニー",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/cinemacollection-yj_mrs-2006057700?resolution=2x",
+      "shopName": "おもしろマニアックグッズの通販店 ブライ開新堂",
+      "currency": "JPY",
+      "currentPrice": 728,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "Disney",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.7 · 314 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "31152"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 769,
+        "payablePrice": 728,
+        "discountRate": 0,
+        "sellerId": "cinemacollection-yj",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/cinemacollection-yj/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.7,
+          "count": 314
+        },
+        "brandId": "1213",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=1213&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "31152",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "cinemacollection-yj_mrs-6305001600",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/cinemacollection-yj/mrs-6305001600.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "JAL 日本航空 不織布バッグ 手提げかばん 飛行機 ナイトフライト 丸眞",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/cinemacollection-yj_mrs-6305001600?resolution=2x",
+      "shopName": "おもしろマニアックグッズの通販店 ブライ開新堂",
+      "currency": "JPY",
+      "currentPrice": 387,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.7 · 314 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "44099"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 409,
+        "payablePrice": 387,
+        "discountRate": 0,
+        "sellerId": "cinemacollection-yj",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/cinemacollection-yj/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.7,
+          "count": 314
+        },
+        "brandId": "38074",
+        "categoryId": "44099",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "ishidaya-co_249zak274m",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/ishidaya-co/249zak274m.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "マル2335080000 【JAL×ディズニーキャラクター】エコバッグ【トラベルブルー】【ミッキーマウス】【コラボ】【かばん】【カバン】【鞄】【袋】【収納】【買い…",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/ishidaya-co_249zak274m?resolution=2x",
+      "shopName": "いしだ屋",
+      "currency": "JPY",
+      "currentPrice": 2038,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "MICKEY MOUSE",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.18 · 3152 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "42488"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 2134,
+        "payablePrice": 2038,
+        "discountRate": 0,
+        "sellerId": "ishidaya-co",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/ishidaya-co/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.18,
+          "count": 3152
+        },
+        "brandId": "46744",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=46744&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "42488"
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "cinemacollection-yj_mrs-6205004600",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/cinemacollection-yj/mrs-6205004600.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "JAL 日本航空 グッズ ミニタオル 飛行機 ジャガードハンカチタオル オーガニックコットン スカイフライト",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/cinemacollection-yj_mrs-6205004600?resolution=2x",
+      "shopName": "おもしろマニアックグッズの通販店 ブライ開新堂",
+      "currency": "JPY",
+      "currentPrice": 728,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.7 · 314 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "44111"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 769,
+        "payablePrice": 728,
+        "discountRate": 0,
+        "sellerId": "cinemacollection-yj",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/cinemacollection-yj/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.7,
+          "count": 314
+        },
+        "brandId": "38074",
+        "categoryId": "44111",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "velkommen_mrs-2006057700",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/velkommen/mrs-2006057700.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "ミニタオル ハンカチタオル JAL×Disney トラベルブルー 丸眞 ディズニー 汗拭きタオル キャラクター 爆買",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/velkommen_mrs-2006057700?resolution=2x",
+      "shopName": "雑貨&アートの通販店 ベルコモン",
+      "currency": "JPY",
+      "currentPrice": 735,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "Disney",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.75 · 2237 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "44111"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 769,
+        "payablePrice": 735,
+        "discountRate": 0,
+        "sellerId": "velkommen",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/velkommen/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.75,
+          "count": 2237
+        },
+        "brandId": "1213",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=1213&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "44111",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "windybooks_s-9784048993401",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/windybooks/s-9784048993401.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "ＪＡＬ客室乗務員が教えるとっておきの店",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/windybooks_s-9784048993401?resolution=2x",
+      "shopName": "WINDY BOOKS on line",
+      "currency": "JPY",
+      "currentPrice": 1470,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.55 · 8075 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "12088"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 1540,
+        "payablePrice": 1470,
+        "discountRate": 0,
+        "sellerId": "windybooks",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/windybooks/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.55,
+          "count": 8075
+        },
+        "brandId": "38074",
+        "categoryId": "12088",
+        "shippingCode": 3
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "targetmilitary_jasdf05",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/targetmilitary/jasdf05.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "☆ PX品 航空自衛隊 ブルーインパルス ワッペン付 パイロットジャンパー メンズ （空自 ジャケット ブルゾン ジャンバー アウター 防寒着 秋服 冬服 日本製）",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/targetmilitary_jasdf05?resolution=2x",
+      "shopName": "TARGET ミリタリーショップ ターゲット",
+      "currency": "JPY",
+      "currentPrice": 12594,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "product_review",
+            "label": "商品评价",
+            "group": "commerce",
+            "kind": "text",
+            "value": "平均 4.55 · 11 件评价"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.72 · 294 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "26246"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "2"
+          }
+        ],
+        "provenance": {
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 13200,
+        "payablePrice": 12594,
+        "discountRate": 0,
+        "sellerId": "targetmilitary",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/targetmilitary/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.72,
+          "count": 294
+        },
+        "review": {
+          "average": 4.55,
+          "count": 11,
+          "url": "https://shopping.yahoo.co.jp/review/item/list?store_id=targetmilitary&page_key=jasdf05&sc_i=shopping-pc-web-result-item-rsltlst-rvw"
+        },
+        "brandId": "38074",
+        "categoryId": "26246",
+        "shippingCode": 2
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "ishidaya-co_249zak275m",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/ishidaya-co/249zak275m.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "マル2335078100 【JAL×ディズニーキャラクター】エコボストンバッグ【トラベルブルー】【ミッキーマウス】【コラボ】【かばん】【カバン】【鞄】【袋】【収納…",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/ishidaya-co_249zak275m?resolution=2x",
+      "shopName": "いしだ屋",
+      "currency": "JPY",
+      "currentPrice": 3160,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "MICKEY MOUSE",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.18 · 3152 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "42488"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 3311,
+        "payablePrice": 3160,
+        "discountRate": 0,
+        "sellerId": "ishidaya-co",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/ishidaya-co/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.18,
+          "count": 3152
+        },
+        "brandId": "46744",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=46744&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "42488"
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "ishidaya-co_249zak276ms",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/ishidaya-co/249zak276ms.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "マル2006057700 【送料無料】【JAL×ディズニーキャラクター】ミニタオル【トラベルブルー】【ミッキーマウス】【コラボ】【タオル】【たおる】【ハンカチ】【…",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/ishidaya-co_249zak276ms?resolution=2x",
+      "shopName": "いしだ屋",
+      "currency": "JPY",
+      "currentPrice": 860,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "MICKEY MOUSE",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.18 · 3152 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "31152"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "2"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 900,
+        "payablePrice": 860,
+        "discountRate": 0,
+        "sellerId": "ishidaya-co",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/ishidaya-co/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.18,
+          "count": 3152
+        },
+        "brandId": "46744",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=46744&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "31152",
+        "shippingCode": 2
+      }
+    },
+    {
+      "sourceId": "yahoo_shopping",
+      "sourceItemId": "aed-store_ack094",
+      "identityScope": "listing",
+      "canonicalUrl": "https://store.shopping.yahoo.co.jp/aed-store/ack094.html?sc_i=shopping-pc-web-result-item-rsltlst-title",
+      "title": "BlueImpulse 航空自衛隊 2025 ブルーインパルス 5号機 ヘルメットキーチェーン ヘルメット キーホルダー ACK094 JASDF TOUR 空自 11SQ 30th Anniversary ブルー",
+      "imageUrl": "https://item-shopping.c.yimg.jp/i/j/aed-store_ack094?resolution=2x",
+      "shopName": "日本AED救急組合",
+      "currency": "JPY",
+      "currentPrice": 736,
+      "originalPrice": 0,
+      "priceBasis": "listing_price",
+      "condition": "unknown",
+      "availability": "unknown",
+      "facts": {
+        "brand": "ブルー",
+        "displayFacts": [
+          {
+            "key": "discount_rate",
+            "label": "折扣率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "0%"
+          },
+          {
+            "key": "seller_review",
+            "label": "店铺评价",
+            "group": "seller",
+            "kind": "text",
+            "value": "平均 4.88 · 8 件评价"
+          },
+          {
+            "key": "seller_best_store",
+            "label": "Yahoo 优良店铺",
+            "group": "seller",
+            "kind": "text",
+            "value": "否"
+          },
+          {
+            "key": "category_id",
+            "label": "Yahoo 分类 ID",
+            "group": "catalog",
+            "kind": "text",
+            "value": "42484"
+          },
+          {
+            "key": "shipping_code",
+            "label": "Yahoo 配送代码",
+            "group": "shipping",
+            "kind": "text",
+            "value": "3"
+          }
+        ],
+        "provenance": {
+          "brand": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          },
+          "displayFacts": {
+            "method": "internal_api",
+            "sourceLabel": "Yahoo! Shopping 网页会话",
+            "confidence": 1
+          }
+        }
+      },
+      "rawMetadata": {
+        "provider": "yahoo-shopping-web",
+        "experimental": true,
+        "basePrice": 770,
+        "payablePrice": 736,
+        "discountRate": 0,
+        "sellerId": "aed-store",
+        "sellerUrl": "https://store.shopping.yahoo.co.jp/aed-store/?sc_i=shopping-pc-web-result-item-rsltlst-str",
+        "sellerIsBestStore": false,
+        "sellerReview": {
+          "average": 4.88,
+          "count": 8
+        },
+        "brandId": "8915",
+        "brandUrl": "https://shopping.yahoo.co.jp/search/JAL+%E9%9D%92/0/?brandid=8915&view=grid&prom=1&sc_i=shopping-pc-web-result-item-rsltlst-brr",
+        "categoryId": "42484",
+        "shippingCode": 3
+      }
+    }
+  ],
+  "coverage": "rolling_window",
+  "parserVersion": "yahoo-web-session-2026-07-14.2",
+  "warnings": [
+    "该来源近期不稳定，本次结果已单独验证",
+    "Cloudflare 直连冷却至 2026-07-18T13:08:07.315Z，本次跳过该路径；上次失败：Yahoo 公开搜索页拒绝了匿名请求",
+    "Yahoo 明确返回该关键词没有匹配商品。",
+    "Yahoo! Shopping 实验来源使用匿名网页会话与私有分页接口，字段和可用性可能随上游变化。",
+    "Yahoo 实验来源暂不提供稳定的新品/中古、已售出历史或精确库存状态。",
+    "Yahoo 有 4 个缺少安全核心字段的商品已被隔离。",
+    "本次读取 1 页，未宣称覆盖 Yahoo 全部库存。"
+  ],
+  "requestRoute": "mercari_service",
+  "routeOutcome": {
+    "kind": "fallback_success",
+    "primaryRoute": "direct",
+    "fallbackRoute": "mercari_service",
+    "primaryFailure": {
+      "code": "source_cooldown",
+      "status": 403,
+      "retryable": false,
+      "message": "Cloudflare 直连冷却至 2026-07-18T13:08:07.315Z，本次跳过该路径；上次失败：Yahoo 公开搜索页拒绝了匿名请求",
+      "attempts": [
+        {
+          "attempt": 0,
+          "code": "yahoo_bootstrap_forbidden",
+          "status": 403,
+          "message": "Cloudflare 直连冷却至 2026-07-18T13:08:07.315Z，本次跳过该路径；上次失败：Yahoo 公开搜索页拒绝了匿名请求"
+        }
+      ]
+    },
+    "routeFailures": [
+      {
+        "route": "direct",
+        "failure": {
+          "code": "source_cooldown",
+          "status": 403,
+          "retryable": false,
+          "message": "Cloudflare 直连冷却至 2026-07-18T13:08:07.315Z，本次跳过该路径；上次失败：Yahoo 公开搜索页拒绝了匿名请求",
+          "attempts": [
+            {
+              "attempt": 0,
+              "code": "yahoo_bootstrap_forbidden",
+              "status": 403,
+              "message": "Cloudflare 直连冷却至 2026-07-18T13:08:07.315Z，本次跳过该路径；上次失败：Yahoo 公开搜索页拒绝了匿名请求"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "fieldCoverage": {
+    "required": {
+      "total": 120,
+      "complete": 120
+    },
+    "optional": {
+      "total": 90,
+      "complete": 44
+    }
+  },
+  "durationMs": 6627,
+  "totalAvailable": 0,
+  "requestEvidence": {
+    "availabilityMode": "all",
+    "requestedStatuses": [],
+    "rawResultCount": 34,
+    "normalizedResultCount": 30,
+    "pagesFetched": 3,
+    "keywordRawResultCount": 0,
+    "liveDetailResultCount": 0,
+    "anchorCandidateCount": 0,
+    "parserAcceptedCount": 30,
+    "parserRejectedCount": 4
+  },
+  "candidateEvidence": {
+    "japan_erjal": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 1,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 134.4262,
+      "bestRank": 1,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "zozo_105916556": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 2,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 132.2581,
+      "bestRank": 2,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "cinemacollection_mrs-6305002200": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 3,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 130.1587,
+      "bestRank": 3,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "cinemacollection_mrs-6305002000": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 4,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 128.125,
+      "bestRank": 4,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "cinemacollection-yj_mrs-6305002000": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 5,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 126.1538,
+      "bestRank": 5,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "0101marui_cg0243284801": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 6,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 124.2424,
+      "bestRank": 6,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "pilothousefs-cima_1092": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 7,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 122.3881,
+      "bestRank": 7,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "pirol_to-fst-314012": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 8,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 120.5882,
+      "bestRank": 8,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "janpara_45116789-45": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 9,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 118.8406,
+      "bestRank": 9,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "ishidaya-co_249zak275ms": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 10,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 117.1429,
+      "bestRank": 10,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "cinemacollection_mrs-6305001600": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 11,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 115.493,
+      "bestRank": 11,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "cinemacollection_mrs-6205004600": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 12,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 113.8889,
+      "bestRank": 12,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "santex333_mz635": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 13,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 112.3288,
+      "bestRank": 13,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "tokyodenki_4573525920635--": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 14,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 110.8108,
+      "bestRank": 14,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "pleasure-supply_taf005": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 15,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 109.3333,
+      "bestRank": 15,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "ishidaya-co_249zak274ms": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 16,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 107.8947,
+      "bestRank": 16,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "youplan_100003519474": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 17,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 106.4935,
+      "bestRank": 17,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "cinemacollection-yj_mrs-6305002200": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 18,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 105.1282,
+      "bestRank": 18,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "suruga-ya_zsaro19331": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 19,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 103.7975,
+      "bestRank": 19,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "cinemacollection-yj_mrs-2006057700": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 20,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 102.5,
+      "bestRank": 20,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "cinemacollection-yj_mrs-6305001600": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 21,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 101.2346,
+      "bestRank": 21,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "ishidaya-co_249zak274m": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 22,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 100,
+      "bestRank": 22,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "cinemacollection-yj_mrs-6205004600": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 23,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 98.7952,
+      "bestRank": 23,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "velkommen_mrs-2006057700": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 24,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 97.619,
+      "bestRank": 24,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "windybooks_s-9784048993401": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 25,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 96.4706,
+      "bestRank": 25,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "targetmilitary_jasdf05": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 26,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 95.3488,
+      "bestRank": 26,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "ishidaya-co_249zak275m": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 27,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 94.2529,
+      "bestRank": 27,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "ishidaya-co_249zak276ms": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 28,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 93.1818,
+      "bestRank": 28,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "weekindenim_931413099": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 29,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 92.1348,
+      "bestRank": 29,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "aed-store_ack094": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 30,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 91.1111,
+      "bestRank": 30,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    }
+  }
+}

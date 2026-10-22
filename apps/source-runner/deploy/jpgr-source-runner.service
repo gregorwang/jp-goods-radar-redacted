@@ -1,0 +1,49 @@
+[Unit]
+Description=JP Goods Radar Singapore Source Runner
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=jpgr-runner
+Group=jpgr-runner
+WorkingDirectory=/opt/jpgr-source-runner/current/apps/source-runner
+Environment=NODE_ENV=production
+Environment=HOME=/var/lib/jpgr-source-runner
+Environment=HOST=127.0.0.1
+Environment=PORT=8788
+# 执行池。曾经这里只有一个 MAX_QUEUE_DEPTH=8 的串行槽：一个 AmiAmi 任务在跑时
+# 煤炉、骏河屋、雅虎全都在后面干等，而它们只是发普通 HTTP 请求。
+# heavy 池是 AmiAmi 的 Python 子进程（curl_cffi），受下面 MemoryMax 约束，别随手放大；
+# http 池是纯 fetch，等的是网络不是 CPU。留空则用代码里的默认值（2/8、24/64）。
+Environment=HEAVY_POOL_CONCURRENCY=2
+Environment=HEAVY_POOL_QUEUE_DEPTH=8
+Environment=HTTP_POOL_CONCURRENCY=24
+Environment=HTTP_POOL_QUEUE_DEPTH=64
+Environment=BUSINESS_REPAIR_DIR=/var/lib/jpgr-source-runner/business-repair
+ExecStart=/opt/jpgr-source-runner/current/apps/source-runner/node_modules/.bin/tsx src/index.ts
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=25
+KillMode=mixed
+MemoryHigh=1200M
+MemoryMax=1700M
+CPUQuota=180%
+TasksMax=256
+UMask=0077
+StateDirectory=jpgr-source-runner
+StateDirectoryMode=0700
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/jpgr-source-runner
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,2640 @@
+{
+  "sourceId": "rakuten_ichiba",
+  "status": "success",
+  "listings": [
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "auc-mskamp:10006500",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/auc-mskamp/st-6166/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "JAL JTA × 沖縄 美ら海水族館 ジンベエジェット 1号機 2号機 ステッカー セット 日本航空 青 桜 ボーイング 737 鮫 飛行機 シール",
+      "descriptionExcerpt": "正規品 ■サイズ（直径）■ 約7.5CM コンディション：新品未使用、極僅かなすれ、キズ、汚れ、色抜け、折れ等あるものもございます。予めご了承ください。ネコポスで発送いたします。(追跡番号あり、3000円まで保証有、ポスト投函（ポストに入らない場合は持ち戻ります）、重さ1Kg以内、厚さが2.5cmまでの為、基本的には緩衝材等を使えない点、日時指定、代金引換は不可な点、予めご了承下さい） ■コメント■ 日本航空のジンベイザメが描かれた機体「ジンベエジェット 1号機 2号機 /JINBE JET」ステッカー2種セットです。ステッカーカスタムに、コレクションに",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-mskamp/cabinet/63/st-6166_1.jpg?_ex=128x128",
+      "shopName": "エムズカンパニー",
+      "currency": "JPY",
+      "currentPrice": 1870,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "auc-mskamp:10006376",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/auc-mskamp/st-6045/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "訳有 JAL JTA × 沖縄 美ら海水族館 ジンベエジェット 1号機 2号機 ステッカー セット 日本航空 青 桜 ボーイング 737 鮫 飛行機 シール",
+      "descriptionExcerpt": "正規品 ■サイズ（直径）■ 約7.5CM コンディション：新品未使用、折れ、汚れ、変色、ズレ等のある訳有品です。またワケアリ箇所が異なる場合がございます。予めご了承ください。ネコポスで発送いたします。(追跡番号あり、3000円まで保証有、ポスト投函（ポストに入らない場合は持ち戻ります）、重さ1Kg以内、厚さが2.5cmまでの為、基本的には緩衝材等を使えない点、日時指定、代金引換は不可な点、予めご了承下さい） ■コメント■ 日本航空のジンベイザメが描かれた機体「ジンベエジェット 1号機 2号機 /JINBE JET」ステッカー2種セットです。ステッカーカス",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-mskamp/cabinet/00/st-6045_1.jpg?_ex=128x128",
+      "shopName": "エムズカンパニー",
+      "currency": "JPY",
+      "currentPrice": 1760,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "f292036-yamatokoriyama:10000608",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/f292036-yamatokoriyama/59900573/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【ふるさと納税】「竹」セット　奈良で一番古い　創業天正13年（1585年）400年続く老舗菓子店の銘菓セット。 和菓子 スイーツ JALファーストクラス 羊かん カステラ",
+      "descriptionExcerpt": "名称生菓子焼菓子羊羹菓子内容量・御城之口餅　6個入・菊之寿　5個入・栗羊羹　1棹・カステラ　1本原材料＜御城之口餅＞砂糖（国内製造）、小豆、餅米（国内産）、水飴、青大豆、寒天、ばれいしょ澱粉／トレハロース＜菊之寿＞砂糖（国内製造）、白いんげん、小麦粉、卵、白小豆、練乳、バター、水飴、／クチナシ色素、膨張剤＜栗雀羹＞砂糖（国内製造）、小豆、栗、寒天＜カステラ＞液卵（国内製造）、砂糖、小麦粉（国産）、蜂蜜、米飴賞味期限別途ラベルに記載保存方法要冷凍（−18℃以下）製造者株式会社 本家 菊屋奈良県大和郡山市柳1-11事業者株式会社本家菊屋配送方法冷凍配送備考※",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f292036-yamatokoriyama/cabinet/d_202206/59900573_01_web_s.jpg?_ex=128x128",
+      "shopName": "奈良県大和郡山市",
+      "currency": "JPY",
+      "currentPrice": 20000,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "f292036-yamatokoriyama:10000609",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/f292036-yamatokoriyama/59900572/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【ふるさと納税】「松」セット　奈良で一番古い　創業天正13年（1585年）400年続く老舗菓子店の銘菓セット。 和菓子 スイーツ JALファーストクラス もなか カステラ 羊かん 詰合せ",
+      "descriptionExcerpt": "名称生菓子焼菓子最中菓子羊羹内容量・御城之口餅　6個入×2箱・菊之寿　5個入・鹿もなか　5個入・カステラ　1本・朱雀羹　1棹原材料＜御城之口餅＞砂糖（国内製造）、小豆、餅米（国内産）、水飴、青大豆、寒天、ばれいしょ澱粉／トレハロース＜菊之寿＞砂糖（国内製造）、白いんげん、小麦粉、卵、白小豆、練乳、バター、水飴、／クチナシ色素、膨張剤＜鹿もなか＞砂糖（国内製造）、小豆、餅米（国内産）、水飴、寒天／トレハロース＜カステラ＞液卵（国内製造）、砂糖、小麦粉（国産）、蜂蜜、米飴＜朱雀羹＞砂糖（国内製造）、白小豆、白いんげん、寒天／着色料（赤102・赤3）賞味期限別",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f292036-yamatokoriyama/cabinet/d_202206/59900572_01_web_s.jpg?_ex=128x128",
+      "shopName": "奈良県大和郡山市",
+      "currency": "JPY",
+      "currentPrice": 26000,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "auc-mskamp:10005472",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/auc-mskamp/st-5208/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "JAL JTA × 沖縄 美ら海水族館 ジンベエジェット 1号機 ステッカー 日本航空 青 ボーイング 737 BOEING JA8992 STICKER 鮫 航空機 シール",
+      "descriptionExcerpt": "正規品 ■サイズ（直径）■ 約7.5CM コンディション：新品未使用、極僅かなすれ、キズ、汚れ、色抜け、折れ等あるものもございます。予めご了承ください。ネコポスで発送いたします。(追跡番号あり、3000円まで保証有、ポスト投函（ポストに入らない場合は持ち戻ります）、重さ1Kg以内、厚さが2.5cmまでの為、基本的には緩衝材等を使えない点、日時指定、代金引換は不可な点、予めご了承下さい） ■コメント■ 日本航空のジンベイザメが描かれた機体「ジンベエジェット 1号機 /JINBE JET」ステッカーです。ステッカーカスタムに、コレクションにいかがでしょうか？",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-mskamp/cabinet/91/st-5208_1.jpg?_ex=128x128",
+      "shopName": "エムズカンパニー",
+      "currency": "JPY",
+      "currentPrice": 990,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "pirol:10029878",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/pirol/to-fst-314012/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "キャラクター タオルハンカチ （ ミニ ) JAL （ 20cm角 ) （ ビューティフルスカイ 青/ブルー ) 【キッズ】【キャラクター】【タオル】【ハンカチ】【タオルハンカチ】【メール便 （ ゆうパケット ) OK】",
+      "descriptionExcerpt": "＜通園通学、お出かけに。サイズがありますのでよくお確かめください。＞ ■サイズ・約20cm×20cm ■素材・綿100％ JAL",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/pirol/cabinet/socks2/img64050430.jpg?_ex=128x128",
+      "shopName": "手芸のピロル 生地と雑貨と手芸",
+      "currency": "JPY",
+      "currentPrice": 385,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "cinemacollection:10515434",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/cinemacollection/mrs-6305001600/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【最大1000円OFFクーポン！】JAL 日本航空 手提げかばん 不織布バッグ ナイトフライト 丸眞 プレゼント 飛行機 グッズ シネマコレクション",
+      "descriptionExcerpt": "JAL 日本航空 手提げかばん 不織布バッグ ナイトフライト 丸眞 プレゼント 飛行機 グッズ あす楽 シネマコレクションおでかけに便利なかわいいトートバッグサブバッグ/旅行/肩掛け/鞄/エコバッグJAPAN AIRLINES/日本航空（JAL）のKOOLなZAKKAシリーズこちらはかわいい[トートバッグ]ちょっとしたお出かけに便利なサイズ感同シリーズの雑貨いろいろあるのでお気に入りを揃えてくださいサイズ：約380x390x150mm(持ち手部分含めず)カラー/ブルー系（青・紺・ネイビー）【JAL 日本航空】キャラクター グッズ はこちらから &gt;&",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cinemacollection/cabinet/r20250722/mrs-6305001600.jpg?_ex=128x128",
+      "shopName": "キャラクターのシネマコレクション",
+      "currency": "JPY",
+      "currentPrice": 409,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "10 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 10,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "auc-mskamp:10007164",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/auc-mskamp/st-6807/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "JAL JTA × 沖縄 美ら海水族館 ジンベエジェット 立体 ドロップス ステッカー 青 1号機 日本航空 737 STICKER 飛行機 航空機 シール 新品",
+      "descriptionExcerpt": "正規品 ■サイズ（台紙サイズ）■ 12CM×約9.5CM コンディション：新品未使用、極僅かなすれ、キズ、汚れ、色抜け、折れ等あるものもございます。また、台紙にはダメージがあります。予めご了承ください。ネコポスで発送いたします。(追跡番号あり、3000円まで保証有、ポスト投函（ポストに入らない場合は持ち戻ります）、重さ1Kg以内、厚さが2.5cmまでの為、基本的には緩衝材等を使えない点、日時指定、代金引換は不可な点、予めご了承下さい） ■コメント■ 日本航空、JAL、JTAと美ら海水族館のコラボ、ジンベイザメが描かれた機体「ジンベエジェット /JINBE",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/auc-mskamp/cabinet/21/st-6807_1.jpg?_ex=128x128",
+      "shopName": "エムズカンパニー",
+      "currency": "JPY",
+      "currentPrice": 1100,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "stylife:15644746",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/stylife/ru4493/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "BeBe 【JALコラボ】飛行機図面エンボス加工ロゴ半袖Tシャツ(90~140cm) ベベ オンライン ストア トップス カットソー・Tシャツ ブルー ブラック【送料無料】",
+      "descriptionExcerpt": "BEBE ONLINE STORE（ベベ オンライン ストア）【JALコラボ】飛行機図面エンボス加工ロゴ半袖Tシャツ(90~140cm)-26SS-BeBeよりJALとのコラボレーションアイテムが登場。■デザイン機体の図案プリントとエンボス加工のロゴが胸元に並んだスタイリッシュなTシャツ。図案プリントは機体の細かな部分まで書き込まれたじっくり見てもかっこいいデザイン。凹凸の陰影がおしゃれなエンボス加工のロゴは「青空」を意味する「CielBlue」。袖に入れたユニフォームのような2本ラインもおしゃれなポイントです。背中にはJALのロゴとBeBeのロゴプリン",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/stylife/cabinet/item/493/ru4493-01_1.jpg?_ex=128x128",
+      "shopName": "Rakuten Fashion",
+      "currency": "JPY",
+      "currentPrice": 6600,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "kuranosuke:10013736",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/kuranosuke/1313-hako/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "御慶事 ごけいじ 純米吟醸 雄町 青木酒造 720ml 瓶 【箱入り】【cp】 【 日本酒 純米吟醸酒 茨城 古河 フルーティー JAL ファーストクラス 贈り物 ラッピング メッセージカード 】",
+      "descriptionExcerpt": "通常商品在庫商品常温便配送品箱入り包装OK(詳細は ▼)メッセージカードOK(詳細は ▼)ボトルラッピングOK(詳細は ▼)オマチスト要注目！雄町サミット3年連続優等賞の絶品純吟をご賞味ください！！雑誌やテレビなどでも紹介され注目を集めている青木酒造の看板銘柄〈御慶事 ごけいじ〉に、2017年、待望の新商品としてラインナップされた〈御慶事 純米吟醸 雄町〉。岡山県産の酒米「雄町」を全量使用した純米吟醸で、岡山県の酒米生産者と酒蔵が主催する「雄町サミット」において3年連続優等賞を獲得した、雄町好きには飲まずにはいられない銘酒です。御慶事 純米吟醸 雄町岡山",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kuranosuke/cabinet/13/1313-hako_1.jpg?_ex=128x128",
+      "shopName": "酒の倉之助",
+      "currency": "JPY",
+      "currentPrice": 2167,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "kuranosuke:10011046",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/kuranosuke/1313/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "御慶事 ごけいじ 純米吟醸 雄町 青木酒造 720ml 瓶 【箱なし】【cp】 【 日本酒 純米吟醸酒 茨城 古河 人気 フルーティー JAL ビジネスクラス ファーストクラス 採用 】",
+      "descriptionExcerpt": "通常商品在庫商品常温便配送品箱無し箱別途購入(▼)で包装対応メッセージカードOK(詳細は ▼)ボトルラッピングOK(詳細は ▼)オマチスト要注目！雄町サミット3年連続優等賞の絶品純吟をご賞味ください！！雑誌やテレビなどでも紹介され注目を集めている青木酒造の看板銘柄〈御慶事 ごけいじ〉に、2017年、待望の新商品としてラインナップされた〈御慶事 純米吟醸 雄町〉。岡山県産の酒米「雄町」を全量使用した純米吟醸で、岡山県の酒米生産者と酒蔵が主催する「雄町サミット」において3年連続優等賞を獲得した、雄町好きには飲まずにはいられない銘酒です。御慶事 純米吟醸 雄町",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kuranosuke/cabinet/13/1313_1.jpg?_ex=128x128",
+      "shopName": "酒の倉之助",
+      "currency": "JPY",
+      "currentPrice": 2090,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "topgun:10023510",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/topgun/10023510/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "JAL ミニタオル　青空フライト JALUX 飛行機/グッズ [BJK4071] サマーアイテム",
+      "descriptionExcerpt": "商品名JAL ミニタオル　青空フライト 商品コード4992272704983 メーカーJALUX 詳細サイズ（約）：縦25 × 横25 cm 材質：綿 中国製",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/topgun/cabinet/product/006/bjk4071-1.jpg?_ex=128x128",
+      "shopName": "航空機模型TopGunトップガン",
+      "currency": "JPY",
+      "currentPrice": 770,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "dorama:15700712",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/dorama/n34412605/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "JAL裁判　日航123便墜落事件　青山透子/著",
+      "descriptionExcerpt": "■ISBN:9784309030524★日時指定・銀行振込をお受けできない商品になりますタイトルJAL裁判　日航123便墜落事件　青山透子/著ふりがなじやるさいばんJAL/さいばんにつこうひやくにじゆうさんびんついらくじけんにつこう/123びん/ついらく/じけん発売日202211出版社河出書房新社ISBN9784309030524大きさ373P　20cm著者名青山透子/著",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/dorama/cabinet/bkimg/2022/044/34412605.jpg?_ex=128x128",
+      "shopName": "ドラマ×プリンセスカフェ",
+      "currency": "JPY",
+      "currentPrice": 1980,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "marushin-onlineshop:10012801",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/marushin-onlineshop/6305002300/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "JAL 日本航空 青空フライトエコバッグ エコバッグ",
+      "descriptionExcerpt": "商品詳細 商品説明 JAL 日本航空の青空フライトエコバッグは、再生ポリエステルを使用した環境に優しい製品です。軽量で持ち運びが簡単なこのエコバッグは、コンパクトに折りたたむことができ、収納にも便利です。持続可能な素材を使用しているため、環境保護に貢献しながらスタイリッシュにお使いいただけます。 仕様 再生ポリエステル・インクジェットプリント・プリントネーム サイズ 約H63xW40xD20cm（収納時:約H12xW12cm） 素材 ポリエステル100％ その他 【ご注文確定について】前払い、クレジット決済に関しては楽天の処理・入金確認後、ご注文確定とさ",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/marushin-onlineshop/cabinet/kihon22/6305002300-01.jpg?_ex=128x128",
+      "shopName": "丸眞online shop楽天市場店",
+      "currency": "JPY",
+      "currentPrice": 1980,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "booxstore:13031897",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/booxstore/bk-4309030521/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "＜7/19 ~26限定 全品15倍 要エントリー＞JAL裁判 日航123便墜落事件／青山透子",
+      "descriptionExcerpt": "※商品画像はイメージや仮デザインが含まれている場合があります。帯の有無など実際と異なる場合があります。著者青山透子(著)出版社河出書房新社発売日2022年11月ISBN9784309030524ページ数373PキーワードじやるさいばんJAL／さいばんにつこうひやくにじゆ ジヤルサイバンJAL／サイバンニツコウヒヤクニジユ あおやま とうこ アオヤマ トウコ9784309030524内容紹介日航123便墜落事件から37年後、真実を追求する初めての裁判が始まった。 〈昭和の闇〉が凝縮する歴史的な法廷から真実に迫る。※本データはこの商品が発売された時点の情報で",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/booxstore/cabinet/01148/bk4309030521.jpg?_ex=128x128",
+      "shopName": "bookfan 1号店 楽天市場店",
+      "currency": "JPY",
+      "currentPrice": 1980,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "winglet:10001127",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/winglet/w-hf-jal-01/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "JAL 扇子 ストラップリング 付き せんす ブルー 軽量 竹 素材 日本航空 ロゴ マーク 飛行機 エアライン 航空 国内線 旅客機 夏 旅行 トラベル 祭り 涼しい コンパクト メンズ レディース 男性用 女性用 普段 父の日 母の日 グッズ アイテム プレゼント ギフト お土産",
+      "descriptionExcerpt": "名　　称扇子（せんす） 素　　材扇面：ポリエステル / 扇骨：竹 / 金具：鉄 サイズ約 縦 21 × 横 37 (cm) ※展開時 配送方法メール便 備　　考日本航空承認済み 注　　意 発送後のキャンセルは出来ません。 日時指定・代引き決済不可。 【 JAL 扇子（せんす）】 JALの扇子がニューアル！とても軽く、落ち着いたブラウンとJALのロゴがデザインされています。扇骨は竹素材に飛行機と星のシルエット・ストラップ用リングがついています。",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/winglet/cabinet/goods/av/bg/hf-jal02-01.jpg?_ex=128x128",
+      "shopName": "エアーズショップ Winglet",
+      "currency": "JPY",
+      "currentPrice": 1320,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "noel-ange:10491183",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/noel-ange/bdl-31eme-244/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【最大1000円OFFクーポン】 BANDOLIER EMELIA LONG PEARL BANDOLET SILVER バンドリヤー ストラップ スマホストラップ ハンドストラップ バンドレット 落下防止 エミリア ショートパール メンズ レディース シルバー 31EME",
+      "descriptionExcerpt": "商品説明 【セレブ愛用者急上昇中のiPhone専用アクセサリーブランド BANDOLIER】 ジュエリーのようなパールをあしらったロングバンドレットスタイル。ボリュームのあるストラップは持っているだけで華やかな印象に。様々なケースと合わせて自分だけのBANDOLIER STYLEを見つけることが出来ます。 スマホケースだけではなく、ポーチ単体にストラップをつけることも可能です。 ※こちらはストラップのみの販売です。 ブランド名 / 商品名 BANDOLIER バンドリヤー / EMELIA LONG PEARL BANDOLET SILVER 31EME",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/noel-ange/cabinet/2504-2/bdl-31eme-244_d.jpg?_ex=128x128",
+      "shopName": "ALLSPORTS",
+      "currency": "JPY",
+      "currentPrice": 13200,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "provenance": {
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        },
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "kind": "text",
+            "group": "commerce",
+            "label": "积分倍率",
+            "value": "1 倍"
+          }
+        ],
+        "sourceConditionLabel": "新品"
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "identifiers": {},
+        "sourceConditionLabel": "新品"
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "sneak:10477722",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/sneak/bdl-31eme-244/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【最大1000円OFFクーポン発行中 7/16 10:59まで！】 BANDOLIER バンドリヤー ストラップ スマホストラップ ハンドストラップ バンドレット 落下防止 エミリア ショートパール メンズ レディース EMELIA LONG PEARL BANDOLET SILVER シルバー 31EME",
+      "descriptionExcerpt": "ショップトップ&nbsp;&gt;&nbsp;カテゴリトップ&nbsp;&gt;&nbsp;セール＆イベント&nbsp;&gt;&nbsp;SALE 商品説明 【セレブ愛用者急上昇中のiPhone専用アクセサリーブランド BANDOLIER】 ジュエリーのようなパールをあしらったロングバンドレットスタイル。ボリュームのあるストラップは持っているだけで華やかな印象に。様々なケースと合わせて自分だけのBANDOLIER STYLEを見つけることが出来ます。 スマホケースだけではなく、ポーチ単体にストラップをつけることも可能です。 ※こちらはストラップのみの販",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sneak/cabinet/2504-2/bdl-31eme-244_r.jpg?_ex=128x128",
+      "shopName": "スニークオンラインショップ",
+      "currency": "JPY",
+      "currentPrice": 13200,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "provenance": {
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        },
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "kind": "text",
+            "group": "commerce",
+            "label": "积分倍率",
+            "value": "1 倍"
+          }
+        ],
+        "sourceConditionLabel": "新品"
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "identifiers": {},
+        "sourceConditionLabel": "新品"
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "biget:10041227",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/biget/bdl-31eme-620/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【最大1000円OFFクーポン発行中】 BANDOLIER EMELIA LONG PEARL BANDOLET GOLD バンドリヤー ストラップ スマホストラップ バンドレット エミリア ロングパール メンズ レディース ゴールド 31EME",
+      "descriptionExcerpt": "商品説明 【セレブ愛用者急上昇中のiPhone専用アクセサリーブランド BANDOLIER】 ジュエリーのようなパールをあしらったロングバンドレットスタイル。ボリュームのあるストラップは持っているだけで華やかな印象に。様々なケースと合わせて自分だけのBANDOLIER STYLEを見つけることが出来ます。 スマホケースだけではなく、ポーチ単体にストラップをつけることも可能です。 ※こちらはストラップのみの販売です。 ブランド名 / 商品名 BANDOLIER バンドリヤー / EMELIA LONG PEARL BANDOLET GOLD 31EME カ",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/biget/cabinet/2502/bdl-31eme-620_x.jpg?_ex=128x128",
+      "shopName": "Findoriy",
+      "currency": "JPY",
+      "currentPrice": 13200,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "provenance": {
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        },
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "kind": "text",
+            "group": "commerce",
+            "label": "积分倍率",
+            "value": "1 倍"
+          }
+        ],
+        "sourceConditionLabel": "新品"
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "identifiers": {},
+        "sourceConditionLabel": "新品"
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "wassup:10233607",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/wassup/bdl-31eme-620/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【最大1000円OFFクーポン】 BANDOLIER EMELIA LONG PEARL BANDOLET GOLD バンドリヤー ストラップ スマホストラップ バンドレット エミリア ロングパール メンズ レディース ゴールド 31EME",
+      "descriptionExcerpt": "商品説明 【セレブ愛用者急上昇中のiPhone専用アクセサリーブランド BANDOLIER】 ジュエリーのようなパールをあしらったロングバンドレットスタイル。ボリュームのあるストラップは持っているだけで華やかな印象に。様々なケースと合わせて自分だけのBANDOLIER STYLEを見つけることが出来ます。 スマホケースだけではなく、ポーチ単体にストラップをつけることも可能です。 ※こちらはストラップのみの販売です。 ブランド名 / 商品名 BANDOLIER バンドリヤー / EMELIA LONG PEARL BANDOLET GOLD 31EME カ",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/wassup/cabinet/2502/bdl-31eme-620_s.jpg?_ex=128x128",
+      "shopName": "Goods Lab+",
+      "currency": "JPY",
+      "currentPrice": 13200,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "provenance": {
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        },
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "kind": "text",
+            "group": "commerce",
+            "label": "积分倍率",
+            "value": "1 倍"
+          }
+        ],
+        "sourceConditionLabel": "新品"
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "identifiers": {},
+        "sourceConditionLabel": "新品"
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "lilishop6-store:10836987",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/lilishop6-store/cgzpfzomz7lt6swhachxsid2ja-lil/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "ワンピース Vネック フリル 切り替え ミドル丈 ニット 魚尾スカート 気質 通勤 秋 ブルー 白 黒 純色 セットアップ 針織 色織 ロングスカート タイトスカート 2024秋 気質 通勤",
+      "descriptionExcerpt": "・主な素材: ニット・柄: 無地・スタイル: セットイン・スカート丈: ロング・スカートタイプ: ペンシル・カラー展開: ブルー、ホワイト、ブラック・サイズ展開: S、M、L・カテゴリ: ワンピース",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/lilishop6-store/cabinet/13190231/alb18751845_1.jpg?_ex=128x128",
+      "shopName": "LiLishop6",
+      "currency": "JPY",
+      "currentPrice": 19434,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "la-graine:11579148",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/la-graine/jkxl5qhacybgfxjygjaluk46i4-all/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "ブラウス レディース レトロ スタンドカラー 綿 半袖 立体切り替え プルオーバー 無地 ゆったり カジュアル 夏 チャイナ風 ホワイト ブラック ブルー ワインレッド",
+      "descriptionExcerpt": "・カテゴリ: シャツ・主な素材: 綿・素材混率: 綿70%〜80%・スタイル: カーディガン・ネックライン: 襟付き・袖丈: 半袖・袖タイプ: レギュラー・シルエット: ルーズフィット・デザインテイスト: 中国風、レトロ、ヴィンテージ・カラー展開: ホワイト、ブラック、ブルー、ワインレッド・サイズ展開: ワンサイズ・対象年齢: 成人・対象性別: レディース",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/la-graine/cabinet/12815302/alb11394339_5.jpg?_ex=128x128",
+      "shopName": "ラ・グラーヌ",
+      "currency": "JPY",
+      "currentPrice": 5631,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "giftjapan:10008814",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/giftjapan/erjal/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "エコリュック 日本航空 JAL ブルー エコバッグリュックサック 旅行 ショッピング 鞄 軽量 バックパック ミニリュック 大きく開く たっぷり収納 コンパクト 持ち運び 便利 軽い 背負える キャラクター 飛行機 かばん 楽しい 通勤 通学 買い物 リュック お洒落 送料無料",
+      "descriptionExcerpt": "オススメ商品 日本のトランプ・おもちゃ 花生け・時計 お寿司のグッズ ギフトスプーン 彫金（ちょうきん）小物 マウスパッド 外国人が喜ぶ日本のおみやげ、 海外留学・ホームステイのホストファミリーへのお土産、 海外出張の海外取引先への手土産、 海外生活でお世話になった方へのプレゼント 、 海外から来られたお客様への贈り物 を豊富に取り揃えております。 ホームステイをもっと楽しく！海外取引をもっとスムーズに！ 京都シルク株式会社は、 ホームステイをされる方、 海外進出企業様、海外で活躍する日本人のサポーターです。エコリュック　日本航空　JAL ストライプ　エ",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/giftjapan/cabinet/02215277/erjal.jpg?_ex=128x128",
+      "shopName": "ホームステイのおみやげ専門店",
+      "currency": "JPY",
+      "currentPrice": 1650,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "topgun:10034001",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/topgun/bjk9100/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【メール便対応】JALオリジナル ミニタオル ブルー 日本航空 [BJK9100]JALUX",
+      "descriptionExcerpt": "商品名 JALオリジナル ミニタオル ブルー 日本航空 商品コード 4528969048124 メーカー JALUX 詳細 サイズ（約）：縦19 × 横19 cm材質：綿100% 日本製",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/topgun/cabinet/product/030/bjk9100-1.jpg?_ex=128x128",
+      "shopName": "航空機模型TopGunトップガン",
+      "currency": "JPY",
+      "currentPrice": 660,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "casemania55:11076135",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/casemania55/key-sl-cblc-k0001675938/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "NEC LAVIE N16 N1635/JAL PC-N1635JA シリーズ [16インチ] キーボードカバー キーボード シリコン フリーカットタイプ と ブルーライトカット 光沢 液晶保護フィルム セット メール便送料無料 jgs bgt 互換品",
+      "descriptionExcerpt": "NEC LAVIE N16 N1635/JAL PC-N1635JA シリーズ [16インチ(1920x1200)] 用 キーボードカバー シリコン フリーカットタイプ と ブルーライトカット 光沢 液晶保護フィルム セット対応機種NEC LAVIE N16 N1635/JAL PC-N1635JA シリーズ [16インチ(1920x1200)] シリコン製キーボードカバーの特徴・高耐久性・復元性・耐裂性に優れ、耐熱性・耐寒性も抜群！・厚さ0.3mmの微粘着タイプでそのままキーボードに直接貼り付けてご利用いただけます。付属両面テープを使用すればよりしっか",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/casemania55/cabinet/item_thumb/key-sl-cblc/1000/k0001675938.jpg?_ex=128x128",
+      "shopName": "液晶保護フィルムとカバーケース卸",
+      "currency": "JPY",
+      "currentPrice": 3003,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "rico:10000428",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/rico/hawaiib240-42/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "即発★ハワイウォーター【240ml×42本(1ケース)　ブルーボトル　正規品販売店】【送料無料】【沖縄・離島配送不可】Hawaii water/ナチュラルウォーター/ペットボトル/水/JAL機内食/軟水/海外/ピュアウォーター/おしゃれ/おいしい/海外/飲みやすい/小さ",
+      "descriptionExcerpt": "不純物をほとんど含まない純度99.9%！ 身体に優しいピュアウォーター 飲みやすさ抜群「超軟水」 商品名 Hawaiiwater/ハワイウォーター 内容量 240ml x 42本 原材料 水（深井戸水） 原産国 ハワイオアフ島(ハラワ水源） 成分表示100mlあたり エネルギー0mg,たんぱく質・脂質・糖質0mg,ナトリウム・カルシウム・マグネシウム・カリウム0mg,PH中性(ー),超軟水(硬度1.05) 商品詳細 純度99%のウルトラピュアウォーターハワイウォーターは成分が99.99％の純水です。水以外はほとんど何も含まれていない超軟水です。99.99",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/rico/cabinet/05058740/hawaii/240-42b-1.jpg?_ex=128x128",
+      "shopName": "Beautydelight",
+      "currency": "JPY",
+      "currentPrice": 6350,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "hobbyone:10122829",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/hobbyone/4967834072169/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "ハセガワ 1/48 日本航空自衛隊 アクロバットチーム 川崎 T-4 ブルーインパルス プラモデル PT16 戦闘機 スケールモデル",
+      "descriptionExcerpt": "商品説明 1958年10月19日浜松北基地にて行われた航空祭で 3機のF-86Fが曲技飛行を行ったのが現在のブルーインパルスの始まりです。 航空自衛隊は1960年4月16日に浜松基地第1航空団に空中機動研究班を発足、 天竜の名でF-86Fセイバーを使用した曲技飛行チームができました。 F-86Fを使用したこのチームは後に、コールサインのインパルスブルーを使用した ブルーインパルスとチーム名称を変更し、 オリンピックの五輪、万博のEXPO'70を空中に描き世界中に名を知らしめました。 この後数多くの曲技飛行を日本全国で行ってきましたが、 1982年のシーズ",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/hobbyone/cabinet/plamodel/h1/4967834072169.jpg?_ex=128x128",
+      "shopName": "HOBBYONE キャンプ アウトドア用品",
+      "currency": "JPY",
+      "currentPrice": 2244,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "casemania55:11075021",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/casemania55/cblm-ntpc-k0001675938/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "NEC LAVIE N16 N1635/JAL PC-N1635JA シリーズ [16インチ] 保護 フィルム カバー シート ブルーライトカット 反射防止 指紋防止 液晶保護フィルム メール便送料無料 jgs bgt 互換品",
+      "descriptionExcerpt": "【ブルーライトカット＋反射防止＋指紋防止で快適に使える液晶保護フィルム】NEC LAVIE N16 N1635/JAL PC-N1635JA シリーズ [16インチ(1920x1200)] 用 液晶保護 フィルム カバー シート ブルーライトカット 反射防止 指紋防止 ノングレアタイプ対応機種NEC LAVIE N16 N1635/JAL PC-N1635JA シリーズ [16インチ(1920x1200)] 主な仕様◆液晶保護フィルム特徴・ブルーライトカット率 平均20％（380nm〜500nm）。LED光源から出る中間波長帯を均一に抑え、目の疲れを軽減",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/casemania55/cabinet/item_thumb/cblm-ntpc/1000/k0001675938.jpg?_ex=128x128",
+      "shopName": "液晶保護フィルムとカバーケース卸",
+      "currency": "JPY",
+      "currentPrice": 3300,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "mottainaihonpo-omatome:11811728",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/mottainaihonpo-omatome/4309485065/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【中古】 ANAとJALこんな違いがあったのか / 秋本 俊二 / 河出書房新社 [文庫]【宅配便出荷】",
+      "descriptionExcerpt": "著者：秋本 俊二出版社：河出書房新社サイズ：文庫ISBN-10：4309485065ISBN-13：9784309485065■こちらの商品もオススメです ● 最後のパレード / 中村克 / サンクチュアリパプリッシング [単行本] ● 絆の翼 / 岡田 晴彦, 『ダイヤモンド・ビジョナリー』 / ダイヤモンド社 [単行本] ● 新世界ワインと楽しくつきあう本 / 河出書房新社 / 河出書房新社 [ムック] ● エアバスの真実 / 加藤 寛一郎 / 講談社 [文庫] ● マイレージの超達人－ANA編－ / 櫻井雅英 単行本 / 櫻井雅英 / USE [単",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/mottainaihonpo-omatome/cabinet/07147494/bkjcst6gv6yyyqdl.jpg?_ex=128x128",
+      "shopName": "もったいない本舗 おまとめ店",
+      "currency": "JPY",
+      "currentPrice": 391,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "body-style:10000539",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/body-style/h-piercer-3g/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【片耳用ピアッサー＆消毒ジェル＆透明ピアス】ピアッサー 3点セット 耳たぶ用 18G 片耳用 金属アレルギー対応 日本製 医療用ステンレス製 耳ピアス ボディピアス 耳用 3点セット 瞬間 透明ピアス クリアピアス 樹脂 消毒ジャル 穴あけ シルバー ゴールド",
+      "descriptionExcerpt": "片耳用ピアッサーと消毒液、透明ピアスがセットになったお得な耳たぶ用ピアッサー3点セットです。 ※ピアッッシングは医療行為です。ご自身の責任のもとで行って下さい。 商品説明 素材 ピアッサー軸：医療用ステンレス304 透明ピアス：樹脂 サイズ／容量 【ピアッサー】 ゲージ：18G 有効軸長：8mm ボール・人工石：3mm※人工石は台座を含むサイズ 【透明ピアス】 ゲージ：18G 【消毒ジェル】 20ml カラー（ボール／人工石） ボール2色/ジュエル12色 合計14種類からお選びいただけます 種類（透明ピアス） 6種類からお選びいただけます （各モチーフ8",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/body-style/cabinet/kago/h-piercer-3g.jpg?_ex=128x128",
+      "shopName": "ボディピアス専門店 Body-Style",
+      "currency": "JPY",
+      "currentPrice": 2600,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "comicset:13122893",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/comicset/4309485065/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【中古】 ANAとJALこんな違いがあったのか / 秋本 俊二 / 河出書房新社 [文庫]【メール便送料無料】【最短翌日配達対応】",
+      "descriptionExcerpt": "著者：秋本 俊二出版社：河出書房新社サイズ：文庫ISBN-10：4309485065ISBN-13：9784309485065■こちらの商品もオススメです ● 最後のパレード / 中村克 / サンクチュアリパプリッシング [単行本] ● 絆の翼 / 岡田 晴彦, 『ダイヤモンド・ビジョナリー』 / ダイヤモンド社 [単行本] ● 新世界ワインと楽しくつきあう本 / 河出書房新社 / 河出書房新社 [ムック] ● エアバスの真実 / 加藤 寛一郎 / 講談社 [文庫] ● マイレージの超達人－ANA編－ / 櫻井雅英 単行本 / 櫻井雅英 / USE [単",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/comicset/cabinet/07149078/bkjcst6gv6yyyqdl.jpg?_ex=128x128",
+      "shopName": "もったいない本舗 楽天市場店",
+      "currency": "JPY",
+      "currentPrice": 441,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "kamedayautsunomiya:10001693",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/kamedayautsunomiya/10002194/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【クール便】【あす楽】【地域貢献】Ashicoco ココ・ファーム・ワイナリー 750ml あしここ COCOFARM&WINERY 栃木県 足利市 日本ワイン 国産ブドウ 甲州 低温発酵 ANA国際線採用 JAL国際線採用 白ワイン 辛口 ココファーム",
+      "descriptionExcerpt": "日本固有のワイン用葡萄品種甲州種を主体に、バッカス種やプティ・マンサン種などをブレンド。 フルーティさを生かすため低温でじっくり醗酵させました。 1984年から造り続けているココ・ファーム定番のやや甘口の白ワインです。 ◆自家醸造 【容量】 750m 【品種】 甲州 69%、バッカス 9%、プティ・マンサン 8%、ミュラー・トゥルガウ 6%、シルヴァーナ 3%、マルヴァジア 3%、シャルドネ 2% 【醗酵】 除梗した葡萄をやさしくプレスして、タンクに入れる。澱を沈め、澄んだ果汁を21℃以下に保ち、野生酵母で約1カ月醗酵。甘味と酸味のバランスが良いタイミン",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kamedayautsunomiya/cabinet/06211112/07155106/imgrc0090475994.jpg?_ex=128x128",
+      "shopName": "自然と家具とワインを。亀田屋",
+      "currency": "JPY",
+      "currentPrice": 2420,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "smilemix:10000448",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/smilemix/sm55a1904bda/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "ハセガワ 1/48 日本航空自衛隊 アクロバットチーム 川崎 T-4 ブルーインパルス プラモデル PT16 送料無料",
+      "descriptionExcerpt": "成型色/ワンサイズ/HAPT16・パッケージ個数:1・組み立て塗装が必要なプラモデル。別途、接着剤や工具、塗料等が必要。・1/48スケール未塗装プラスチック組み立てキット・完成サイズ:全長258mm、全幅207mm商品紹介 1958年10月19日浜松北基地にて行われた航空祭で3機のF-86Fが曲技飛行を行ったのが現在のブルーインパルスの始まりです。 航空自衛隊は1960年4月16日に浜松基地第1航空団に空中機動研究班を発足、天竜の名でF-86Fセイバーを使用した曲技飛行チームができました。 F-86Fを使用したこのチームは後に、コールサインのインパルスブ",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/smilemix/cabinet/onesell005/sm55a1904bda.jpg?_ex=128x128",
+      "shopName": "SmileMix",
+      "currency": "JPY",
+      "currentPrice": 2232,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "1 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 1,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "cinemacollection:10509722",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/cinemacollection/mrs-6305002200/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "【最大1000円OFFクーポン！】JAL 日本航空 カードケース パスポートケース ナイトフライト 丸眞 旅行用品 おしゃれ グッズ メール便可 シネマコレクション",
+      "descriptionExcerpt": "JAL 日本航空 カードケース パスポートケース ナイトフライト 丸眞 旅行用品 おしゃれ グッズ メール便可 あす楽 シネマコレクション旅のお供にぴったりなパスポートケースパスポートカバー/パスポート入れ/トラベルグッズ/出張/海外旅行JAL日本航空グッズにまたまた可愛いnewアイテム登場こちらは旅先で必要なパスポートやカード類をまとめて収納できる[パスポートケース]内側には様々なサイズのポケット付きで、カードやペン、チケットなど、ついカバンのあちこちに散らばりがちな小物類もこれ一つにすっきり収納できて便利。デザイン性と機能性を兼ね備えた、旅行シーンに",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/cinemacollection/cabinet/r20250529/mrs-6305002200.jpg?_ex=128x128",
+      "shopName": "キャラクターのシネマコレクション",
+      "currency": "JPY",
+      "currentPrice": 2199,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "10 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 10,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "velkommen:10455481",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/velkommen/mrs-6305002200/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "パスポートケース カードケース JAL 日本航空 ナイトフライト 丸眞 旅行用品 おしゃれ メール便可",
+      "descriptionExcerpt": "パスポートケース カードケース JAL 日本航空 ナイトフライト 丸眞 旅行用品 おしゃれ メール便可毎日使うものだからこそこだわりを 大人可愛い女性向け雑貨JAL日本航空グッズにまたまた可愛いnewアイテム登場こちらは旅先で必要なパスポートやカード類をまとめて収納できる[パスポートケース]内側には様々なサイズのポケット付きで、カードやペン、チケットなど、ついカバンのあちこちに散らばりがちな小物類もこれ一つにすっきり収納できて便利。デザイン性と機能性を兼ね備えた、旅行シーンに最適なアイテムです。かわいい雑貨いろいろあるのでお気に入りを揃えてくださいサイズ",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/velkommen/cabinet/r20250529/mrs-6305002200.jpg?_ex=128x128",
+      "shopName": "雑貨&アートの通販店ベルコモン",
+      "currency": "JPY",
+      "currentPrice": 2199,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "10 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 10,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    },
+    {
+      "sourceId": "rakuten_ichiba",
+      "sourceItemId": "mm-pop:10399237",
+      "identityScope": "listing",
+      "canonicalUrl": "https://item.rakuten.co.jp/mm-pop/mrs-6305002200/?rafcid=wsc_i_is_0dfb6695-e006-46bc-81bf-749a06d0c38e",
+      "title": "カードケース JAL 日本航空 パスポートケース ナイトフライト 丸眞 旅行用品 おしゃれ メール便可 マシュマロポップ",
+      "descriptionExcerpt": "旅のお供にぴったりなパスポートケースパスポートカバー パスポート入れ トラベルグッズ 出張 海外旅行JAL日本航空グッズにまたまた可愛いnewアイテム登場こちらは旅先で必要なパスポートやカード類をまとめて収納できる[パスポートケース]内側には様々なサイズのポケット付きで、カードやペン、チケットなど、ついカバンのあちこちに散らばりがちな小物類もこれ一つにすっきり収納できて便利。デザイン性と機能性を兼ね備えた、旅行シーンに最適なアイテムです。かわいい雑貨いろいろあるのでお気に入りを揃えてくださいサイズ：約120x150mm(開いた状態：約240x150mm)",
+      "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/mm-pop/cabinet/r20250529/mrs-6305002200.jpg?_ex=128x128",
+      "shopName": "ガールズ雑貨通販マシュマロポップ",
+      "currency": "JPY",
+      "currentPrice": 2199,
+      "priceBasis": "listing_price",
+      "condition": "new",
+      "availability": "available",
+      "facts": {
+        "sourceConditionLabel": "新品",
+        "displayFacts": [
+          {
+            "key": "point_rate",
+            "label": "积分倍率",
+            "group": "commerce",
+            "kind": "text",
+            "value": "10 倍"
+          }
+        ],
+        "provenance": {
+          "sourceConditionLabel": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          },
+          "displayFacts": {
+            "method": "official_api",
+            "sourceLabel": "Rakuten Ichiba API"
+          }
+        }
+      },
+      "rawMetadata": {
+        "pointRate": 10,
+        "sourceConditionLabel": "新品",
+        "identifiers": {}
+      }
+    }
+  ],
+  "coverage": "rolling_window",
+  "parserVersion": "2026-07-01.v1",
+  "warnings": [
+    "Rakuten Ichiba 使用广义字段匹配；多个关键词默认仍按 AND 组合，可显式选择任意词匹配。",
+    "结果为有界分页，当前响应不代表 Rakuten Ichiba 完整库存。",
+    "历史候选 winglet:10001127 实时核验失败：来源请求失败 (400)",
+    "历史候选 noel-ange:10491183 实时核验失败：来源请求失败 (400)",
+    "历史候选 sneak:10477722 实时核验失败：来源请求失败 (400)",
+    "历史候选 biget:10041227 实时核验失败：来源请求失败 (400)",
+    "历史候选 wassup:10233607 实时核验失败：来源请求失败 (400)",
+    "已加入本地或 Postgres 历史索引候选；未通过实时详情核验的记录会明确标为历史参考。"
+  ],
+  "requestRoute": "direct",
+  "routeOutcome": {
+    "kind": "primary_success",
+    "route": "direct"
+  },
+  "fieldCoverage": {
+    "required": {
+      "total": 216,
+      "complete": 216
+    },
+    "optional": {
+      "total": 0,
+      "complete": 0
+    }
+  },
+  "durationMs": 8751,
+  "totalAvailable": 0,
+  "requestEvidence": {
+    "availabilityMode": "all",
+    "requestedStatuses": [],
+    "rawResultCount": 32,
+    "normalizedResultCount": 36,
+    "pagesFetched": 3,
+    "keywordRawResultCount": 0,
+    "liveDetailResultCount": 0,
+    "anchorCandidateCount": 0,
+    "parserAcceptedCount": 0,
+    "parserRejectedCount": 0
+  },
+  "candidateEvidence": {
+    "lilishop6-store:10836987": {
+      "hits": [
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 1,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 134.4262,
+      "bestRank": 1,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "la-graine:11579148": {
+      "hits": [
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 2,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 132.2581,
+      "bestRank": 2,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "auc-mskamp:10005472": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 1,
+          "weight": 0.82,
+          "liveVerified": true
+        },
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 11,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 209.4967,
+      "bestRank": 1,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "giftjapan:10008814": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 2,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 132.2581,
+      "bestRank": 2,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "auc-mskamp:10006500": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 3,
+          "weight": 0.82,
+          "liveVerified": true
+        },
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 9,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 207.4051,
+      "bestRank": 3,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "bundle",
+        "score": 16,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "auc-mskamp:10006376": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 4,
+          "weight": 0.82,
+          "liveVerified": true
+        },
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 10,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 204.2679,
+      "bestRank": 4,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "bundle",
+        "score": 16,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "topgun:10034001": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 5,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 126.1538,
+      "bestRank": 5,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "pirol:10029878": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 6,
+          "weight": 0.82,
+          "liveVerified": true
+        },
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 5,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 206.2424,
+      "bestRank": 5,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "casemania55:11076135": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 7,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 122.3881,
+      "bestRank": 7,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "stylife:15644746": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 8,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 120.5882,
+      "bestRank": 8,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "rico:10000428": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 9,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 118.8406,
+      "bestRank": 9,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "hobbyone:10122829": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 10,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 117.1429,
+      "bestRank": 10,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "casemania55:11075021": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 11,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 115.493,
+      "bestRank": 11,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "kuranosuke:10013736": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 12,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 113.8889,
+      "bestRank": 12,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "cinemacollection:10515434": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 13,
+          "weight": 0.82,
+          "liveVerified": true
+        },
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 6,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 193.0863,
+      "bestRank": 6,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "kuranosuke:10011046": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 14,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 110.8108,
+      "bestRank": 14,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "mottainaihonpo-omatome:11811728": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 15,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 109.3333,
+      "bestRank": 15,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "f292036-yamatokoriyama:10000608": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 16,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 107.8947,
+      "bestRank": 16,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "bundle",
+        "score": 16,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "body-style:10000539": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 17,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 106.4935,
+      "bestRank": 17,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "comicset:13122893": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 18,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 105.1282,
+      "bestRank": 18,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "f292036-yamatokoriyama:10000609": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 19,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 103.7975,
+      "bestRank": 19,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "bundle",
+        "score": 16,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "topgun:10023510": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 20,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 102.5,
+      "bestRank": 20,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "kamedayautsunomiya:10001693": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 21,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 101.2346,
+      "bestRank": 21,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "auc-mskamp:10007164": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 22,
+          "weight": 0.82,
+          "liveVerified": true
+        },
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 7,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 179.5522,
+      "bestRank": 7,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "smilemix:10000448": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 23,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 98.7952,
+      "bestRank": 23,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "winglet:10001127": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 24,
+          "weight": 0.82,
+          "liveVerified": true
+        },
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 8,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 176.0014,
+      "bestRank": 8,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "uncertain",
+        "score": 14,
+        "confidence": "low",
+        "matchedFields": [
+          "品类"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "品类匹配"
+        ]
+      }
+    },
+    "dorama:15700712": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 25,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 96.4706,
+      "bestRank": 25,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "cinemacollection:10509722": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 26,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 95.3488,
+      "bestRank": 26,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "marushin-onlineshop:10012801": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 27,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 94.2529,
+      "bestRank": 27,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "velkommen:10455481": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 28,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 93.1818,
+      "bestRank": 28,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "mm-pop:10399237": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 29,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 92.1348,
+      "bestRank": 29,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "irrelevant",
+        "score": 0,
+        "confidence": "low",
+        "matchedFields": [],
+        "conflicts": [],
+        "reasons": []
+      }
+    },
+    "booxstore:13031897": {
+      "hits": [
+        {
+          "variantId": "alias-3",
+          "query": "JAL 青",
+          "kind": "alias",
+          "lane": "source_native",
+          "upstreamRank": 30,
+          "weight": 0.82,
+          "liveVerified": true
+        }
+      ],
+      "fusedScore": 91.1111,
+      "bestRank": 30,
+      "historical": false,
+      "liveVerified": true,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "related",
+        "score": 26,
+        "confidence": "low",
+        "matchedFields": [
+          "角色"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "角色匹配：青"
+        ]
+      }
+    },
+    "noel-ange:10491183": {
+      "hits": [
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 1,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 87.377,
+      "bestRank": 1,
+      "historical": true,
+      "liveVerified": false,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "uncertain",
+        "score": 14,
+        "confidence": "low",
+        "matchedFields": [
+          "品类"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "品类匹配"
+        ]
+      }
+    },
+    "sneak:10477722": {
+      "hits": [
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 2,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 85.9677,
+      "bestRank": 2,
+      "historical": true,
+      "liveVerified": false,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "uncertain",
+        "score": 14,
+        "confidence": "low",
+        "matchedFields": [
+          "品类"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "品类匹配"
+        ]
+      }
+    },
+    "biget:10041227": {
+      "hits": [
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 3,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 84.6032,
+      "bestRank": 3,
+      "historical": true,
+      "liveVerified": false,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "uncertain",
+        "score": 14,
+        "confidence": "low",
+        "matchedFields": [
+          "品类"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "品类匹配"
+        ]
+      }
+    },
+    "wassup:10233607": {
+      "hits": [
+        {
+          "variantId": "alias-2",
+          "query": "HAC JAL 青",
+          "kind": "alias",
+          "lane": "historical_index",
+          "upstreamRank": 4,
+          "weight": 0.533,
+          "liveVerified": false
+        }
+      ],
+      "fusedScore": 83.2813,
+      "bestRank": 4,
+      "historical": true,
+      "liveVerified": false,
+      "match": {
+        "version": "product-match-v2",
+        "relation": "uncertain",
+        "score": 14,
+        "confidence": "low",
+        "matchedFields": [
+          "品类"
+        ],
+        "conflicts": [],
+        "reasons": [
+          "品类匹配"
+        ]
+      }
+    }
+  }
+}

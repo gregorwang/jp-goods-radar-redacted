@@ -1,0 +1,206 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jp-goods-radar-collector",
+  "workers_dev": false,
+  "main": "src/index.ts",
+  "compatibility_date": "2026-07-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "hyperdrive": [
+    {
+      "binding": "ANALYTICS_DB",
+      "id": "your-hyperdrive-id"
+    },
+    {
+      "binding": "PRIMARY_DB",
+      "id": "your-hyperdrive-id"
+    }
+  ],
+  "browser": {
+    "binding": "BROWSER",
+    "remote": true
+  },
+  "ai": {
+    "binding": "AI"
+  },
+  // 关键词日报补充信息的提供方。它和本 Worker 同账号，用 workers.dev 网址直接 fetch
+  // 会被 Cloudflare 拦成 404 error code: 1042（同账号 Worker 互调必须走服务绑定）。
+  "services": [
+    {
+      "binding": "ENRICH_SERVICE",
+      "service": "teika-lookup"
+    },
+    // 自用手机推送的中转（apps/push-relay）。口令是 secret PUSH_PUBLISH_TOKEN，和 push-relay 的同名 secret 成对；
+    // 没配口令或开关 owner_push_v1 关着就不投（apps/collector/src/push-delivery.ts）。
+    {
+      "binding": "PUSH_RELAY",
+      "service": "jp-goods-radar-push-relay"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "jp-goods-radar-product-search",
+      "binding": "PRODUCT_SEARCH_WORKFLOW",
+      "class_name": "ProductSearchWorkflow"
+    }
+  ],
+  "queues": {
+    "producers": [
+      {
+        "binding": "MONITOR_QUEUE",
+        "queue": "jp-goods-radar-jobs"
+      },
+      // 只给"必须保持全局串行"的来源用。目前只有乐天：它的应用配额之外还叠了
+      // 出口维度（见 request-pacer.ts），并发消费会让每个实例都以为自己独占额度。
+      {
+        "binding": "MONITOR_SERIAL_QUEUE",
+        "queue": "jp-goods-radar-jobs-serial"
+      },
+      {
+        "binding": "GEMINI_QUEUE",
+        "queue": "jp-goods-radar-gemini"
+      }
+    ],
+    "consumers": [
+      {
+        "queue": "jp-goods-radar-jobs",
+        "max_batch_size": 1,
+        "max_batch_timeout": 1,
+        "max_retries": 3,
+        "retry_delay": 60,
+        // 曾经是 1：Rakuten 的调用节拍器只在单次 Worker 执行内共享，并发消费会让
+        // 每个实例都以为自己独占额度并同时打出首个请求（2026-09-05 的 429）。
+        // 现在乐天走 jp-goods-radar-jobs-serial，那条仍然是 max_concurrency 1，
+        // 于是本队列可以并发而不动摇乐天的节拍。
+        //
+        // 4 是保守起步值，不是上限。往上调之前先看两件事：各来源 429 有没有变多、
+        // AmiAmi 有没有出现 queue_full（Runner 侧仍是串行，MAX_QUEUE_DEPTH=8）。
+        "max_concurrency": 4,
+        "dead_letter_queue": "jp-goods-radar-dlq"
+      },
+      {
+        // 与上面同源同消费者代码，唯一的差别是永远串行。
+        "queue": "jp-goods-radar-jobs-serial",
+        "max_batch_size": 1,
+        "max_batch_timeout": 1,
+        "max_retries": 3,
+        "retry_delay": 60,
+        "max_concurrency": 1,
+        "dead_letter_queue": "jp-goods-radar-dlq"
+      },
+      {
+        "queue": "jp-goods-radar-gemini",
+        "max_batch_size": 1,
+        "max_batch_timeout": 1,
+        "max_retries": 3,
+        "retry_delay": 60,
+        "max_concurrency": 1,
+        "dead_letter_queue": "jp-goods-radar-gemini-dlq"
+      },
+      {
+        "queue": "jp-goods-radar-dlq",
+        "max_batch_size": 10,
+        "max_batch_timeout": 30,
+        // DLQ persistence itself may temporarily lose PostgreSQL connectivity.
+        // Retry for roughly 100 minutes, then park the untouched Cloudflare
+        // message for manual recovery instead of dropping it.
+        "max_retries": 20,
+        "retry_delay": 300,
+        "dead_letter_queue": "jp-goods-radar-parking"
+      },
+      {
+        "queue": "jp-goods-radar-gemini-dlq",
+        "max_batch_size": 10,
+        "max_batch_timeout": 30,
+        "max_retries": 20,
+        "retry_delay": 300,
+        "dead_letter_queue": "jp-goods-radar-gemini-parking"
+      }
+    ]
+  },
+  "triggers": {
+    "crons": ["* * * * *"]
+  },
+  "vars": {
+    "ALERT_EMAIL_FROM": "格银西里尔 <alerts@example.com>",
+    "ALERT_EMAIL_TO": "alerts@example.com",
+    "MAX_EMAILS_PER_DAY": "80",
+    // 微信通道已停用：Hermes Webhook 从 2026-08 起持续 502，无法再投递。
+    // 保持 "false" 直到 Hermes 恢复，或改用飞书 / Telegram 重写投递端。
+    // 通道关闭只影响微信；邮件（Resend）与事件生成完全不受影响。
+    "HERMES_NOTIFICATIONS_ENABLED": "false",
+    "HERMES_WEBHOOK_URL": "https://jp-goods-radar.96-9-210-39.sslip.io:8443/webhooks/jp-goods-radar",
+    // Legacy name: per-tick dispatch batch only; never a watch creation/resume cap.
+    "MAX_ACTIVE_BINDINGS": "80",
+    "DEFAULT_INTERVAL_MINUTES": "60",
+    "MERCARI_ADAPTER_URL": "https://your-mercari-service.vercel.app/",
+    // 曾经是 "shadow"：每次煤炉搜索/详情都并行打 Vercel 服务和 VPS Runner，
+    // 用 Promise.allSettled 等两边都回来，只为记一行对账日志——上游看到的请求量
+    // 翻倍，而唯一的消费槽被一条结果会被丢弃的路拖着。搬迁对账不该常驻，
+    // 需要重新比对时改回 "shadow" 即可（切换 Runner 为主路径则是 "primary"）。
+    "MERCARI_SOURCE_RUNNER_MODE": "off",
+    "SURUGAYA_ADAPTER_URL": "https://your-mercari-service.vercel.app/",
+    "SOURCE_ADAPTER_URL": "https://your-mercari-service.vercel.app/",
+    "SOURCE_RUNNER_URL": "https://jp-goods-radar.96-9-210-39.sslip.io:8443/source-runner/",
+    // 建档回执的图片分组服务（apps/image-dedup/service.py）。口令是 secret IMAGE_DEDUP_TOKEN，
+    // 和 Modal Secret「jpgr-image-dedup」的 DEDUP_TOKEN 成对；没配口令就不分组。
+    "IMAGE_DEDUP_URL": "https://your-subdomain--jpgr-image-dedup-api.modal.run/",
+    "AMAZON_CLOUDFLARE_DIRECT_ENABLED": "true",
+    "YAHOO_CLOUDFLARE_DIRECT_ENABLED": "true",
+    "SURUGAYA_CLOUDFLARE_DIRECT_ENABLED": "true",
+    "FIXED_HTML_CLOUDFLARE_DIRECT_ENABLED": "true",
+    "YAHOO_FLEAMARKET_CLOUDFLARE_DIRECT_ENABLED": "true",
+    "BROWSER_RUN_FALLBACK_ENABLED": "true",
+    "YAHOO_WEB_EXPERIMENTAL_ENABLED": "true",
+    "YAHOO_WEB_EXPERIMENTAL_MAX_PAGES": "3",
+    "YAHOO_WEB_EXPERIMENTAL_DELAY_MS": "2000",
+    "RAKUTEN_APPLICATION_URL": "https://eru.example.com/",
+    "RAKUTEN_AFFILIATE_MODE": "false",
+    "RAKUTEN_PRIVATE_MONITORING_ENABLED": "false",
+    "RAKUTEN_ICHIBA_PRIVATE_MONITORING_ENABLED": "true",
+    "RAKUTEN_BOOKS_PRIVATE_MONITORING_ENABLED": "false",
+    "AMAZON_HTML_MONITORING_ENABLED": "true",
+    // Gemini 清洗的节流参数。默认值写在 packages/ai/src/gemini-scheduler.ts 的
+    // GEMINI_SCHEDULER_DEFAULTS 里，来自 2026-09-09 的生产实测；这里覆盖是为了
+    // 调它们不用改代码。每个值在 resolveGeminiSchedulerLimits 里都夹在物理上限内，
+    // 填错最多退回默认行为，不会打爆免费额度。
+    //
+    // 免费层级硬上限 20 RPM / 250,000 TPM；模型输出上限 65,536 token。
+    // 实测：输入 539 token/件，输出 462 token/件（P95 539，最大 619）。
+    "GEMINI_TPM_BUDGET": "240000",
+    "GEMINI_RPM_BUDGET": "19",
+    "GEMINI_REQUEST_TOKEN_BUDGET": "200000",
+    // 原来每件预留 3,000，是实测值的 6.5 倍，正是它把每批压到 10 件以内的。
+    "GEMINI_LISTING_OUTPUT_TOKEN_RESERVE": "1200",
+    // 原来硬编码 10。上限 96；再往上要先确认解析失败的影响面能接受
+    // （一条响应解析不出来，这一批每件都消耗一次 MAX_ITEM_PARSE_ATTEMPTS）。
+    "GEMINI_LISTING_MAX_BATCH_ITEMS": "32",
+    // 原生 generateContent 请求统一经同账户的 Cloudflare AI Gateway 转发。
+    // Gateway 认证使用 CF_AIG_TOKEN secret，Google 凭据使用 Gateway 后台 BYOK。
+    "GEMINI_AI_GATEWAY_ID": "my-ai-gateway",
+    "YAHOO_AUCTIONS_EXPERIMENTAL_ENABLED": "true",
+    "YAHOO_AUCTIONS_TIMEOUT_MS": "15000",
+    "YAHOO_AUCTIONS_RATE_INTERVAL_MS": "2000",
+    "YAHOO_AUCTIONS_SEARCH_CACHE_SECONDS": "45",
+    "YAHOO_AUCTIONS_DETAIL_CACHE_SECONDS": "30",
+    // 关键词日报的补充信息（原価 / 二手行情 / 一句话结论），提供方 jp-market-databricks。
+    // 鉴权用 ENRICH_KEY secret；没配 key 时日报照旧发，只是不带补充信息。
+    "ENRICH_URL": "https://teika-lookup.your-subdomain.workers.dev/enrich"
+  },
+  "secrets": {
+    "required": [
+      "RESEND_API_KEY",
+      "HERMES_WEBHOOK_SECRET",
+      "RAKUTEN_APPLICATION_ID",
+      "RAKUTEN_ACCESS_KEY",
+      "RAKUTEN_AFFILIATE_ID",
+      "MERCARI_ADAPTER_SIGNING_KEY",
+      "FIRECRAWL_API_KEY",
+      "CF_AIG_TOKEN",
+      "GOOGLE_AI_API_KEY"
+    ]
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}

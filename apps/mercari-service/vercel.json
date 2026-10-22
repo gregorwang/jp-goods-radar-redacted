@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "regions": ["hnd1"],
+  "functions": {
+    "api/**/*.ts": {
+      "maxDuration": 30,
+      "regions": ["hnd1"]
+    }
+  }
+}

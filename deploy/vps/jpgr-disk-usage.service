@@ -1,0 +1,9 @@
+[Unit]
+Description=Record JP Goods Radar VPS disk usage for the daily health check
+After=postgresql.service
+Requires=postgresql.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/jpgr-disk-usage
+Nice=10

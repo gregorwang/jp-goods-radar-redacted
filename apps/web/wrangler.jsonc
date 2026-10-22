@@ -1,0 +1,75 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jp-goods-radar-web",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-07-12",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "routes": [
+    {
+      "pattern": "eru.example.com",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  // 边缘缓存。前置条件：管理端 API 与页面都已在 next.config.ts 的 headers() 里声明
+  // `private, no-store` + `Vary: Cookie`，否则缺少 Cache-Control 的已登录 200 响应
+  // 会被 RFC 9111 启发式新鲜度缓存约两小时并发给匿名请求。
+  // 只有 /sources/rakuten 与 /api/public/* 声明为可缓存。
+  "cache": {
+    "enabled": true
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "jp-goods-radar-web"
+    },
+    {
+      "binding": "COLLECTOR",
+      "service": "jp-goods-radar-collector"
+    },
+    // 「推送」页管飞书群和私聊开关（push-relay 的 /feishu/groups、/feishu/owner，口令用 OWNER_DEVICE_TOKEN）。
+    // 同账号 Worker 用网址互调会被拦成 1042，所以走服务绑定。
+    {
+      "binding": "PUSH_RELAY",
+      "service": "jp-goods-radar-push-relay"
+    }
+  ],
+  "hyperdrive": [
+    {
+      "binding": "PRIMARY_DB",
+      "id": "your-hyperdrive-id",
+      // Build-time binding emulation only. Production ignores this field and
+      // uses the Hyperdrive configuration above; local env vars override it.
+      "localConnectionString": "postgres://build:build@127.0.0.1:5432/jpgr_build"
+    }
+  ],
+  "queues": {
+    "producers": [
+      {
+        "binding": "MONITOR_QUEUE",
+        "queue": "jp-goods-radar-jobs"
+      }
+    ]
+  },
+  "secrets": {
+    "required": [
+      "ADMIN_AUTH_SECRET",
+      "ADMIN_PASSWORD_DIGEST",
+      "SESSION_SIGNING_SECRET",
+      // 自用手机 App 调 /api/device/* 用，和 push-relay 的 PUSH_DEVICE_TOKEN 同一个值。
+      "OWNER_DEVICE_TOKEN"
+    ]
+  },
+  "vars": {
+    "APP_NAME": "格银西里尔",
+    "SESSION_COOKIE_NAME": "jpgr_session",
+    "NEXT_PRIVATE_MINIMAL_MODE": "1"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}

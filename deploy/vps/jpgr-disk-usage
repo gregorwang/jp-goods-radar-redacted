@@ -1,0 +1,16 @@
+#!/bin/sh
+# 把 VPS 根分区的磁盘用量写进 radar_core.host_disk_usage，供每日体检读取。
+# Worker 看不到这台机器的文件系统，只能由机器自己上报。保留 30 天。
+# 安装：/usr/local/sbin/jpgr-disk-usage + jpgr-disk-usage.{service,timer}
+set -eu
+df -B1 --output=size,used / | tail -n 1 | {
+  read -r size used
+  runuser -u postgres -- psql -X -q -v ON_ERROR_STOP=1 -d jpgr \
+    -v size="$size" -v used="$used" <<'SQL'
+INSERT INTO radar_core.host_disk_usage(host, mount, observed_at, size_bytes, used_bytes)
+VALUES ('vps', '/', to_char(now() AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"'), :size, :used)
+ON CONFLICT DO NOTHING;
+DELETE FROM radar_core.host_disk_usage
+WHERE observed_at < to_char((now() - interval '30 days') AT TIME ZONE 'UTC', 'YYYY-MM-DD"T"HH24:MI:SS.MS"Z"');
+SQL
+}

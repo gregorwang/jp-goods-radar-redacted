@@ -1,0 +1,35 @@
+{
+  "result": "OK",
+  "data": {
+    "id": "m33333333333",
+    "seller": {
+      "id": "must-not-leak-seller",
+      "name": "公开卖家名"
+    },
+    "buyer_id": "must-not-leak-buyer",
+    "status": "on_sale",
+    "name": "Mercari 3 小时拍卖商品",
+    "price": 6100,
+    "description": "公开商品说明",
+    "photos": ["https://static.mercdn.net/item/detail/orig/photos/m33333333333_1.jpg"],
+    "item_condition": {
+      "id": "4",
+      "name": "やや傷や汚れあり"
+    },
+    "created": 1784060000,
+    "updated": 1784063000,
+    "auction_info": {
+      "id": "must-not-leak-auction-id",
+      "start_time": 1784066429,
+      "expected_end_time": 1784113200,
+      "bid_deadline_duration_seconds": 38925,
+      "bid_total_duration_seconds": 46770,
+      "total_bids": 1,
+      "initial_price": 6000,
+      "highest_bid": 6100,
+      "state": "STATE_ONGOING",
+      "auction_type": "AUCTION_TYPE_FLASH"
+    }
+  },
+  "meta": {}
+}

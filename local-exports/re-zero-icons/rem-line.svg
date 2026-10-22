@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title desc" style="color:#416b80">
+  <title id="title">蕾姆线稿图标</title>
+  <desc id="desc">以女仆发箍、蓝发角色的单侧刘海和发夹轮廓表现角色特征的单色线稿。</desc>
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 42c2-5 6-8 12-8s10 3 12 8"/>
+    <path d="M13 21c0-8 4-13 11-13s11 5 11 13v9c0 7-4 11-11 11S13 37 13 30v-9Z"/>
+    <path d="M11 16c3-2 5-5 6-8 2 2 4 2 7 0 3 2 5 2 8 0 1 3 3 6 5 8-3-1-5-1-7 0-4-2-8-2-12 0-2-1-4-1-7 0Z"/>
+    <path d="M14 22c1-8 5-13 11-13 5 0 9 3 10 9-4 0-7-2-9-4-1 7-5 12-12 15"/>
+    <path d="M26 14c0 7-2 13-7 17"/>
+    <path d="M27 25c1-1 3-1 4 0"/>
+    <path d="M22 31c1 1 3 1 4 0"/>
+    <path d="m18 36 6 8 6-8m-9 3h6m-3 1v4"/>
+    <path d="m13 18 4-4m-2 7 4-4"/>
+    <path d="M13 29c0 5 2 8 5 11m17-13c0 6-2 10-6 13"/>
+  </g>
+  <circle cx="29" cy="26" r="1" fill="currentColor"/>
+</svg>

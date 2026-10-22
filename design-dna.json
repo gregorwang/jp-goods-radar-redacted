@@ -1,0 +1,44 @@
+{
+  "name": "Kakekoi-inspired JP Goods Radar",
+  "mode": "content_transformation",
+  "source": "C:/Users/me/proui/kakekoi-home-clone",
+  "placeholder_assets": {
+    "replace_in_place": "apps/web/public/art",
+    "files": ["radar-shadow.png", "radar-title-placeholder.png", "paper-noise.png"],
+    "status": "temporary_user_authorized_placeholders"
+  },
+  "design_system": {
+    "colors": {
+      "paper": "#f7f7f2",
+      "ink": "#183843",
+      "mist": "#dce9eb",
+      "aqua": "#a5cbd6",
+      "signal": "#e8e15d",
+      "muted": "#718086"
+    },
+    "typography": {
+      "display": "Shippori Mincho B1, Noto Serif JP, serif",
+      "interface": "Zen Kaku Gothic New, Noto Sans SC, sans-serif",
+      "latin": "Jost, sans-serif"
+    },
+    "geometry": {
+      "radius": "2px",
+      "rule": "1px solid rgba(24,56,67,.18)",
+      "sectionSpace": "clamp(72px, 10vw, 160px)"
+    }
+  },
+  "design_style": {
+    "keywords": ["Japanese editorial", "airy", "quiet", "asymmetric", "translucent"],
+    "principles": [
+      "Use whitespace as structure",
+      "Keep operational data legible",
+      "Use vertical labels and thin rules as accents",
+      "Reserve signal yellow for actionable state"
+    ]
+  },
+  "visual_effects": {
+    "effect_intensity": "medium",
+    "motion": ["staggered reveal", "soft blur-in", "horizontal carousel", "drawer navigation"],
+    "reduced_motion": true
+  }
+}

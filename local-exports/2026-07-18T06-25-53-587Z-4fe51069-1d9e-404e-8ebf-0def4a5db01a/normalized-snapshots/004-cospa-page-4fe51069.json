@@ -1,0 +1,40 @@
+{
+  "sourceId": "cospa",
+  "status": "empty",
+  "listings": [],
+  "coverage": "rolling_window",
+  "parserVersion": "cospa-html-v1",
+  "warnings": [
+    "搜索覆盖 COSPA 门户当前公开结果；JAN、商品编号和规格在详情查询时补全",
+    "该来源成功响应但没有匹配商品；可尝试更短的日文关键词或放宽筛选"
+  ],
+  "requestRoute": "direct",
+  "routeOutcome": {
+    "kind": "primary_success",
+    "route": "direct"
+  },
+  "fieldCoverage": {
+    "required": {
+      "total": 0,
+      "complete": 0
+    },
+    "optional": {
+      "total": 0,
+      "complete": 0
+    }
+  },
+  "durationMs": 3681,
+  "requestEvidence": {
+    "availabilityMode": "all",
+    "requestedStatuses": [],
+    "rawResultCount": 0,
+    "normalizedResultCount": 0,
+    "pagesFetched": 3,
+    "keywordRawResultCount": 0,
+    "liveDetailResultCount": 0,
+    "anchorCandidateCount": 0,
+    "parserAcceptedCount": 0,
+    "parserRejectedCount": 0
+  },
+  "candidateEvidence": {}
+}

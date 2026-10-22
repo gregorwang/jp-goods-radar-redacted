@@ -1,0 +1,28 @@
+:global(.rail-brand-mark).brandMark {
+  flex: 0 0 44px;
+  width: 44px;
+  height: 59px;
+  aspect-ratio: auto;
+  color: var(--blue-deep);
+  background: transparent;
+  border: 0;
+  overflow: visible;
+}
+
+.brandMark svg {
+  display: block;
+  width: 44px;
+  height: 59px;
+}
+
+:global(.rail-brand-copy).brandCopy {
+  gap: 0;
+}
+
+.brandCopy > .brandName {
+  display: flex;
+  align-items: center;
+  font: 600 18px/1.2 var(--display);
+  letter-spacing: .1em;
+  white-space: nowrap;
+}
