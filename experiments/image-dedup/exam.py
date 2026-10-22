@@ -1,4 +1,4 @@
-# 用户 2026-10-08 标注的考卷（png/ 下 7 张截图），10-09 第 2 轮又标了 4 张（png/ 下 20261009 开头的）。编号就是图片墙卡片上的 #序号。
+# 用户 2026-10-08 标注的考卷（exam-screenshots/round1-*.png，7 张），10-09 第 2 轮又标了 4 张（round2-*.png）。编号就是图片墙卡片上的 #序号。
 #   same: 每个集合内部应该合在一起；apart: 集合之间不能合。
 import itertools, json
 from common import items

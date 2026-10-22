@@ -8,12 +8,12 @@
   共 89 张表同步到 `workspace` 目录下同名 schema。10-11 这次成功（49/89 张表有变化，71.7 万行校验通过）。
   说明在 VPS `/etc/jpgr-databricks/README.md`。
 - **整理层 `workspace.jpgr_ai`**：22 个视图，全部带英文说明。主题是**行情**：当前在售、每日价格分布、降价、
-  数据源健康、搜索表现、Yahoo 拍卖去重/落札、Amazon 需求信号、P1 投资价格事实、三个"商品提醒"候选。
+  数据源健康、搜索表现、Yahoo 拍卖去重/落札、Amazon 需求信号、P1 价格事实、三个"商品提醒"候选。
   定义在 VPS `/etc/jpgr-databricks/jpgr_databricks_views.sql`，每次同步后重建。
 - **Genie 空间「JPGR 市场情报 Agent」**（`your-genie-room-id`）：接了 9 个视图、6 个示例问题和对应的标准 SQL，
   以及一段中文口径说明（日元、JST、只用 valid 价格、当前可买怎么筛）。配置在 VPS `/etc/jpgr-databricks/jpgr_genie_space.json`，
   用 `/usr/local/sbin/configure-jpgr-genie` 重新应用。
-- **两个已发布仪表盘**：「JPGR 市场情报总览」「JPGR P1 投资数据体检」。
+- **两个已发布仪表盘**：「JPGR 市场情报总览」「JPGR P1 价格数据体检」。
 
 ## 缺的
 

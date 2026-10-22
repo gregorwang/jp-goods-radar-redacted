@@ -389,7 +389,7 @@ databricks --profile jpgr-local api post /api/2.0/sql/statements --json '{"wareh
 
 ### p1_price_fact_readiness_by_role
 
-投资研究用：价格事实按价格角色分组的数量、身份覆盖和偷看未来的风险。
+价格研究用：价格事实按价格角色分组的数量、身份覆盖和偷看未来的风险。
 
 | 字段 | 类型 | 说明 |
 |---|---|---|
@@ -407,7 +407,7 @@ databricks --profile jpgr-local api post /api/2.0/sql/statements --json '{"wareh
 
 ### p1_price_fact_readiness_summary
 
-投资研究用：价格事实是否够用的一行体检。平台显示已售不算确认成交。
+价格研究用：价格事实是否够用的一行体检。平台显示已售不算确认成交。
 
 | 字段 | 类型 | 说明 |
 |---|---|---|
@@ -531,7 +531,7 @@ databricks --profile jpgr-local api post /api/2.0/sql/statements --json '{"wareh
 
 ### strategy_price_facts
 
-投资研究用的价格事实，每条价格一行。不同 price_role 不能混算；回测只能用 knowledge_at 之前的数据。
+价格研究用的价格事实，每条价格一行。不同 price_role 不能混算；回测只能用 knowledge_at 之前的数据。
 
 | 字段 | 类型 | 说明 |
 |---|---|---|
@@ -789,7 +789,7 @@ databricks --profile jpgr-local api post /api/2.0/sql/statements --json '{"wareh
 | `source_listings` | 分析库的商品表：每个平台的每件商品一行，价格统一为日元。current_listings 视图就是它 | id, source_id, source_item_id, identity_scope, canonical_url, title, description_excerpt, image_url, seller_name, shop_name, currency, current_price_jpy, original_price_jpy, price_basis, item_condition, availability, facts, raw_metadata, first_seen_at, last_seen_at, last_changed_at, product_key, product_match_method, source_listed_at, source_updated_at, price_status |
 | `source_response_captures` | 平台原始响应的摘要证据（分析库口径） | capture_id, run_id, source_id, ordinal, request_url, response_url, request_method, response_status, content_type, payload_kind, raw_payload, payload_bytes, content_hash, captured_at, duration_ms, truncated, error_message, created_at |
 | `source_run_artifacts` | 每次搜索每个平台的整理后结果包，作为证据留存 | run_id, source_id, artifact_kind, captured_at, content_hash, payload_bytes, payload, created_at |
-| `strategy_price_facts_v1` | 投资研究用的价格事实（strategy_price_facts 视图的来源） | fact_semantics_version, price_fact_id, price_role, product_variant_id, identity_known_at, source_listing_id, source_id, source_item_id, product_key, product_match_method, title, canonical_url, amount_jpy, currency, price_basis, item_condition, availability, tax_status, shipping_status, occurred_at, knowledge_at, evidence_kind, evidence_id, evidence_url, evidence |
+| `strategy_price_facts_v1` | 价格研究用的价格事实（strategy_price_facts 视图的来源） | fact_semantics_version, price_fact_id, price_role, product_variant_id, identity_known_at, source_listing_id, source_id, source_item_id, product_key, product_match_method, title, canonical_url, amount_jpy, currency, price_basis, item_condition, availability, tax_status, shipping_status, occurred_at, knowledge_at, evidence_kind, evidence_id, evidence_url, evidence |
 
 ## 原始镜像 `workspace.jpgr_meta`
 
